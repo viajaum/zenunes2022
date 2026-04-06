@@ -318,9 +318,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. MUN. ENS. FUND. BENTO FRANCISCO DIAS",
       "endereco": "RUA MIGUEL LOPES DE ALMEIDA, 160  F. (051) 671 3576",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.86340954546553, 
+      "longitude": -51.82445139831518,
+      "fonte": "osm"
     },
     {
       "municipio": "ITATIBA DO SUL",
@@ -813,9 +813,9 @@
       "codigo_municipio": null,
       "nome_local": "FUNDASUL",
       "endereco": "CÔNEGO LUIZ WALTER HANQUET, 151  F. (051) 3671 1855/ 3671 5905",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.857945063048852, 
+      "longitude": -51.81483763189822,
+      "fonte": "osm"
     },
     {
       "municipio": "PELOTAS",
@@ -1515,9 +1515,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. MUN. ENS. FUND. 15 DE NOVEMBRO",
       "endereco": "SANTA AUTA",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.719127200539003, 
+      "longitude": -51.91663853086471,
+      "fonte": "osm"
     },
     {
       "municipio": "CAÇAPAVA DO SUL",
@@ -1920,9 +1920,9 @@
       "codigo_municipio": null,
       "nome_local": "COLÉGIO ESTADUAL SETE DE SETEMBRO",
       "endereco": "RUA JÚLIO DE CASTILHOS, 563  F 3671-4431",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.850861966969877,
+      "longitude": -51.81196181655397,
+      "fonte": "osm"
     },
     {
       "municipio": "TAPES",
@@ -2586,9 +2586,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA ESTADUAL DE ENS. FUND. JOAQUIM CAETANO DA SILVA",
       "endereco": "AV. 27 DE JANEIRO, 993",
-      "latitude": -32.5662724,
-      "longitude": -53.3765705,
-      "fonte": "municipio_fallback"
+      "latitude": -32.56054028118968, 
+      "longitude": -53.3799691913348,
+      "fonte": "osm"
     },
     {
       "municipio": "DOM FELICIANO",
@@ -2730,9 +2730,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. EST. DE ENS. FUND. VEREADOR JOSÉ ADÃO DE ASSIS BARBOSA - CIEP",
       "endereco": "RUA J. M. FERREIRA, 50  F.3671-4607",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.84272958999346, 
+      "longitude": -51.78684169142436,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -3864,9 +3864,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA ESTADUAL DE ENS. FUND. FRANCISCO LUIZ",
       "endereco": "AV. PRES VARGAS ESQ. AMADO PERES   F. 671-4805",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.84339781394514, 
+      "longitude": -51.81457209142435,
+      "fonte": "osm"
     },
     {
       "municipio": "VIAMÃO",
@@ -4278,9 +4278,9 @@
       "codigo_municipio": null,
       "nome_local": "SOCIEDADE RECREATIVA ALVORADA DEPARTAMENTO DE PISCINAS",
       "endereco": "CÔNEGO LUIZ WALTER HANQUET, 130  F. 3692-1305",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.857145304590343, 
+      "longitude": -51.81592095759751,
+      "fonte": "osm"
     },
     {
       "municipio": "ALVORADA",
@@ -4674,9 +4674,9 @@
       "codigo_municipio": null,
       "nome_local": "COMUNIDADE CRISTO REDENTOR",
       "endereco": "SANTA TEREZA 3 DISTRITO",
-      "latitude": -31.3669286,
-      "longitude": -51.9814839,
-      "fonte": "municipio_fallback"
+      "latitude": -31.07505569765831, 
+      "longitude": -52.14796967835259,
+      "fonte": "osm"
     },
     {
       "municipio": "CAPÃO DO LEÃO",
@@ -5484,9 +5484,9 @@
       "codigo_municipio": null,
       "nome_local": "SOCIEDADE RECREATIVA ALVORADA",
       "endereco": "RUA 3 DE OUTUBRO S/N                   OLARIA",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.853898265338803, 
+      "longitude": -51.80213067978522,
+      "fonte": "osm"
     },
     {
       "municipio": "CANGUÇU",
@@ -5547,9 +5547,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ÉRICO VERÍSSIMO",
       "endereco": "MATO DOS CASTELHANOS",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.639482478825677, 
+      "longitude": -51.85402803428259,
+      "fonte": "osm"
     },
     {
       "municipio": "JAGUARÃO",
@@ -6672,9 +6672,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. MUN. DE ENS. FUND. SANTO ANTÔNIO",
       "endereco": "CAPELINHA SANTO ANTÔNIO  F. 3501-8717",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.85475468620701, 
+      "longitude": -51.9355828707369,
+      "fonte": "osm"
     },
     {
       "municipio": "BARÃO DO TRIUNFO",
@@ -7293,9 +7293,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PROFA. MARINA VARGAS",
       "endereco": "AV. CORONEL NONO CENTENO, 933",
-      "latitude": -31.3669286,
-      "longitude": -51.9814839,
-      "fonte": "municipio_fallback"
+      "latitude": -31.35554589002763, 
+      "longitude": -51.987399388881755,
+      "fonte": "osm"
     },
     {
       "municipio": "PELOTAS",
@@ -7320,9 +7320,9 @@
       "codigo_municipio": null,
       "nome_local": "CENTRO MUNICIPAL DE ESPORTES",
       "endereco": "RUA ERNANI SILVEIRA, S/N",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.860573617401045, 
+      "longitude": -51.8025249342714,
+      "fonte": "osm"
     },
     {
       "municipio": "MOSTARDAS",
@@ -7761,9 +7761,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL DE ENS. FUND. MAL. CASTELO BRANCO",
       "endereco": "PRACA ANTONIO JOAQUIM RODRIGUES DE LIMA",
-      "latitude": -32.5662724,
-      "longitude": -53.3765705,
-      "fonte": "municipio_fallback"
+      "latitude": -32.551784647527185, 
+      "longitude": -53.39043710417949,
+      "fonte": "osm"
     },
     {
       "municipio": "CAMAQUÃ",
@@ -8238,9 +8238,9 @@
       "codigo_municipio": null,
       "nome_local": "COMUNIDADE CATÓLICA JESUS DE NAZARÉ",
       "endereco": "COSTA DE ARROIO GRANDE",
-      "latitude": -31.3669286,
-      "longitude": -51.9814839,
-      "fonte": "municipio_fallback"
+      "latitude": -31.059831014958526, 
+      "longitude": -52.27282679695817,
+      "fonte": "osm"
     },
     {
       "municipio": "TRÊS PASSOS",
@@ -8904,9 +8904,9 @@
       "codigo_municipio": null,
       "nome_local": "SECRETARIA MUNICIPAL DE SAÚDE",
       "endereco": "AVENIDA VINTE E SETE DE JANEIRO 1303",
-      "latitude": -32.5662724,
-      "longitude": -53.3765705,
-      "fonte": "municipio_fallback"
+      "latitude": -32.558073912455235, 
+      "longitude": -53.3824858597013,
+      "fonte": "osm"
     },
     {
       "municipio": "ARROIO GRANDE",
@@ -9075,9 +9075,9 @@
       "codigo_municipio": null,
       "nome_local": "CENTRO DE SAUDE",
       "endereco": "RUA XV DE NOVEMBRO, 77",
-      "latitude": -32.5662724,
-      "longitude": -53.3765705,
-      "fonte": "municipio_fallback"
+      "latitude": -32.56856963600811, 
+      "longitude": -53.37713789381767,
+      "fonte": "osm"
     },
     {
       "municipio": "SANTA CRUZ DO SUL",
@@ -9237,9 +9237,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. MUN. ENS. FUND. ANA TOMÁZIA RIBEIRO",
       "endereco": "RUA VITORINO JOSÉ CENTENO, S/N",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.853812444259088, 
+      "longitude": -51.79046776814672,
+      "fonte": "osm"
     },
     {
       "municipio": "ALEGRETE",
@@ -9975,9 +9975,9 @@
       "codigo_municipio": null,
       "nome_local": "ASSOCIAÇÃO DOS APOSENTADOS E PENSIONISTAS DE CAMAQUÃ",
       "endereco": "RUA LUIZA MARANINCHE, N 1257",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.848682077227295, 
+      "longitude": -51.80802902396626,
+      "fonte": "osm"
     },
     {
       "municipio": "ARROIO DO PADRE",
@@ -10119,9 +10119,9 @@
       "codigo_municipio": null,
       "nome_local": "COMUNIDADE EVANGÉLICA SÃO PEDRO DE SANTA IZABEL",
       "endereco": "SANTA IZABEL",
-      "latitude": -31.3669286,
-      "longitude": -51.9814839,
-      "fonte": "municipio_fallback"
+      "latitude": -31.179960958280365, 
+      "longitude": -52.0581800745117,
+      "fonte": "osm"
     },
     {
       "municipio": "SANTA CRUZ DO SUL",
@@ -10425,9 +10425,9 @@
       "codigo_municipio": null,
       "nome_local": "SALÃO PAROQUIAL DA CAPELA TRÊS REIS MAGOS",
       "endereco": "BOQUEIRÃO",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.834714153097657, 
+      "longitude": -51.918355191424816,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -11379,9 +11379,9 @@
       "codigo_municipio": null,
       "nome_local": "ASSOCIACÃO DOS TRABALHADORES RURAIS",
       "endereco": "CAMPOS QUEVEDOS 7 DISTRITO",
-      "latitude": -31.3669286,
-      "longitude": -51.9814839,
-      "fonte": "municipio_fallback"
+      "latitude": -31.234495466099478, 
+      "longitude": -52.392607576270855,
+      "fonte": "osm"
     },
     {
       "municipio": "MUITOS CAPÕES",
@@ -11757,9 +11757,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. MUN. ENS. FUND. OTTO LAUFER",
       "endereco": "VILA BOTAFOGO",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.714721470007092, 
+      "longitude": -51.79065590306947,
+      "fonte": "osm"
     },
     {
       "municipio": "BAGÉ",
@@ -12351,9 +12351,9 @@
       "codigo_municipio": null,
       "nome_local": "COMUNIDADE EVANGÉLICA FELIZ",
       "endereco": "PICADA FELIZ",
-      "latitude": -31.3669286,
-      "longitude": -51.9814839,
-      "fonte": "municipio_fallback"
+      "latitude": -31.13512770582931, 
+      "longitude": -51.97709142668471,
+      "fonte": "osm"
     },
     {
       "municipio": "SANTA CRUZ DO SUL",
@@ -13179,9 +13179,9 @@
       "codigo_municipio": null,
       "nome_local": "COMUNIDADE SÃO JOÃO DE FORTALEZA",
       "endereco": "FORTALEZA",
-      "latitude": -31.3669286,
-      "longitude": -51.9814839,
-      "fonte": "municipio_fallback"
+      "latitude": -31.33857924285559, 
+      "longitude": -52.097189113773986,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -13791,9 +13791,9 @@
       "codigo_municipio": null,
       "nome_local": "CLUBE DE MÃES SÃO JOSÉ DA AMIZADE",
       "endereco": "FAXINAL DOS RAMIRES",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.687341155704637, 
+      "longitude": -51.72320563327551,
+      "fonte": "osm"
     },
     {
       "municipio": "SANTA CRUZ DO SUL",
@@ -13926,8 +13926,8 @@
       "codigo_municipio": null,
       "nome_local": "CLUBE 24 DE AGOSTO",
       "endereco": "RUA AUGUSTO LEIVAS, 217",
-      "latitude": -32.5586313,
-      "longitude": -53.3754943,
+      "latitude": -32.56582134415398, 
+      "longitude": -53.37049342032415,
       "fonte": "osm"
     },
     {
@@ -13962,9 +13962,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. MUN. ENS. FUND. DR. NADIR MEDEIROS",
       "endereco": "RUA DOM FELICIANO, 142    F. 3671-4353",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.85969896555108, 
+      "longitude": -51.820156123965695,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -13980,9 +13980,9 @@
       "codigo_municipio": null,
       "nome_local": "CAPELA PEDRAS BRANCAS",
       "endereco": "3 SUB-DISTRITO",
-      "latitude": -32.5662724,
-      "longitude": -53.3765705,
-      "fonte": "municipio_fallback"
+      "latitude": -32.3931030043837, 
+      "longitude": -53.484368461297535,
+      "fonte": "osm"
     },
     {
       "municipio": "SANTO ÂNGELO",
@@ -14988,8 +14988,8 @@
       "codigo_municipio": null,
       "nome_local": "COLÉGIO NELSON WORTMANN",
       "endereco": "RUA AUGUSTO LEIVAS, 683",
-      "latitude": -32.5586313,
-      "longitude": -53.3754943,
+      "latitude": -32.56183032907078, 
+      "longitude": -53.373030146710896,
       "fonte": "osm"
     },
     {
@@ -15528,9 +15528,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. MUN. ENS. FUND. BOAVENTURA CARDOSO DA SILVA",
       "endereco": "VILA SÃO CARLOS",
-      "latitude": -30.8524752,
-      "longitude": -51.8075619,
-      "fonte": "municipio_fallback"
+      "latitude": -30.856060728105508, 
+      "longitude": -51.79810575114887,
+      "fonte": "osm"
     },
     {
       "municipio": "CAPELA DE SANTANA",
@@ -15681,9 +15681,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL FRANCISCO FROMMING",
       "endereco": "HARMONIA 4 DISTRITO",
-      "latitude": -31.3669286,
-      "longitude": -51.9814839,
-      "fonte": "municipio_fallback"
+      "latitude": -31.330080999650864, 
+      "longitude": -52.275326289546314,
+      "fonte": "osm"
     },
     {
       "municipio": "CAXIAS DO SUL",
@@ -17499,9 +17499,9 @@
       "codigo_municipio": null,
       "nome_local": "SALÃO DA COMUNIDADE CRISTO, CAMINHO, VERDADE E VIDA",
       "endereco": "PICADA FORMOSA",
-      "latitude": -31.3669286,
-      "longitude": -51.9814839,
-      "fonte": "municipio_fallback"
+      "latitude": -31.102428817290733, 
+      "longitude": -52.2721777937844,
+      "fonte": "osm"
     },
     {
       "municipio": "NOVO HAMBURGO",
@@ -18264,9 +18264,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL CENI SOARES DIAS",
       "endereco": "RUA RUBENS CORREA TERRA, 280",
-      "latitude": -32.5662724,
-      "longitude": -53.3765705,
-      "fonte": "municipio_fallback"
+      "latitude": -32.56301459826415, 
+      "longitude": -53.3512261779551,
+      "fonte": "osm"
     },
     {
       "municipio": "PASSO FUNDO",
@@ -18309,9 +18309,9 @@
       "codigo_municipio": null,
       "nome_local": "CAPELA NOSSA SENHORA DE LOURDES",
       "endereco": "3 SUB-DISTRITO   ",
-      "latitude": -32.5662724,
-      "longitude": -53.3765705,
-      "fonte": "municipio_fallback"
+      "latitude": -32.23591938640931, 
+      "longitude": -53.260234708779336,
+      "fonte": "osm"
     },
     {
       "municipio": "SANTO ÂNGELO",
@@ -18759,9 +18759,9 @@
       "codigo_municipio": null,
       "nome_local": "PIQUETE COXILHA DE SANTANA",
       "endereco": "2 SUB-DISTRITO",
-      "latitude": -32.5662724,
-      "longitude": -53.3765705,
-      "fonte": "municipio_fallback"
+      "latitude": -32.424685394266156, 
+      "longitude": -53.18913213789611,
+      "fonte": "osm"
     },
     {
       "municipio": "SANTA MARIA",
