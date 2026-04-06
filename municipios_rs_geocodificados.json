@@ -1,0 +1,3989 @@
+{
+  "metadata": {
+    "uf": "RS",
+    "ano": 2022,
+    "data_processamento": "2026-04-05 14:31:53",
+    "fonte": "TSE - Votação por Seção",
+    "geocoding": "OpenStreetMap Nominatim",
+    "total_municipios": 497,
+    "municipios_com_coordenadas": 497
+  },
+  "municipios": [
+    {
+      "codigo_ibge": 88986,
+      "nome": "ACEGUÁ",
+      "uf": "RS",
+      "latitude": -31.8695131,
+      "longitude": -54.1615593,
+      "observacao": "Coordenada obtida: Aceguá, Região Geográfica Imediata de Bagé, Região Geográfica Intermediária de Pelotas, Rio Grande d"
+    },
+    {
+      "codigo_ibge": 85014,
+      "nome": "AGUDO",
+      "uf": "RS",
+      "latitude": -29.6423259,
+      "longitude": -53.2494005,
+      "observacao": "Coordenada obtida: Agudo, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria, Ri"
+    },
+    {
+      "codigo_ibge": 85030,
+      "nome": "AJURICABA",
+      "uf": "RS",
+      "latitude": -28.239654,
+      "longitude": -53.7693013,
+      "observacao": "Coordenada obtida: Ajuricaba, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande d"
+    },
+    {
+      "codigo_ibge": 85057,
+      "nome": "ALECRIM",
+      "uf": "RS",
+      "latitude": -27.6566142,
+      "longitude": -54.7653195,
+      "observacao": "Coordenada obtida: Alecrim, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, Rio Gran"
+    },
+    {
+      "codigo_ibge": 85073,
+      "nome": "ALEGRETE",
+      "uf": "RS",
+      "latitude": -29.790166,
+      "longitude": -55.794862,
+      "observacao": "Coordenada obtida: Alegrete, Região Geográfica Imediata de Uruguaiana, Região Geográfica Intermediária de Uruguaiana, R"
+    },
+    {
+      "codigo_ibge": 85545,
+      "nome": "ALEGRIA",
+      "uf": "RS",
+      "latitude": -27.8332103,
+      "longitude": -54.0574959,
+      "observacao": "Coordenada obtida: Alegria, Região Geográfica Imediata de Três de Maio, Região Geográfica Intermediária de Ijui, Rio Gr"
+    },
+    {
+      "codigo_ibge": 89001,
+      "nome": "ALMIRANTE TAMANDARÉ DO SUL",
+      "uf": "RS",
+      "latitude": -28.1141129,
+      "longitude": -52.9134874,
+      "observacao": "Coordenada obtida: Almirante Tamandaré do Sul, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária"
+    },
+    {
+      "codigo_ibge": 85090,
+      "nome": "ALPESTRE",
+      "uf": "RS",
+      "latitude": -27.2512339,
+      "longitude": -53.0349646,
+      "observacao": "Coordenada obtida: Alpestre, Região Geográfica Imediata de Nonoai, Região Geográfica Intermediária de Passo Fundo, Rio "
+    },
+    {
+      "codigo_ibge": 84808,
+      "nome": "ALTO ALEGRE",
+      "uf": "RS",
+      "latitude": -28.7755582,
+      "longitude": -52.9915086,
+      "observacao": "Coordenada obtida: Alto Alegre, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fun"
+    },
+    {
+      "codigo_ibge": 86282,
+      "nome": "ALTO FELIZ",
+      "uf": "RS",
+      "latitude": -29.3785943,
+      "longitude": -51.3123751,
+      "observacao": "Coordenada obtida: Alto Feliz, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias d"
+    },
+    {
+      "codigo_ibge": 85111,
+      "nome": "ALVORADA",
+      "uf": "RS",
+      "latitude": -29.9981184,
+      "longitude": -51.0772509,
+      "observacao": "Coordenada obtida: Alvorada, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Região G"
+    },
+    {
+      "codigo_ibge": 86045,
+      "nome": "AMARAL FERRADOR",
+      "uf": "RS",
+      "latitude": -30.8750633,
+      "longitude": -52.2542051,
+      "observacao": "Coordenada obtida: Amaral Ferrador, Região Geográfica Imediata de Camaquã, Região Geográfica Intermediária de Porto Ale"
+    },
+    {
+      "codigo_ibge": 86304,
+      "nome": "AMETISTA DO SUL",
+      "uf": "RS",
+      "latitude": -27.3617341,
+      "longitude": -53.1826575,
+      "observacao": "Coordenada obtida: Ametista do Sul, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária"
+    },
+    {
+      "codigo_ibge": 86100,
+      "nome": "ANDRÉ DA ROCHA",
+      "uf": "RS",
+      "latitude": -28.6309124,
+      "longitude": -51.5733328,
+      "observacao": "Coordenada obtida: André da Rocha, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária "
+    },
+    {
+      "codigo_ibge": 85138,
+      "nome": "ANTA GORDA",
+      "uf": "RS",
+      "latitude": -28.9718745,
+      "longitude": -52.0069187,
+      "observacao": "Coordenada obtida: Anta Gorda, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa Cruz d"
+    },
+    {
+      "codigo_ibge": 85154,
+      "nome": "ANTÔNIO PRADO",
+      "uf": "RS",
+      "latitude": -28.8567806,
+      "longitude": -51.2801355,
+      "observacao": "Coordenada obtida: Antônio Prado, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxia"
+    },
+    {
+      "codigo_ibge": 86320,
+      "nome": "ARAMBARÉ",
+      "uf": "RS",
+      "latitude": -30.9132252,
+      "longitude": -51.4994625,
+      "observacao": "Coordenada obtida: Arambaré, Região Geográfica Imediata de Camaquã, Região Geográfica Intermediária de Porto Alegre, Ri"
+    },
+    {
+      "codigo_ibge": 88862,
+      "nome": "ARARICÁ",
+      "uf": "RS",
+      "latitude": -29.6168543,
+      "longitude": -50.929121,
+      "observacao": "Coordenada obtida: Araricá, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de Porto A"
+    },
+    {
+      "codigo_ibge": 85170,
+      "nome": "ARATIBA",
+      "uf": "RS",
+      "latitude": -27.3811174,
+      "longitude": -52.291613,
+      "observacao": "Coordenada obtida: Aratiba, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, Rio "
+    },
+    {
+      "codigo_ibge": 85197,
+      "nome": "ARROIO DO MEIO",
+      "uf": "RS",
+      "latitude": -29.4020392,
+      "longitude": -51.9444993,
+      "observacao": "Coordenada obtida: Arroio do Meio, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz"
+    },
+    {
+      "codigo_ibge": 89028,
+      "nome": "ARROIO DO PADRE",
+      "uf": "RS",
+      "latitude": -31.4428773,
+      "longitude": -52.4228985,
+      "observacao": "Coordenada obtida: Arroio do Padre, Região Geográfica Imediata de Pelotas, Aglomeração Urbana do Sul, Região Geográfica"
+    },
+    {
+      "codigo_ibge": 85308,
+      "nome": "ARROIO DO SAL",
+      "uf": "RS",
+      "latitude": -29.5497237,
+      "longitude": -49.887984,
+      "observacao": "Coordenada obtida: Arroio do Sal, Região Geográfica Imediata de Torres, Aglomeração Urbana do Litoral Norte, Região Geo"
+    },
+    {
+      "codigo_ibge": 85235,
+      "nome": "ARROIO DO TIGRE",
+      "uf": "RS",
+      "latitude": -29.334158,
+      "longitude": -53.0888935,
+      "observacao": "Coordenada obtida: Arroio do Tigre, Região Geográfica Imediata de Sobradinho, Região Geográfica Intermediária de Santa "
+    },
+    {
+      "codigo_ibge": 85219,
+      "nome": "ARROIO DOS RATOS",
+      "uf": "RS",
+      "latitude": -30.0894524,
+      "longitude": -51.7265541,
+      "observacao": "Coordenada obtida: Arroio dos Ratos, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, "
+    },
+    {
+      "codigo_ibge": 85251,
+      "nome": "ARROIO GRANDE",
+      "uf": "RS",
+      "latitude": -32.194885,
+      "longitude": -53.0301283,
+      "observacao": "Coordenada obtida: Arroio Grande, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Ri"
+    },
+    {
+      "codigo_ibge": 85278,
+      "nome": "ARVOREZINHA",
+      "uf": "RS",
+      "latitude": -28.8731093,
+      "longitude": -52.1757917,
+      "observacao": "Coordenada obtida: Arvorezinha, Região Geográfica Imediata de Soledade, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 85294,
+      "nome": "AUGUSTO PESTANA",
+      "uf": "RS",
+      "latitude": -28.5148413,
+      "longitude": -53.9906433,
+      "observacao": "Coordenada obtida: Augusto Pestana, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Gr"
+    },
+    {
+      "codigo_ibge": 85316,
+      "nome": "BAGÉ",
+      "uf": "RS",
+      "latitude": -31.3314264,
+      "longitude": -54.1062808,
+      "observacao": "Coordenada obtida: Bagé, Região Geográfica Imediata de Bagé, Região Geográfica Intermediária de Pelotas, Rio Grande do "
+    },
+    {
+      "codigo_ibge": 88927,
+      "nome": "BALNEÁRIO PINHAL",
+      "uf": "RS",
+      "latitude": -30.2482237,
+      "longitude": -50.2339198,
+      "observacao": "Coordenada obtida: Balneário Pinhal, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral No"
+    },
+    {
+      "codigo_ibge": 86363,
+      "nome": "BARRA DO GUARITA",
+      "uf": "RS",
+      "latitude": -27.1888016,
+      "longitude": -53.7147086,
+      "observacao": "Coordenada obtida: Barra do Guarita, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui"
+    },
+    {
+      "codigo_ibge": 88625,
+      "nome": "BARRA DO QUARAÍ",
+      "uf": "RS",
+      "latitude": -30.208947,
+      "longitude": -57.5505128,
+      "observacao": "Coordenada obtida: Barra do Quaraí, Região Geográfica Imediata de Uruguaiana, Região Geográfica Intermediária de Urugua"
+    },
+    {
+      "codigo_ibge": 85375,
+      "nome": "BARRA DO RIBEIRO",
+      "uf": "RS",
+      "latitude": -30.2925989,
+      "longitude": -51.3033906,
+      "observacao": "Coordenada obtida: Barra do Ribeiro, Região Geográfica Imediata de Porto Alegre, Região Geográfica Intermediária de Por"
+    },
+    {
+      "codigo_ibge": 86380,
+      "nome": "BARRA DO RIO AZUL",
+      "uf": "RS",
+      "latitude": -27.4086573,
+      "longitude": -52.41305,
+      "observacao": "Coordenada obtida: Barra do Rio Azul, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo F"
+    },
+    {
+      "codigo_ibge": 86401,
+      "nome": "BARRA FUNDA",
+      "uf": "RS",
+      "latitude": -27.9230048,
+      "longitude": -53.0401045,
+      "observacao": "Coordenada obtida: Barra Funda, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fundo"
+    },
+    {
+      "codigo_ibge": 85359,
+      "nome": "BARRACÃO",
+      "uf": "RS",
+      "latitude": -27.6722339,
+      "longitude": -51.4583497,
+      "observacao": "Coordenada obtida: Barracão, Região Geográfica Imediata de Lagoa Vermelha, Região Geográfica Intermediária de Passo Fun"
+    },
+    {
+      "codigo_ibge": 85391,
+      "nome": "BARROS CASSAL",
+      "uf": "RS",
+      "latitude": -29.094938,
+      "longitude": -52.5832366,
+      "observacao": "Coordenada obtida: Barros Cassal, Região Geográfica Imediata de Soledade, Região Geográfica Intermediária de Passo Fund"
+    },
+    {
+      "codigo_ibge": 86223,
+      "nome": "BARÃO",
+      "uf": "RS",
+      "latitude": -29.372474,
+      "longitude": -51.494908,
+      "observacao": "Coordenada obtida: Barão, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de Caxias do S"
+    },
+    {
+      "codigo_ibge": 85332,
+      "nome": "BARÃO DE COTEGIPE",
+      "uf": "RS",
+      "latitude": -27.6214694,
+      "longitude": -52.3765316,
+      "observacao": "Coordenada obtida: Barão de Cotegipe, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo F"
+    },
+    {
+      "codigo_ibge": 86347,
+      "nome": "BARÃO DO TRIUNFO",
+      "uf": "RS",
+      "latitude": -30.3909877,
+      "longitude": -51.7375349,
+      "observacao": "Coordenada obtida: Barão do Triunfo, Região Geográfica Imediata de Porto Alegre, Região Geográfica Intermediária de Por"
+    },
+    {
+      "codigo_ibge": 88420,
+      "nome": "BENJAMIN CONSTANT DO SUL",
+      "uf": "RS",
+      "latitude": -27.5105555,
+      "longitude": -52.6007689,
+      "observacao": "Coordenada obtida: Benjamin Constant do Sul, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 85413,
+      "nome": "BENTO GONÇALVES",
+      "uf": "RS",
+      "latitude": -29.1654014,
+      "longitude": -51.5197627,
+      "observacao": "Coordenada obtida: Bento Gonçalves, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de C"
+    },
+    {
+      "codigo_ibge": 86428,
+      "nome": "BOA VISTA DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -27.6677983,
+      "longitude": -53.3127622,
+      "observacao": "Coordenada obtida: Boa Vista das Missões, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Interme"
+    },
+    {
+      "codigo_ibge": 85430,
+      "nome": "BOA VISTA DO BURICÁ",
+      "uf": "RS",
+      "latitude": -27.6687782,
+      "longitude": -54.1111913,
+      "observacao": "Coordenada obtida: Boa Vista do Buricá, Região Geográfica Imediata de Três de Maio, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 89044,
+      "nome": "BOA VISTA DO CADEADO",
+      "uf": "RS",
+      "latitude": -28.5783827,
+      "longitude": -53.8123759,
+      "observacao": "Coordenada obtida: Boa Vista do Cadeado, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Pa"
+    },
+    {
+      "codigo_ibge": 89060,
+      "nome": "BOA VISTA DO INCRA",
+      "uf": "RS",
+      "latitude": -28.8860851,
+      "longitude": -53.4837401,
+      "observacao": "Coordenada obtida: Boa Vista do Incra, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Pass"
+    },
+    {
+      "codigo_ibge": 88161,
+      "nome": "BOA VISTA DO SUL",
+      "uf": "RS",
+      "latitude": -29.3510488,
+      "longitude": -51.6779679,
+      "observacao": "Coordenada obtida: Boa Vista do Sul, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 85456,
+      "nome": "BOM JESUS",
+      "uf": "RS",
+      "latitude": -28.6692723,
+      "longitude": -50.4346894,
+      "observacao": "Coordenada obtida: Bom Jesus, Região Geográfica Imediata de Vacaria, Região Geográfica Intermediária de Caxias do Sul, "
+    },
+    {
+      "codigo_ibge": 98230,
+      "nome": "BOM PRINCÍPIO",
+      "uf": "RS",
+      "latitude": -29.489788,
+      "longitude": -51.3566782,
+      "observacao": "Coordenada obtida: Bom Princípio, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica Interme"
+    },
+    {
+      "codigo_ibge": 86444,
+      "nome": "BOM PROGRESSO",
+      "uf": "RS",
+      "latitude": -27.5490948,
+      "longitude": -53.8655601,
+      "observacao": "Coordenada obtida: Bom Progresso, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, R"
+    },
+    {
+      "codigo_ibge": 85472,
+      "nome": "BOM RETIRO DO SUL",
+      "uf": "RS",
+      "latitude": -29.6000007,
+      "longitude": -51.9359243,
+      "observacao": "Coordenada obtida: Bom Retiro do Sul, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa C"
+    },
+    {
+      "codigo_ibge": 84921,
+      "nome": "BOQUEIRÃO DO LEÃO",
+      "uf": "RS",
+      "latitude": -29.30332,
+      "longitude": -52.4296817,
+      "observacao": "Coordenada obtida: Boqueirão do Leão, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa C"
+    },
+    {
+      "codigo_ibge": 85499,
+      "nome": "BOSSOROCA",
+      "uf": "RS",
+      "latitude": -28.7278885,
+      "longitude": -54.9120278,
+      "observacao": "Coordenada obtida: Bossoroca, Região Geográfica Imediata de São Luiz Gonzaga, Região Geográfica Intermediária de Ijui, "
+    },
+    {
+      "codigo_ibge": 89087,
+      "nome": "BOZANO",
+      "uf": "RS",
+      "latitude": -28.3669953,
+      "longitude": -53.7705165,
+      "observacao": "Coordenada obtida: Bozano, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande do S"
+    },
+    {
+      "codigo_ibge": 85510,
+      "nome": "BRAGA",
+      "uf": "RS",
+      "latitude": -27.617348,
+      "longitude": -53.740514,
+      "observacao": "Coordenada obtida: Braga, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Rio Grand"
+    },
+    {
+      "codigo_ibge": 85065,
+      "nome": "BROCHIER",
+      "uf": "RS",
+      "latitude": -29.556766,
+      "longitude": -51.5963047,
+      "observacao": "Coordenada obtida: Brochier, Região Geográfica Imediata de Montenegro, Região Geográfica Intermediária de Porto Alegre,"
+    },
+    {
+      "codigo_ibge": 85537,
+      "nome": "BUTIÁ",
+      "uf": "RS",
+      "latitude": -30.1256795,
+      "longitude": -51.9692224,
+      "observacao": "Coordenada obtida: Butiá, Região Geográfica Imediata de Charqueadas - Triunfo - São Jerônimo, Região Geográfica Interme"
+    },
+    {
+      "codigo_ibge": 85570,
+      "nome": "CACEQUI",
+      "uf": "RS",
+      "latitude": -29.8838059,
+      "longitude": -54.8273443,
+      "observacao": "Coordenada obtida: Cacequi, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria, "
+    },
+    {
+      "codigo_ibge": 85596,
+      "nome": "CACHOEIRA DO SUL",
+      "uf": "RS",
+      "latitude": -30.0482234,
+      "longitude": -52.8901686,
+      "observacao": "Coordenada obtida: Cachoeira do Sul, Região Geográfica Imediata de Cachoeira do Sul, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 85618,
+      "nome": "CACHOEIRINHA",
+      "uf": "RS",
+      "latitude": -29.9493353,
+      "longitude": -51.0898927,
+      "observacao": "Coordenada obtida: Cachoeirinha, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Regi"
+    },
+    {
+      "codigo_ibge": 85634,
+      "nome": "CACIQUE DOBLE",
+      "uf": "RS",
+      "latitude": -27.7700117,
+      "longitude": -51.6616409,
+      "observacao": "Coordenada obtida: Cacique Doble, Região Geográfica Imediata de Lagoa Vermelha, Região Geográfica Intermediária de Pass"
+    },
+    {
+      "codigo_ibge": 85650,
+      "nome": "CAIBATÉ",
+      "uf": "RS",
+      "latitude": -28.287909,
+      "longitude": -54.64027,
+      "observacao": "Coordenada obtida: Caibaté, Região Geográfica Imediata de São Luiz Gonzaga, Região Geográfica Intermediária de Ijui, Ri"
+    },
+    {
+      "codigo_ibge": 85677,
+      "nome": "CAIÇARA",
+      "uf": "RS",
+      "latitude": -27.2470588,
+      "longitude": -53.4443522,
+      "observacao": "Coordenada obtida: Caiçara, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária de Pass"
+    },
+    {
+      "codigo_ibge": 85693,
+      "nome": "CAMAQUÃ",
+      "uf": "RS",
+      "latitude": -30.8524752,
+      "longitude": -51.8075619,
+      "observacao": "Coordenada obtida: Camaquã, Região Geográfica Imediata de Camaquã, Região Geográfica Intermediária de Porto Alegre, Rio"
+    },
+    {
+      "codigo_ibge": 85960,
+      "nome": "CAMARGO",
+      "uf": "RS",
+      "latitude": -28.5865661,
+      "longitude": -52.2031474,
+      "observacao": "Coordenada obtida: Camargo, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo, Rio Gr"
+    },
+    {
+      "codigo_ibge": 85715,
+      "nome": "CAMBARÁ DO SUL",
+      "uf": "RS",
+      "latitude": -29.0489517,
+      "longitude": -50.145412,
+      "observacao": "Coordenada obtida: Cambará do Sul, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxi"
+    },
+    {
+      "codigo_ibge": 86460,
+      "nome": "CAMPESTRE DA SERRA",
+      "uf": "RS",
+      "latitude": -28.7188986,
+      "longitude": -51.1063799,
+      "observacao": "Coordenada obtida: Campestre da Serra, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 85731,
+      "nome": "CAMPINA DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -27.9910517,
+      "longitude": -54.8404714,
+      "observacao": "Coordenada obtida: Campina das Missões, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ij"
+    },
+    {
+      "codigo_ibge": 85758,
+      "nome": "CAMPINAS DO SUL",
+      "uf": "RS",
+      "latitude": -27.7167968,
+      "longitude": -52.6257885,
+      "observacao": "Coordenada obtida: Campinas do Sul, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fun"
+    },
+    {
+      "codigo_ibge": 85774,
+      "nome": "CAMPO BOM",
+      "uf": "RS",
+      "latitude": -29.678418,
+      "longitude": -51.0572268,
+      "observacao": "Coordenada obtida: Campo Bom, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de Porto"
+    },
+    {
+      "codigo_ibge": 85790,
+      "nome": "CAMPO NOVO",
+      "uf": "RS",
+      "latitude": -27.6792143,
+      "longitude": -53.8051654,
+      "observacao": "Coordenada obtida: Campo Novo, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Rio "
+    },
+    {
+      "codigo_ibge": 85200,
+      "nome": "CAMPOS BORGES",
+      "uf": "RS",
+      "latitude": -28.8852198,
+      "longitude": -52.999098,
+      "observacao": "Coordenada obtida: Campos Borges, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo F"
+    },
+    {
+      "codigo_ibge": 85812,
+      "nome": "CANDELÁRIA",
+      "uf": "RS",
+      "latitude": -29.668391,
+      "longitude": -52.789495,
+      "observacao": "Coordenada obtida: Candelária, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária de Sant"
+    },
+    {
+      "codigo_ibge": 86487,
+      "nome": "CANDIOTA",
+      "uf": "RS",
+      "latitude": -31.5240806,
+      "longitude": -53.7049103,
+      "observacao": "Coordenada obtida: Candiota, Região Geográfica Imediata de Bagé, Região Geográfica Intermediária de Pelotas, Rio Grande"
+    },
+    {
+      "codigo_ibge": 85855,
+      "nome": "CANELA",
+      "uf": "RS",
+      "latitude": -29.3636094,
+      "longitude": -50.8096844,
+      "observacao": "Coordenada obtida: Canela, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias do Su"
+    },
+    {
+      "codigo_ibge": 85871,
+      "nome": "CANGUÇU",
+      "uf": "RS",
+      "latitude": -31.398276,
+      "longitude": -52.6773522,
+      "observacao": "Coordenada obtida: Canguçu, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Rio Gran"
+    },
+    {
+      "codigo_ibge": 85898,
+      "nome": "CANOAS",
+      "uf": "RS",
+      "latitude": -29.9216045,
+      "longitude": -51.1799525,
+      "observacao": "Coordenada obtida: Canoas, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Região Geo"
+    },
+    {
+      "codigo_ibge": 89109,
+      "nome": "CANUDOS DO VALE",
+      "uf": "RS",
+      "latitude": -29.3240418,
+      "longitude": -52.2348494,
+      "observacao": "Coordenada obtida: Canudos do Vale, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cru"
+    },
+    {
+      "codigo_ibge": 84891,
+      "nome": "CAPELA DE SANTANA",
+      "uf": "RS",
+      "latitude": -29.6926603,
+      "longitude": -51.3206659,
+      "observacao": "Coordenada obtida: Capela de Santana, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana "
+    },
+    {
+      "codigo_ibge": 86509,
+      "nome": "CAPITÃO",
+      "uf": "RS",
+      "latitude": -29.2718294,
+      "longitude": -51.9869716,
+      "observacao": "Coordenada obtida: Capitão, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do Sul"
+    },
+    {
+      "codigo_ibge": 88200,
+      "nome": "CAPIVARI DO SUL",
+      "uf": "RS",
+      "latitude": -30.1437605,
+      "longitude": -50.5129169,
+      "observacao": "Coordenada obtida: Capivari do Sul, Região Geográfica Imediata de Porto Alegre, Aglomeração Urbana do Litoral Norte, Re"
+    },
+    {
+      "codigo_ibge": 89125,
+      "nome": "CAPÃO BONITO DO SUL",
+      "uf": "RS",
+      "latitude": -28.1287941,
+      "longitude": -51.393771,
+      "observacao": "Coordenada obtida: Capão Bonito do Sul, Região Geográfica Imediata de Lagoa Vermelha, Região Geográfica Intermediária d"
+    },
+    {
+      "codigo_ibge": 89150,
+      "nome": "CAPÃO DA CANOA",
+      "uf": "RS",
+      "latitude": -29.7508278,
+      "longitude": -50.0210729,
+      "observacao": "Coordenada obtida: Capão da Canoa, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral Nort"
+    },
+    {
+      "codigo_ibge": 89141,
+      "nome": "CAPÃO DO CIPÓ",
+      "uf": "RS",
+      "latitude": -28.9317296,
+      "longitude": -54.5555783,
+      "observacao": "Coordenada obtida: Capão do Cipó, Região Geográfica Imediata de Santiago, Região Geográfica Intermediária de Santa Mari"
+    },
+    {
+      "codigo_ibge": 89737,
+      "nome": "CAPÃO DO LEÃO",
+      "uf": "RS",
+      "latitude": -31.766133,
+      "longitude": -52.5013148,
+      "observacao": "Coordenada obtida: Capão do Leão, Região Geográfica Imediata de Pelotas, Aglomeração Urbana do Sul, Região Geográfica I"
+    },
+    {
+      "codigo_ibge": 85910,
+      "nome": "CARAZINHO",
+      "uf": "RS",
+      "latitude": -28.2981634,
+      "longitude": -52.7942363,
+      "observacao": "Coordenada obtida: Carazinho, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fundo, "
+    },
+    {
+      "codigo_ibge": 88340,
+      "nome": "CARAÁ",
+      "uf": "RS",
+      "latitude": -29.7916777,
+      "longitude": -50.4339994,
+      "observacao": "Coordenada obtida: Caraá, Região Geográfica Imediata de Porto Alegre, Aglomeração Urbana do Litoral Norte, Região Geogr"
+    },
+    {
+      "codigo_ibge": 85936,
+      "nome": "CARLOS BARBOSA",
+      "uf": "RS",
+      "latitude": -29.2978372,
+      "longitude": -51.5005613,
+      "observacao": "Coordenada obtida: Carlos Barbosa, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de Ca"
+    },
+    {
+      "codigo_ibge": 86525,
+      "nome": "CARLOS GOMES",
+      "uf": "RS",
+      "latitude": -27.7161093,
+      "longitude": -51.9135613,
+      "observacao": "Coordenada obtida: Carlos Gomes, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 85952,
+      "nome": "CASCA",
+      "uf": "RS",
+      "latitude": -28.5652711,
+      "longitude": -51.9769207,
+      "observacao": "Coordenada obtida: Casca, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo, Rio Gran"
+    },
+    {
+      "codigo_ibge": 85880,
+      "nome": "CASEIROS",
+      "uf": "RS",
+      "latitude": -28.2721149,
+      "longitude": -51.6873536,
+      "observacao": "Coordenada obtida: Caseiros, Região Geográfica Imediata de Lagoa Vermelha, Região Geográfica Intermediária de Passo Fun"
+    },
+    {
+      "codigo_ibge": 85979,
+      "nome": "CATUÍPE",
+      "uf": "RS",
+      "latitude": -28.255356,
+      "longitude": -54.013215,
+      "observacao": "Coordenada obtida: Catuípe, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande do "
+    },
+    {
+      "codigo_ibge": 85995,
+      "nome": "CAXIAS DO SUL",
+      "uf": "RS",
+      "latitude": -29.1685045,
+      "longitude": -51.1796385,
+      "observacao": "Coordenada obtida: Caxias do Sul, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxia"
+    },
+    {
+      "codigo_ibge": 85553,
+      "nome": "CAÇAPAVA DO SUL",
+      "uf": "RS",
+      "latitude": -30.5113286,
+      "longitude": -53.4916761,
+      "observacao": "Coordenada obtida: Caçapava do Sul, Região Geográfica Imediata de São Gabriel - Caçapava do Sul, Região Geográfica Inte"
+    },
+    {
+      "codigo_ibge": 86541,
+      "nome": "CENTENÁRIO",
+      "uf": "RS",
+      "latitude": -27.7608249,
+      "longitude": -51.9984409,
+      "observacao": "Coordenada obtida: Centenário, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, R"
+    },
+    {
+      "codigo_ibge": 88641,
+      "nome": "CERRITO",
+      "uf": "RS",
+      "latitude": -31.8546304,
+      "longitude": -52.8151659,
+      "observacao": "Coordenada obtida: Cerrito, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Rio Gran"
+    },
+    {
+      "codigo_ibge": 86088,
+      "nome": "CERRO BRANCO",
+      "uf": "RS",
+      "latitude": -29.6359134,
+      "longitude": -52.949799,
+      "observacao": "Coordenada obtida: Cerro Branco, Região Geográfica Imediata de Cachoeira do Sul, Região Geográfica Intermediária de San"
+    },
+    {
+      "codigo_ibge": 85227,
+      "nome": "CERRO GRANDE",
+      "uf": "RS",
+      "latitude": -27.6088939,
+      "longitude": -53.1663055,
+      "observacao": "Coordenada obtida: Cerro Grande, Região Geográfica Imediata de Palmeira das Missões, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 85944,
+      "nome": "CERRO GRANDE DO SUL",
+      "uf": "RS",
+      "latitude": -30.5962963,
+      "longitude": -51.7517196,
+      "observacao": "Coordenada obtida: Cerro Grande do Sul, Região Geográfica Imediata de Camaquã, Região Geográfica Intermediária de Porto"
+    },
+    {
+      "codigo_ibge": 86010,
+      "nome": "CERRO LARGO",
+      "uf": "RS",
+      "latitude": -28.147498,
+      "longitude": -54.7383681,
+      "observacao": "Coordenada obtida: Cerro Largo, Região Geográfica Imediata de Cerro Largo, Região Geográfica Intermediária de Ijui, Rio"
+    },
+    {
+      "codigo_ibge": 86037,
+      "nome": "CHAPADA",
+      "uf": "RS",
+      "latitude": -28.0587829,
+      "longitude": -53.0657459,
+      "observacao": "Coordenada obtida: Chapada, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fundo, Ri"
+    },
+    {
+      "codigo_ibge": 86932,
+      "nome": "CHARQUEADAS",
+      "uf": "RS",
+      "latitude": -29.9549088,
+      "longitude": -51.6249534,
+      "observacao": "Coordenada obtida: Charqueadas, Região Geográfica Imediata de Charqueadas - Triunfo - São Jerônimo, Região Metropolitan"
+    },
+    {
+      "codigo_ibge": 86568,
+      "nome": "CHARRUA",
+      "uf": "RS",
+      "latitude": -27.9533747,
+      "longitude": -52.0312591,
+      "observacao": "Coordenada obtida: Charrua, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Intermediária de Pass"
+    },
+    {
+      "codigo_ibge": 86053,
+      "nome": "CHIAPETTA",
+      "uf": "RS",
+      "latitude": -27.923162,
+      "longitude": -53.9419052,
+      "observacao": "Coordenada obtida: Chiapetta, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande d"
+    },
+    {
+      "codigo_ibge": 88269,
+      "nome": "CHUVISCA",
+      "uf": "RS",
+      "latitude": -30.7543186,
+      "longitude": -51.9790909,
+      "observacao": "Coordenada obtida: Chuvisca, Região Geográfica Imediata de Camaquã, Região Geográfica Intermediária de Porto Alegre, Ri"
+    },
+    {
+      "codigo_ibge": 88846,
+      "nome": "CHUÍ",
+      "uf": "RS",
+      "latitude": -33.6895237,
+      "longitude": -53.454704,
+      "observacao": "Coordenada obtida: Chuí, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Rio Grande "
+    },
+    {
+      "codigo_ibge": 85804,
+      "nome": "CIDREIRA",
+      "uf": "RS",
+      "latitude": -30.1657063,
+      "longitude": -50.218331,
+      "observacao": "Coordenada obtida: Cidreira, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral Norte, Reg"
+    },
+    {
+      "codigo_ibge": 86070,
+      "nome": "CIRÍACO",
+      "uf": "RS",
+      "latitude": -28.3429139,
+      "longitude": -51.8763682,
+      "observacao": "Coordenada obtida: Ciríaco, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo, Rio Gr"
+    },
+    {
+      "codigo_ibge": 86584,
+      "nome": "COLINAS",
+      "uf": "RS",
+      "latitude": -29.3866023,
+      "longitude": -51.8697911,
+      "observacao": "Coordenada obtida: Colinas, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do Sul"
+    },
+    {
+      "codigo_ibge": 86096,
+      "nome": "COLORADO",
+      "uf": "RS",
+      "latitude": -28.525842,
+      "longitude": -52.99282,
+      "observacao": "Coordenada obtida: Colorado, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fundo, R"
+    },
+    {
+      "codigo_ibge": 86118,
+      "nome": "CONDOR",
+      "uf": "RS",
+      "latitude": -28.2058277,
+      "longitude": -53.4844696,
+      "observacao": "Coordenada obtida: Condor, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande do S"
+    },
+    {
+      "codigo_ibge": 86134,
+      "nome": "CONSTANTINA",
+      "uf": "RS",
+      "latitude": -27.7331711,
+      "longitude": -52.9929561,
+      "observacao": "Coordenada obtida: Constantina, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fundo"
+    },
+    {
+      "codigo_ibge": 89168,
+      "nome": "COQUEIRO BAIXO",
+      "uf": "RS",
+      "latitude": -29.181566,
+      "longitude": -52.097034,
+      "observacao": "Coordenada obtida: Coqueiro Baixo, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz"
+    },
+    {
+      "codigo_ibge": 86606,
+      "nome": "COQUEIROS DO SUL",
+      "uf": "RS",
+      "latitude": -28.1184032,
+      "longitude": -52.7824375,
+      "observacao": "Coordenada obtida: Coqueiros do Sul, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo "
+    },
+    {
+      "codigo_ibge": 86622,
+      "nome": "CORONEL BARROS",
+      "uf": "RS",
+      "latitude": -28.3826325,
+      "longitude": -54.0704116,
+      "observacao": "Coordenada obtida: Coronel Barros, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Gra"
+    },
+    {
+      "codigo_ibge": 86150,
+      "nome": "CORONEL BICACO",
+      "uf": "RS",
+      "latitude": -27.7174002,
+      "longitude": -53.705821,
+      "observacao": "Coordenada obtida: Coronel Bicaco, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Gra"
+    },
+    {
+      "codigo_ibge": 89184,
+      "nome": "CORONEL PILAR",
+      "uf": "RS",
+      "latitude": -29.27318,
+      "longitude": -51.6852347,
+      "observacao": "Coordenada obtida: Coronel Pilar, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de Cax"
+    },
+    {
+      "codigo_ibge": 89770,
+      "nome": "COTIPORÃ",
+      "uf": "RS",
+      "latitude": -28.9950719,
+      "longitude": -51.696359,
+      "observacao": "Coordenada obtida: Cotiporã, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de Caxias d"
+    },
+    {
+      "codigo_ibge": 86649,
+      "nome": "COXILHA",
+      "uf": "RS",
+      "latitude": -28.1255645,
+      "longitude": -52.2976394,
+      "observacao": "Coordenada obtida: Coxilha, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fundo, "
+    },
+    {
+      "codigo_ibge": 86177,
+      "nome": "CRISSIUMAL",
+      "uf": "RS",
+      "latitude": -27.4982242,
+      "longitude": -54.1024643,
+      "observacao": "Coordenada obtida: Crissiumal, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Rio "
+    },
+    {
+      "codigo_ibge": 85464,
+      "nome": "CRISTAL",
+      "uf": "RS",
+      "latitude": -31.00166,
+      "longitude": -52.0491777,
+      "observacao": "Coordenada obtida: Cristal, Região Geográfica Imediata de Camaquã, Região Geográfica Intermediária de Porto Alegre, Rio"
+    },
+    {
+      "codigo_ibge": 88528,
+      "nome": "CRISTAL DO SUL",
+      "uf": "RS",
+      "latitude": -27.454386,
+      "longitude": -53.2482974,
+      "observacao": "Coordenada obtida: Cristal do Sul, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária "
+    },
+    {
+      "codigo_ibge": 86193,
+      "nome": "CRUZ ALTA",
+      "uf": "RS",
+      "latitude": -28.645056,
+      "longitude": -53.6058047,
+      "observacao": "Coordenada obtida: Cruz Alta, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Passo Fundo, "
+    },
+    {
+      "codigo_ibge": 89206,
+      "nome": "CRUZALTENSE",
+      "uf": "RS",
+      "latitude": -27.667414,
+      "longitude": -52.6487833,
+      "observacao": "Coordenada obtida: Cruzaltense, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, "
+    },
+    {
+      "codigo_ibge": 86215,
+      "nome": "CRUZEIRO DO SUL",
+      "uf": "RS",
+      "latitude": -29.5139742,
+      "longitude": -51.9917068,
+      "observacao": "Coordenada obtida: Cruzeiro do Sul, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cru"
+    },
+    {
+      "codigo_ibge": 85839,
+      "nome": "CÂNDIDO GODÓI",
+      "uf": "RS",
+      "latitude": -27.951509,
+      "longitude": -54.751722,
+      "observacao": "Coordenada obtida: Cândido Godói, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, Ri"
+    },
+    {
+      "codigo_ibge": 86231,
+      "nome": "DAVID CANABARRO",
+      "uf": "RS",
+      "latitude": -28.3878667,
+      "longitude": -51.8472645,
+      "observacao": "Coordenada obtida: David Canabarro, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo"
+    },
+    {
+      "codigo_ibge": 86665,
+      "nome": "DERRUBADAS",
+      "uf": "RS",
+      "latitude": -27.2657279,
+      "longitude": -53.8618488,
+      "observacao": "Coordenada obtida: Derrubadas, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Rio "
+    },
+    {
+      "codigo_ibge": 85049,
+      "nome": "DEZESSEIS DE NOVEMBRO",
+      "uf": "RS",
+      "latitude": -28.2248993,
+      "longitude": -55.0480474,
+      "observacao": "Coordenada obtida: Dezesseis de Novembro, Região Geográfica Imediata de São Luiz Gonzaga, Região Geográfica Intermediár"
+    },
+    {
+      "codigo_ibge": 88188,
+      "nome": "DILERMANDO DE AGUIAR",
+      "uf": "RS",
+      "latitude": -29.7049966,
+      "longitude": -54.2078988,
+      "observacao": "Coordenada obtida: Dilermando de Aguiar, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 86258,
+      "nome": "DOIS IRMÃOS",
+      "uf": "RS",
+      "latitude": -29.58356,
+      "longitude": -51.089776,
+      "observacao": "Coordenada obtida: Dois Irmãos, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de Por"
+    },
+    {
+      "codigo_ibge": 86681,
+      "nome": "DOIS IRMÃOS DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -27.6598825,
+      "longitude": -53.5330891,
+      "observacao": "Coordenada obtida: Dois Irmãos das Missões, Região Geográfica Imediata de Palmeira das Missões, Região Geográfica Inter"
+    },
+    {
+      "codigo_ibge": 84824,
+      "nome": "DOIS LAJEADOS",
+      "uf": "RS",
+      "latitude": -28.984916,
+      "longitude": -51.8366385,
+      "observacao": "Coordenada obtida: Dois Lajeados, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária d"
+    },
+    {
+      "codigo_ibge": 86274,
+      "nome": "DOM FELICIANO",
+      "uf": "RS",
+      "latitude": -30.70214,
+      "longitude": -52.1080845,
+      "observacao": "Coordenada obtida: Dom Feliciano, Região Geográfica Imediata de Camaquã, Região Geográfica Intermediária de Porto Alegr"
+    },
+    {
+      "codigo_ibge": 86290,
+      "nome": "DOM PEDRITO",
+      "uf": "RS",
+      "latitude": -30.983755,
+      "longitude": -54.6746483,
+      "observacao": "Coordenada obtida: Dom Pedrito, Região Geográfica Imediata de Bagé, Região Geográfica Intermediária de Pelotas, Rio Gra"
+    },
+    {
+      "codigo_ibge": 88463,
+      "nome": "DOM PEDRO DE ALCÂNTARA",
+      "uf": "RS",
+      "latitude": -29.3698329,
+      "longitude": -49.8479971,
+      "observacao": "Coordenada obtida: Dom Pedro de Alcântara, Região Geográfica Imediata de Torres, Aglomeração Urbana do Litoral Norte, R"
+    },
+    {
+      "codigo_ibge": 86312,
+      "nome": "DONA FRANCISCA",
+      "uf": "RS",
+      "latitude": -29.623063,
+      "longitude": -53.3560585,
+      "observacao": "Coordenada obtida: Dona Francisca, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa "
+    },
+    {
+      "codigo_ibge": 84883,
+      "nome": "DOUTOR MAURÍCIO CARDOSO",
+      "uf": "RS",
+      "latitude": -27.5067264,
+      "longitude": -54.3626756,
+      "observacao": "Coordenada obtida: Doutor Maurício Cardoso, Região Geográfica Imediata de Três de Maio, Região Geográfica Intermediária"
+    },
+    {
+      "codigo_ibge": 88307,
+      "nome": "DOUTOR RICARDO",
+      "uf": "RS",
+      "latitude": -29.0901549,
+      "longitude": -51.9894847,
+      "observacao": "Coordenada obtida: Doutor Ricardo, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa Cr"
+    },
+    {
+      "codigo_ibge": 86240,
+      "nome": "ELDORADO DO SUL",
+      "uf": "RS",
+      "latitude": -29.9976311,
+      "longitude": -51.3063965,
+      "observacao": "Coordenada obtida: Eldorado do Sul, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, R"
+    },
+    {
+      "codigo_ibge": 86339,
+      "nome": "ENCANTADO",
+      "uf": "RS",
+      "latitude": -29.2392716,
+      "longitude": -51.8744817,
+      "observacao": "Coordenada obtida: Encantado, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa Cruz do"
+    },
+    {
+      "codigo_ibge": 86355,
+      "nome": "ENCRUZILHADA DO SUL",
+      "uf": "RS",
+      "latitude": -30.5433066,
+      "longitude": -52.5223514,
+      "observacao": "Coordenada obtida: Encruzilhada do Sul, Região Geográfica Intermediária de Santa Cruz do Sul - Lajeado, Rio Grande do S"
+    },
+    {
+      "codigo_ibge": 86703,
+      "nome": "ENGENHO VELHO",
+      "uf": "RS",
+      "latitude": -27.7114504,
+      "longitude": -52.9125692,
+      "observacao": "Coordenada obtida: Engenho Velho, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fun"
+    },
+    {
+      "codigo_ibge": 85928,
+      "nome": "ENTRE RIOS DO SUL",
+      "uf": "RS",
+      "latitude": -27.5299266,
+      "longitude": -52.7325438,
+      "observacao": "Coordenada obtida: Entre Rios do Sul, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo F"
+    },
+    {
+      "codigo_ibge": 85103,
+      "nome": "ENTRE-IJUÍS",
+      "uf": "RS",
+      "latitude": -28.361628,
+      "longitude": -54.2670019,
+      "observacao": "Coordenada obtida: Entre-Ijuís, Região Geográfica Imediata de Santo Ângelo, Região Geográfica Intermediária de Ijui, Ri"
+    },
+    {
+      "codigo_ibge": 85081,
+      "nome": "EREBANGO",
+      "uf": "RS",
+      "latitude": -27.8542708,
+      "longitude": -52.3029274,
+      "observacao": "Coordenada obtida: Erebango, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, Rio"
+    },
+    {
+      "codigo_ibge": 86371,
+      "nome": "ERECHIM",
+      "uf": "RS",
+      "latitude": -27.6350709,
+      "longitude": -52.2738654,
+      "observacao": "Coordenada obtida: Erechim, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, Rio "
+    },
+    {
+      "codigo_ibge": 85022,
+      "nome": "ERNESTINA",
+      "uf": "RS",
+      "latitude": -28.498434,
+      "longitude": -52.5702451,
+      "observacao": "Coordenada obtida: Ernestina, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fundo"
+    },
+    {
+      "codigo_ibge": 86410,
+      "nome": "ERVAL GRANDE",
+      "uf": "RS",
+      "latitude": -27.3910282,
+      "longitude": -52.5703742,
+      "observacao": "Coordenada obtida: Erval Grande, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 86436,
+      "nome": "ERVAL SECO",
+      "uf": "RS",
+      "latitude": -27.5511418,
+      "longitude": -53.506851,
+      "observacao": "Coordenada obtida: Erval Seco, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária de P"
+    },
+    {
+      "codigo_ibge": 86452,
+      "nome": "ESMERALDA",
+      "uf": "RS",
+      "latitude": -28.0543707,
+      "longitude": -51.1921896,
+      "observacao": "Coordenada obtida: Esmeralda, Região Geográfica Imediata de Vacaria, Região Geográfica Intermediária de Caxias do Sul, "
+    },
+    {
+      "codigo_ibge": 88285,
+      "nome": "ESPERANÇA DO SUL",
+      "uf": "RS",
+      "latitude": -27.3617442,
+      "longitude": -53.9909736,
+      "observacao": "Coordenada obtida: Esperança do Sul, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui"
+    },
+    {
+      "codigo_ibge": 86479,
+      "nome": "ESPUMOSO",
+      "uf": "RS",
+      "latitude": -28.7256962,
+      "longitude": -52.8453751,
+      "observacao": "Coordenada obtida: Espumoso, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 85286,
+      "nome": "ESTAÇÃO",
+      "uf": "RS",
+      "latitude": -27.9128965,
+      "longitude": -52.2606058,
+      "observacao": "Coordenada obtida: Estação, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, Rio "
+    },
+    {
+      "codigo_ibge": 86517,
+      "nome": "ESTEIO",
+      "uf": "RS",
+      "latitude": -29.8511627,
+      "longitude": -51.1778852,
+      "observacao": "Coordenada obtida: Esteio, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Região Geo"
+    },
+    {
+      "codigo_ibge": 86533,
+      "nome": "ESTRELA",
+      "uf": "RS",
+      "latitude": -29.5010545,
+      "longitude": -51.962226,
+      "observacao": "Coordenada obtida: Estrela, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do Sul"
+    },
+    {
+      "codigo_ibge": 88404,
+      "nome": "ESTRELA VELHA",
+      "uf": "RS",
+      "latitude": -29.1775802,
+      "longitude": -53.1597523,
+      "observacao": "Coordenada obtida: Estrela Velha, Região Geográfica Imediata de Sobradinho, Região Geográfica Intermediária de Santa Cr"
+    },
+    {
+      "codigo_ibge": 86495,
+      "nome": "ESTÂNCIA VELHA",
+      "uf": "RS",
+      "latitude": -29.6529666,
+      "longitude": -51.1719687,
+      "observacao": "Coordenada obtida: Estância Velha, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de "
+    },
+    {
+      "codigo_ibge": 85448,
+      "nome": "EUGÊNIO DE CASTRO",
+      "uf": "RS",
+      "latitude": -28.5286033,
+      "longitude": -54.1475172,
+      "observacao": "Coordenada obtida: Eugênio de Castro, Região Geográfica Imediata de Santo Ângelo, Região Geográfica Intermediária de Ij"
+    },
+    {
+      "codigo_ibge": 84930,
+      "nome": "FAGUNDES VARELA",
+      "uf": "RS",
+      "latitude": -28.8807515,
+      "longitude": -51.6987798,
+      "observacao": "Coordenada obtida: Fagundes Varela, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de C"
+    },
+    {
+      "codigo_ibge": 86550,
+      "nome": "FARROUPILHA",
+      "uf": "RS",
+      "latitude": -29.22647,
+      "longitude": -51.3468188,
+      "observacao": "Coordenada obtida: Farroupilha, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias "
+    },
+    {
+      "codigo_ibge": 86576,
+      "nome": "FAXINAL DO SOTURNO",
+      "uf": "RS",
+      "latitude": -29.5771687,
+      "longitude": -53.445804,
+      "observacao": "Coordenada obtida: Faxinal do Soturno, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Sa"
+    },
+    {
+      "codigo_ibge": 86029,
+      "nome": "FAXINALZINHO",
+      "uf": "RS",
+      "latitude": -27.4240501,
+      "longitude": -52.6738684,
+      "observacao": "Coordenada obtida: Faxinalzinho, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 88366,
+      "nome": "FAZENDA VILANOVA",
+      "uf": "RS",
+      "latitude": -29.588511,
+      "longitude": -51.821714,
+      "observacao": "Coordenada obtida: Fazenda Vilanova, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cr"
+    },
+    {
+      "codigo_ibge": 86592,
+      "nome": "FELIZ",
+      "uf": "RS",
+      "latitude": -29.4523254,
+      "longitude": -51.3069785,
+      "observacao": "Coordenada obtida: Feliz, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias do Sul"
+    },
+    {
+      "codigo_ibge": 86614,
+      "nome": "FLORES DA CUNHA",
+      "uf": "RS",
+      "latitude": -29.030129,
+      "longitude": -51.1833349,
+      "observacao": "Coordenada obtida: Flores da Cunha, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Cax"
+    },
+    {
+      "codigo_ibge": 88242,
+      "nome": "FLORIANO PEIXOTO",
+      "uf": "RS",
+      "latitude": -27.8603248,
+      "longitude": -52.0856015,
+      "observacao": "Coordenada obtida: Floriano Peixoto, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fu"
+    },
+    {
+      "codigo_ibge": 86630,
+      "nome": "FONTOURA XAVIER",
+      "uf": "RS",
+      "latitude": -28.981655,
+      "longitude": -52.344455,
+      "observacao": "Coordenada obtida: Fontoura Xavier, Região Geográfica Imediata de Soledade, Região Geográfica Intermediária de Passo Fu"
+    },
+    {
+      "codigo_ibge": 86657,
+      "nome": "FORMIGUEIRO",
+      "uf": "RS",
+      "latitude": -29.9982245,
+      "longitude": -53.5029931,
+      "observacao": "Coordenada obtida: Formigueiro, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Mar"
+    },
+    {
+      "codigo_ibge": 89222,
+      "nome": "FORQUETINHA",
+      "uf": "RS",
+      "latitude": -29.3818754,
+      "longitude": -52.1008021,
+      "observacao": "Coordenada obtida: Forquetinha, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do"
+    },
+    {
+      "codigo_ibge": 98272,
+      "nome": "FORTALEZA DOS VALOS",
+      "uf": "RS",
+      "latitude": -28.7959241,
+      "longitude": -53.2246622,
+      "observacao": "Coordenada obtida: Fortaleza dos Valos, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Pas"
+    },
+    {
+      "codigo_ibge": 86673,
+      "nome": "FREDERICO WESTPHALEN",
+      "uf": "RS",
+      "latitude": -27.35711,
+      "longitude": -53.3964117,
+      "observacao": "Coordenada obtida: Frederico Westphalen, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermed"
+    },
+    {
+      "codigo_ibge": 86690,
+      "nome": "GARIBALDI",
+      "uf": "RS",
+      "latitude": -29.2562253,
+      "longitude": -51.5269167,
+      "observacao": "Coordenada obtida: Garibaldi, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de Caxias "
+    },
+    {
+      "codigo_ibge": 86720,
+      "nome": "GARRUCHOS",
+      "uf": "RS",
+      "latitude": -28.1892458,
+      "longitude": -55.6382958,
+      "observacao": "Coordenada obtida: Garruchos, Região Geográfica Imediata de São Luiz Gonzaga, Região Geográfica Intermediária de Ijui, "
+    },
+    {
+      "codigo_ibge": 86711,
+      "nome": "GAURAMA",
+      "uf": "RS",
+      "latitude": -27.5879319,
+      "longitude": -52.0927073,
+      "observacao": "Coordenada obtida: Gaurama, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, Rio "
+    },
+    {
+      "codigo_ibge": 86738,
+      "nome": "GENERAL CÂMARA",
+      "uf": "RS",
+      "latitude": -29.9059611,
+      "longitude": -51.7626198,
+      "observacao": "Coordenada obtida: General Câmara, Região Geográfica Imediata de Charqueadas - Triunfo - São Jerônimo, Região Geográfic"
+    },
+    {
+      "codigo_ibge": 86746,
+      "nome": "GENTIL",
+      "uf": "RS",
+      "latitude": -28.4319165,
+      "longitude": -52.0348748,
+      "observacao": "Coordenada obtida: Gentil, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo, Rio Gra"
+    },
+    {
+      "codigo_ibge": 86770,
+      "nome": "GETÚLIO VARGAS",
+      "uf": "RS",
+      "latitude": -27.8871493,
+      "longitude": -52.2257967,
+      "observacao": "Coordenada obtida: Getúlio Vargas, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fund"
+    },
+    {
+      "codigo_ibge": 86797,
+      "nome": "GIRUÁ",
+      "uf": "RS",
+      "latitude": -28.0299396,
+      "longitude": -54.3506855,
+      "observacao": "Coordenada obtida: Giruá, Região Geográfica Imediata de Santo Ângelo, Região Geográfica Intermediária de Ijui, Rio Gran"
+    },
+    {
+      "codigo_ibge": 85502,
+      "nome": "GLORINHA",
+      "uf": "RS",
+      "latitude": -29.8790534,
+      "longitude": -50.7869437,
+      "observacao": "Coordenada obtida: Glorinha, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Região G"
+    },
+    {
+      "codigo_ibge": 86819,
+      "nome": "GRAMADO",
+      "uf": "RS",
+      "latitude": -29.3792858,
+      "longitude": -50.8737019,
+      "observacao": "Coordenada obtida: Gramado, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias do S"
+    },
+    {
+      "codigo_ibge": 86762,
+      "nome": "GRAMADO DOS LOUREIROS",
+      "uf": "RS",
+      "latitude": -27.4439526,
+      "longitude": -52.9183699,
+      "observacao": "Coordenada obtida: Gramado dos Loureiros, Região Geográfica Imediata de Nonoai, Região Geográfica Intermediária de Pass"
+    },
+    {
+      "codigo_ibge": 86789,
+      "nome": "GRAMADO XAVIER",
+      "uf": "RS",
+      "latitude": -29.2702991,
+      "longitude": -52.5785872,
+      "observacao": "Coordenada obtida: Gramado Xavier, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 86835,
+      "nome": "GRAVATAÍ",
+      "uf": "RS",
+      "latitude": -29.9440222,
+      "longitude": -50.9930938,
+      "observacao": "Coordenada obtida: Gravataí, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Região G"
+    },
+    {
+      "codigo_ibge": 84867,
+      "nome": "GUABIJU",
+      "uf": "RS",
+      "latitude": -28.5417413,
+      "longitude": -51.6910921,
+      "observacao": "Coordenada obtida: Guabiju, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária de Caxi"
+    },
+    {
+      "codigo_ibge": 86878,
+      "nome": "GUAPORÉ",
+      "uf": "RS",
+      "latitude": -28.8471928,
+      "longitude": -51.8907881,
+      "observacao": "Coordenada obtida: Guaporé, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária de Caxi"
+    },
+    {
+      "codigo_ibge": 86894,
+      "nome": "GUARANI DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -28.1445277,
+      "longitude": -54.5570355,
+      "observacao": "Coordenada obtida: Guarani das Missões, Região Geográfica Imediata de Santo Ângelo, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 86851,
+      "nome": "GUAÍBA",
+      "uf": "RS",
+      "latitude": -30.1130731,
+      "longitude": -51.329442,
+      "observacao": "Coordenada obtida: Guaíba, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Região Geo"
+    },
+    {
+      "codigo_ibge": 85189,
+      "nome": "HARMONIA",
+      "uf": "RS",
+      "latitude": -29.549989,
+      "longitude": -51.422308,
+      "observacao": "Coordenada obtida: Harmonia, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica Intermediári"
+    },
+    {
+      "codigo_ibge": 86398,
+      "nome": "HERVAL",
+      "uf": "RS",
+      "latitude": -32.0260806,
+      "longitude": -53.3951333,
+      "observacao": "Coordenada obtida: Herval, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Rio Grand"
+    },
+    {
+      "codigo_ibge": 88323,
+      "nome": "HERVEIRAS",
+      "uf": "RS",
+      "latitude": -29.4544867,
+      "longitude": -52.6529235,
+      "observacao": "Coordenada obtida: Herveiras, Região Geográfica Intermediária de Santa Cruz do Sul - Lajeado, Rio Grande do Sul, Região"
+    },
+    {
+      "codigo_ibge": 86916,
+      "nome": "HORIZONTINA",
+      "uf": "RS",
+      "latitude": -27.627931,
+      "longitude": -54.3090256,
+      "observacao": "Coordenada obtida: Horizontina, Região Geográfica Imediata de Três de Maio, Região Geográfica Intermediária de Ijui, Ri"
+    },
+    {
+      "codigo_ibge": 86800,
+      "nome": "HULHA NEGRA",
+      "uf": "RS",
+      "latitude": -31.4074739,
+      "longitude": -53.8699535,
+      "observacao": "Coordenada obtida: Hulha Negra, Região Geográfica Imediata de Bagé, Região Geográfica Intermediária de Pelotas, Rio Gra"
+    },
+    {
+      "codigo_ibge": 86959,
+      "nome": "HUMAITÁ",
+      "uf": "RS",
+      "latitude": -27.5660564,
+      "longitude": -53.9719817,
+      "observacao": "Coordenada obtida: Humaitá, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Rio Gra"
+    },
+    {
+      "codigo_ibge": 84972,
+      "nome": "IBARAMA",
+      "uf": "RS",
+      "latitude": -29.4203176,
+      "longitude": -53.1313179,
+      "observacao": "Coordenada obtida: Ibarama, Região Geográfica Imediata de Sobradinho, Região Geográfica Intermediária de Santa Cruz do "
+    },
+    {
+      "codigo_ibge": 86975,
+      "nome": "IBIAÇÁ",
+      "uf": "RS",
+      "latitude": -28.0564247,
+      "longitude": -51.8566036,
+      "observacao": "Coordenada obtida: Ibiaçá, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Intermediária de Passo"
+    },
+    {
+      "codigo_ibge": 86991,
+      "nome": "IBIRAIARAS",
+      "uf": "RS",
+      "latitude": -28.3705672,
+      "longitude": -51.6366969,
+      "observacao": "Coordenada obtida: Ibiraiaras, Região Geográfica Imediata de Lagoa Vermelha, Região Geográfica Intermediária de Passo F"
+    },
+    {
+      "codigo_ibge": 84964,
+      "nome": "IBIRAPUITÃ",
+      "uf": "RS",
+      "latitude": -28.6226503,
+      "longitude": -52.5170577,
+      "observacao": "Coordenada obtida: Ibirapuitã, Região Geográfica Imediata de Soledade, Região Geográfica Intermediária de Passo Fundo, "
+    },
+    {
+      "codigo_ibge": 87017,
+      "nome": "IBIRUBÁ",
+      "uf": "RS",
+      "latitude": -28.630161,
+      "longitude": -53.096124,
+      "observacao": "Coordenada obtida: Ibirubá, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Passo Fundo, Ri"
+    },
+    {
+      "codigo_ibge": 87033,
+      "nome": "IGREJINHA",
+      "uf": "RS",
+      "latitude": -29.569318,
+      "longitude": -50.791894,
+      "observacao": "Coordenada obtida: Igrejinha, Região Geográfica Imediata de Taquara - Parobé - Igrejinha, Região Metropolitana de Porto"
+    },
+    {
+      "codigo_ibge": 87050,
+      "nome": "IJUÍ",
+      "uf": "RS",
+      "latitude": -28.3878734,
+      "longitude": -53.9201692,
+      "observacao": "Coordenada obtida: Ijuí, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande do Sul"
+    },
+    {
+      "codigo_ibge": 87076,
+      "nome": "ILÓPOLIS",
+      "uf": "RS",
+      "latitude": -28.92825,
+      "longitude": -52.125816,
+      "observacao": "Coordenada obtida: Ilópolis, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa Cruz do "
+    },
+    {
+      "codigo_ibge": 85685,
+      "nome": "IMBÉ",
+      "uf": "RS",
+      "latitude": -29.975269,
+      "longitude": -50.128068,
+      "observacao": "Coordenada obtida: Imbé, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral Norte, Região "
+    },
+    {
+      "codigo_ibge": 85782,
+      "nome": "IMIGRANTE",
+      "uf": "RS",
+      "latitude": -29.354229,
+      "longitude": -51.7773242,
+      "observacao": "Coordenada obtida: Imigrante, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do S"
+    },
+    {
+      "codigo_ibge": 87092,
+      "nome": "INDEPENDÊNCIA",
+      "uf": "RS",
+      "latitude": -27.8523717,
+      "longitude": -54.1909592,
+      "observacao": "Coordenada obtida: Independência, Região Geográfica Imediata de Três de Maio, Região Geográfica Intermediária de Ijui, "
+    },
+    {
+      "codigo_ibge": 86827,
+      "nome": "INHACORÁ",
+      "uf": "RS",
+      "latitude": -27.8812321,
+      "longitude": -54.021433,
+      "observacao": "Coordenada obtida: Inhacorá, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande do"
+    },
+    {
+      "codigo_ibge": 85243,
+      "nome": "IPIRANGA DO SUL",
+      "uf": "RS",
+      "latitude": -27.9367583,
+      "longitude": -52.4251556,
+      "observacao": "Coordenada obtida: Ipiranga do Sul, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fun"
+    },
+    {
+      "codigo_ibge": 84999,
+      "nome": "IPÊ",
+      "uf": "RS",
+      "latitude": -28.8189281,
+      "longitude": -51.2796422,
+      "observacao": "Coordenada obtida: Ipê, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias do Sul, "
+    },
+    {
+      "codigo_ibge": 87114,
+      "nome": "IRAÍ",
+      "uf": "RS",
+      "latitude": -27.1955392,
+      "longitude": -53.256791,
+      "observacao": "Coordenada obtida: Iraí, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária de Passo F"
+    },
+    {
+      "codigo_ibge": 88382,
+      "nome": "ITAARA",
+      "uf": "RS",
+      "latitude": -29.6071165,
+      "longitude": -53.7557841,
+      "observacao": "Coordenada obtida: Itaara, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria, R"
+    },
+    {
+      "codigo_ibge": 85901,
+      "nome": "ITACURUBI",
+      "uf": "RS",
+      "latitude": -28.7962478,
+      "longitude": -55.2360598,
+      "observacao": "Coordenada obtida: Itacurubi, Região Geográfica Imediata de Santiago, Região Geográfica Intermediária de Santa Maria, R"
+    },
+    {
+      "codigo_ibge": 86843,
+      "nome": "ITAPUCA",
+      "uf": "RS",
+      "latitude": -28.7802782,
+      "longitude": -52.1727517,
+      "observacao": "Coordenada obtida: Itapuca, Região Geográfica Imediata de Soledade, Região Geográfica Intermediária de Passo Fundo, Rio"
+    },
+    {
+      "codigo_ibge": 87130,
+      "nome": "ITAQUI",
+      "uf": "RS",
+      "latitude": -29.1222037,
+      "longitude": -56.5551258,
+      "observacao": "Coordenada obtida: Itaqui, Região Geográfica Imediata de São Borja, Região Geográfica Intermediária de Uruguaiana, Rio "
+    },
+    {
+      "codigo_ibge": 89249,
+      "nome": "ITATI",
+      "uf": "RS",
+      "latitude": -29.4918877,
+      "longitude": -50.102071,
+      "observacao": "Coordenada obtida: Itati, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral Norte, Região"
+    },
+    {
+      "codigo_ibge": 87157,
+      "nome": "ITATIBA DO SUL",
+      "uf": "RS",
+      "latitude": -27.3859383,
+      "longitude": -52.4559831,
+      "observacao": "Coordenada obtida: Itatiba do Sul, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fund"
+    },
+    {
+      "codigo_ibge": 85626,
+      "nome": "IVORÁ",
+      "uf": "RS",
+      "latitude": -29.5196814,
+      "longitude": -53.5804505,
+      "observacao": "Coordenada obtida: Ivorá, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria, Ri"
+    },
+    {
+      "codigo_ibge": 87173,
+      "nome": "IVOTI",
+      "uf": "RS",
+      "latitude": -29.5934057,
+      "longitude": -51.1599403,
+      "observacao": "Coordenada obtida: Ivoti, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de Porto Ale"
+    },
+    {
+      "codigo_ibge": 84786,
+      "nome": "JABOTICABA",
+      "uf": "RS",
+      "latitude": -27.6311203,
+      "longitude": -53.2794089,
+      "observacao": "Coordenada obtida: Jaboticaba, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária de P"
+    },
+    {
+      "codigo_ibge": 89265,
+      "nome": "JACUIZINHO",
+      "uf": "RS",
+      "latitude": -29.0342213,
+      "longitude": -53.0534957,
+      "observacao": "Coordenada obtida: Jacuizinho, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 87190,
+      "nome": "JACUTINGA",
+      "uf": "RS",
+      "latitude": -27.729135,
+      "longitude": -52.53724,
+      "observacao": "Coordenada obtida: Jacutinga, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, Ri"
+    },
+    {
+      "codigo_ibge": 87238,
+      "nome": "JAGUARI",
+      "uf": "RS",
+      "latitude": -29.4980313,
+      "longitude": -54.6919404,
+      "observacao": "Coordenada obtida: Jaguari, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria, "
+    },
+    {
+      "codigo_ibge": 87211,
+      "nome": "JAGUARÃO",
+      "uf": "RS",
+      "latitude": -32.5662724,
+      "longitude": -53.3765705,
+      "observacao": "Coordenada obtida: Jaguarão, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Rio Gra"
+    },
+    {
+      "codigo_ibge": 84905,
+      "nome": "JAQUIRANA",
+      "uf": "RS",
+      "latitude": -28.8836757,
+      "longitude": -50.3580098,
+      "observacao": "Coordenada obtida: Jaquirana, Região Geográfica Imediata de Vacaria, Região Geográfica Intermediária de Caxias do Sul, "
+    },
+    {
+      "codigo_ibge": 88587,
+      "nome": "JARI",
+      "uf": "RS",
+      "latitude": -29.292234,
+      "longitude": -54.223711,
+      "observacao": "Coordenada obtida: Jari, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria, Rio"
+    },
+    {
+      "codigo_ibge": 98299,
+      "nome": "JÓIA",
+      "uf": "RS",
+      "latitude": -28.6465036,
+      "longitude": -54.1199165,
+      "observacao": "Coordenada obtida: Jóia, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande do Sul"
+    },
+    {
+      "codigo_ibge": 87254,
+      "nome": "JÚLIO DE CASTILHOS",
+      "uf": "RS",
+      "latitude": -29.2286575,
+      "longitude": -53.6825217,
+      "observacao": "Coordenada obtida: Júlio de Castilhos, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Sa"
+    },
+    {
+      "codigo_ibge": 89281,
+      "nome": "LAGOA BONITA DO SUL",
+      "uf": "RS",
+      "latitude": -29.4903817,
+      "longitude": -53.0145712,
+      "observacao": "Coordenada obtida: Lagoa Bonita do Sul, Região Geográfica Imediata de Sobradinho, Região Geográfica Intermediária de Sa"
+    },
+    {
+      "codigo_ibge": 86886,
+      "nome": "LAGOA DOS TRÊS CANTOS",
+      "uf": "RS",
+      "latitude": -28.5668647,
+      "longitude": -52.8581637,
+      "observacao": "Coordenada obtida: Lagoa dos Três Cantos, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 87270,
+      "nome": "LAGOA VERMELHA",
+      "uf": "RS",
+      "latitude": -28.2087034,
+      "longitude": -51.527499,
+      "observacao": "Coordenada obtida: Lagoa Vermelha, Região Geográfica Imediata de Lagoa Vermelha, Região Geográfica Intermediária de Pas"
+    },
+    {
+      "codigo_ibge": 85260,
+      "nome": "LAGOÃO",
+      "uf": "RS",
+      "latitude": -29.2242092,
+      "longitude": -52.7738611,
+      "observacao": "Coordenada obtida: Lagoão, Região Geográfica Imediata de Sobradinho, Região Geográfica Intermediária de Santa Cruz do S"
+    },
+    {
+      "codigo_ibge": 87297,
+      "nome": "LAJEADO",
+      "uf": "RS",
+      "latitude": -29.4671522,
+      "longitude": -51.9624046,
+      "observacao": "Coordenada obtida: Lajeado, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do Sul"
+    },
+    {
+      "codigo_ibge": 86860,
+      "nome": "LAJEADO DO BUGRE",
+      "uf": "RS",
+      "latitude": -27.6903262,
+      "longitude": -53.1811907,
+      "observacao": "Coordenada obtida: Lajeado do Bugre, Região Geográfica Imediata de Palmeira das Missões, Região Geográfica Intermediári"
+    },
+    {
+      "codigo_ibge": 87319,
+      "nome": "LAVRAS DO SUL",
+      "uf": "RS",
+      "latitude": -30.8118057,
+      "longitude": -53.8982856,
+      "observacao": "Coordenada obtida: Lavras do Sul, Região Geográfica Imediata de São Gabriel - Caçapava do Sul, Região Geográfica Interm"
+    },
+    {
+      "codigo_ibge": 87335,
+      "nome": "LIBERATO SALZANO",
+      "uf": "RS",
+      "latitude": -27.6003296,
+      "longitude": -53.0714815,
+      "observacao": "Coordenada obtida: Liberato Salzano, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediári"
+    },
+    {
+      "codigo_ibge": 86908,
+      "nome": "LINDOLFO COLLOR",
+      "uf": "RS",
+      "latitude": -29.5956301,
+      "longitude": -51.2102797,
+      "observacao": "Coordenada obtida: Lindolfo Collor, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica Inter"
+    },
+    {
+      "codigo_ibge": 86924,
+      "nome": "LINHA NOVA",
+      "uf": "RS",
+      "latitude": -29.467709,
+      "longitude": -51.2001125,
+      "observacao": "Coordenada obtida: Linha Nova, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica Intermediá"
+    },
+    {
+      "codigo_ibge": 87351,
+      "nome": "MACHADINHO",
+      "uf": "RS",
+      "latitude": -27.5658904,
+      "longitude": -51.6677057,
+      "observacao": "Coordenada obtida: Machadinho, Região Geográfica Imediata de Lagoa Vermelha, Região Geográfica Intermediária de Passo F"
+    },
+    {
+      "codigo_ibge": 88943,
+      "nome": "MAMPITUBA",
+      "uf": "RS",
+      "latitude": -29.2128226,
+      "longitude": -49.9344527,
+      "observacao": "Coordenada obtida: Mampituba, Região Geográfica Imediata de Torres, Aglomeração Urbana do Litoral Norte, Região Geográf"
+    },
+    {
+      "codigo_ibge": 86940,
+      "nome": "MANOEL VIANA",
+      "uf": "RS",
+      "latitude": -29.585935,
+      "longitude": -55.484112,
+      "observacao": "Coordenada obtida: Manoel Viana, Região Geográfica Imediata de Uruguaiana, Passo Novo, Região Geográfica Intermediária "
+    },
+    {
+      "codigo_ibge": 86967,
+      "nome": "MAQUINÉ",
+      "uf": "RS",
+      "latitude": -29.6756372,
+      "longitude": -50.2056317,
+      "observacao": "Coordenada obtida: Maquiné, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral Norte, Regi"
+    },
+    {
+      "codigo_ibge": 86983,
+      "nome": "MARATÁ",
+      "uf": "RS",
+      "latitude": -29.549349,
+      "longitude": -51.5546411,
+      "observacao": "Coordenada obtida: Maratá, Região Geográfica Imediata de Montenegro, Região Geográfica Intermediária de Porto Alegre, R"
+    },
+    {
+      "codigo_ibge": 87378,
+      "nome": "MARAU",
+      "uf": "RS",
+      "latitude": -28.4493053,
+      "longitude": -52.2002156,
+      "observacao": "Coordenada obtida: Marau, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo, Rio Gran"
+    },
+    {
+      "codigo_ibge": 87394,
+      "nome": "MARCELINO RAMOS",
+      "uf": "RS",
+      "latitude": -27.4622708,
+      "longitude": -51.9081009,
+      "observacao": "Coordenada obtida: Marcelino Ramos, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fun"
+    },
+    {
+      "codigo_ibge": 87009,
+      "nome": "MARIANA PIMENTEL",
+      "uf": "RS",
+      "latitude": -30.3536856,
+      "longitude": -51.5832775,
+      "observacao": "Coordenada obtida: Mariana Pimentel, Região Geográfica Imediata de Porto Alegre, Região Geográfica Intermediária de Por"
+    },
+    {
+      "codigo_ibge": 87416,
+      "nome": "MARIANO MORO",
+      "uf": "RS",
+      "latitude": -27.3541972,
+      "longitude": -52.1469053,
+      "observacao": "Coordenada obtida: Mariano Moro, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 88820,
+      "nome": "MARQUES DE SOUZA",
+      "uf": "RS",
+      "latitude": -29.3275642,
+      "longitude": -52.0961801,
+      "observacao": "Coordenada obtida: Marques de Souza, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cr"
+    },
+    {
+      "codigo_ibge": 87432,
+      "nome": "MATA",
+      "uf": "RS",
+      "latitude": -29.5637643,
+      "longitude": -54.4590898,
+      "observacao": "Coordenada obtida: Mata, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria, Rio"
+    },
+    {
+      "codigo_ibge": 87025,
+      "nome": "MATO CASTELHANO",
+      "uf": "RS",
+      "latitude": -28.2782729,
+      "longitude": -52.1948111,
+      "observacao": "Coordenada obtida: Mato Castelhano, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo"
+    },
+    {
+      "codigo_ibge": 87041,
+      "nome": "MATO LEITÃO",
+      "uf": "RS",
+      "latitude": -29.5281244,
+      "longitude": -52.1278069,
+      "observacao": "Coordenada obtida: Mato Leitão, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária de San"
+    },
+    {
+      "codigo_ibge": 89303,
+      "nome": "MATO QUEIMADO",
+      "uf": "RS",
+      "latitude": -28.257822,
+      "longitude": -54.61709,
+      "observacao": "Coordenada obtida: Mato Queimado, Região Geográfica Imediata de Cerro Largo, Região Geográfica Intermediária de Ijui, R"
+    },
+    {
+      "codigo_ibge": 87459,
+      "nome": "MAXIMILIANO DE ALMEIDA",
+      "uf": "RS",
+      "latitude": -27.6326512,
+      "longitude": -51.8046768,
+      "observacao": "Coordenada obtida: Maximiliano de Almeida, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Interm"
+    },
+    {
+      "codigo_ibge": 88447,
+      "nome": "MAÇAMBARÁ",
+      "uf": "RS",
+      "latitude": -29.144485,
+      "longitude": -56.067444,
+      "observacao": "Coordenada obtida: Maçambará, Região Geográfica Imediata de São Borja, Região Geográfica Intermediária de Uruguaiana, R"
+    },
+    {
+      "codigo_ibge": 87068,
+      "nome": "MINAS DO LEÃO",
+      "uf": "RS",
+      "latitude": -30.1334499,
+      "longitude": -52.0455962,
+      "observacao": "Coordenada obtida: Minas do Leão, Região Geográfica Imediata de Charqueadas - Triunfo - São Jerônimo, Região Geográfica"
+    },
+    {
+      "codigo_ibge": 87475,
+      "nome": "MIRAGUAÍ",
+      "uf": "RS",
+      "latitude": -27.4943651,
+      "longitude": -53.6874223,
+      "observacao": "Coordenada obtida: Miraguaí, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Rio Gr"
+    },
+    {
+      "codigo_ibge": 85820,
+      "nome": "MONTAURI",
+      "uf": "RS",
+      "latitude": -28.6501657,
+      "longitude": -52.0757639,
+      "observacao": "Coordenada obtida: Montauri, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária de Cax"
+    },
+    {
+      "codigo_ibge": 88803,
+      "nome": "MONTE ALEGRE DOS CAMPOS",
+      "uf": "RS",
+      "latitude": -28.6840498,
+      "longitude": -50.7820322,
+      "observacao": "Coordenada obtida: Monte Alegre dos Campos, Região Geográfica Imediata de Vacaria, Região Geográfica Intermediária de C"
+    },
+    {
+      "codigo_ibge": 87084,
+      "nome": "MONTE BELO DO SUL",
+      "uf": "RS",
+      "latitude": -29.1636205,
+      "longitude": -51.6347449,
+      "observacao": "Coordenada obtida: Monte Belo do Sul, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 87491,
+      "nome": "MONTENEGRO",
+      "uf": "RS",
+      "latitude": -29.6826112,
+      "longitude": -51.4687455,
+      "observacao": "Coordenada obtida: Montenegro, Região Geográfica Imediata de Montenegro, Região Metropolitana de Porto Alegre, Região G"
+    },
+    {
+      "codigo_ibge": 87106,
+      "nome": "MORMAÇO",
+      "uf": "RS",
+      "latitude": -28.6935499,
+      "longitude": -52.6925978,
+      "observacao": "Coordenada obtida: Mormaço, Região Geográfica Imediata de Soledade, Região Geográfica Intermediária de Passo Fundo, Rio"
+    },
+    {
+      "codigo_ibge": 87122,
+      "nome": "MORRINHOS DO SUL",
+      "uf": "RS",
+      "latitude": -29.3653782,
+      "longitude": -49.9314425,
+      "observacao": "Coordenada obtida: Morrinhos do Sul, Região Geográfica Imediata de Torres, Aglomeração Urbana do Litoral Norte, Região "
+    },
+    {
+      "codigo_ibge": 86185,
+      "nome": "MORRO REDONDO",
+      "uf": "RS",
+      "latitude": -31.5921148,
+      "longitude": -52.6257669,
+      "observacao": "Coordenada obtida: Morro Redondo, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Ri"
+    },
+    {
+      "codigo_ibge": 87149,
+      "nome": "MORRO REUTER",
+      "uf": "RS",
+      "latitude": -29.5389519,
+      "longitude": -51.0818864,
+      "observacao": "Coordenada obtida: Morro Reuter, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica Intermed"
+    },
+    {
+      "codigo_ibge": 87513,
+      "nome": "MOSTARDAS",
+      "uf": "RS",
+      "latitude": -31.10538,
+      "longitude": -50.916692,
+      "observacao": "Coordenada obtida: Mostardas, Região Geográfica Imediata de Porto Alegre, Região Geográfica Intermediária de Porto Aleg"
+    },
+    {
+      "codigo_ibge": 88544,
+      "nome": "MUITOS CAPÕES",
+      "uf": "RS",
+      "latitude": -28.3162856,
+      "longitude": -51.1836226,
+      "observacao": "Coordenada obtida: Muitos Capões, Região Geográfica Imediata de Vacaria, Região Geográfica Intermediária de Caxias do S"
+    },
+    {
+      "codigo_ibge": 87165,
+      "nome": "MULITERNO",
+      "uf": "RS",
+      "latitude": -28.3295989,
+      "longitude": -51.7682438,
+      "observacao": "Coordenada obtida: Muliterno, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo, Rio "
+    },
+    {
+      "codigo_ibge": 87530,
+      "nome": "MUÇUM",
+      "uf": "RS",
+      "latitude": -29.1672546,
+      "longitude": -51.8745312,
+      "observacao": "Coordenada obtida: Muçum, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa Cruz do Sul"
+    },
+    {
+      "codigo_ibge": 87181,
+      "nome": "NICOLAU VERGUEIRO",
+      "uf": "RS",
+      "latitude": -28.5361987,
+      "longitude": -52.4631712,
+      "observacao": "Coordenada obtida: Nicolau Vergueiro, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Pas"
+    },
+    {
+      "codigo_ibge": 87572,
+      "nome": "NONOAI",
+      "uf": "RS",
+      "latitude": -27.3660882,
+      "longitude": -52.7717853,
+      "observacao": "Coordenada obtida: Nonoai, Região Geográfica Imediata de Nonoai, Região Geográfica Intermediária de Passo Fundo, Rio Gr"
+    },
+    {
+      "codigo_ibge": 86169,
+      "nome": "NOVA ALVORADA",
+      "uf": "RS",
+      "latitude": -28.6774191,
+      "longitude": -52.1663732,
+      "observacao": "Coordenada obtida: Nova Alvorada, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo, "
+    },
+    {
+      "codigo_ibge": 87599,
+      "nome": "NOVA ARAÇÁ",
+      "uf": "RS",
+      "latitude": -28.6604116,
+      "longitude": -51.7424776,
+      "observacao": "Coordenada obtida: Nova Araçá, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária de C"
+    },
+    {
+      "codigo_ibge": 87610,
+      "nome": "NOVA BASSANO",
+      "uf": "RS",
+      "latitude": -28.7304074,
+      "longitude": -51.7034689,
+      "observacao": "Coordenada obtida: Nova Bassano, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 87203,
+      "nome": "NOVA BOA VISTA",
+      "uf": "RS",
+      "latitude": -27.993207,
+      "longitude": -52.9798023,
+      "observacao": "Coordenada obtida: Nova Boa Vista, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fu"
+    },
+    {
+      "codigo_ibge": 87637,
+      "nome": "NOVA BRÉSCIA",
+      "uf": "RS",
+      "latitude": -29.2158737,
+      "longitude": -52.0290188,
+      "observacao": "Coordenada obtida: Nova Bréscia, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa Cruz"
+    },
+    {
+      "codigo_ibge": 88226,
+      "nome": "NOVA CANDELÁRIA",
+      "uf": "RS",
+      "latitude": -27.6110759,
+      "longitude": -54.1065402,
+      "observacao": "Coordenada obtida: Nova Candelária, Região Geográfica Imediata de Três de Maio, Região Geográfica Intermediária de Ijui"
+    },
+    {
+      "codigo_ibge": 85120,
+      "nome": "NOVA ESPERANÇA DO SUL",
+      "uf": "RS",
+      "latitude": -29.4102156,
+      "longitude": -54.8287783,
+      "observacao": "Coordenada obtida: Nova Esperança do Sul, Região Geográfica Imediata de Santiago, Região Geográfica Intermediária de Sa"
+    },
+    {
+      "codigo_ibge": 84816,
+      "nome": "NOVA HARTZ",
+      "uf": "RS",
+      "latitude": -29.5842391,
+      "longitude": -50.9043246,
+      "observacao": "Coordenada obtida: Nova Hartz, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de Port"
+    },
+    {
+      "codigo_ibge": 87653,
+      "nome": "NOVA PALMA",
+      "uf": "RS",
+      "latitude": -29.4711081,
+      "longitude": -53.4693751,
+      "observacao": "Coordenada obtida: Nova Palma, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Mari"
+    },
+    {
+      "codigo_ibge": 87670,
+      "nome": "NOVA PETRÓPOLIS",
+      "uf": "RS",
+      "latitude": -29.3759836,
+      "longitude": -51.1123342,
+      "observacao": "Coordenada obtida: Nova Petrópolis, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Cax"
+    },
+    {
+      "codigo_ibge": 87696,
+      "nome": "NOVA PRATA",
+      "uf": "RS",
+      "latitude": -28.7849383,
+      "longitude": -51.6091999,
+      "observacao": "Coordenada obtida: Nova Prata, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária de C"
+    },
+    {
+      "codigo_ibge": 87220,
+      "nome": "NOVA PÁDUA",
+      "uf": "RS",
+      "latitude": -29.0283514,
+      "longitude": -51.3075981,
+      "observacao": "Coordenada obtida: Nova Pádua, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias d"
+    },
+    {
+      "codigo_ibge": 88560,
+      "nome": "NOVA RAMADA",
+      "uf": "RS",
+      "latitude": -28.0820908,
+      "longitude": -53.7063919,
+      "observacao": "Coordenada obtida: Nova Ramada, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande"
+    },
+    {
+      "codigo_ibge": 84751,
+      "nome": "NOVA ROMA DO SUL",
+      "uf": "RS",
+      "latitude": -28.9884663,
+      "longitude": -51.4086514,
+      "observacao": "Coordenada obtida: Nova Roma do Sul, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Ca"
+    },
+    {
+      "codigo_ibge": 87246,
+      "nome": "NOVA SANTA RITA",
+      "uf": "RS",
+      "latitude": -29.8489972,
+      "longitude": -51.2764275,
+      "observacao": "Coordenada obtida: Nova Santa Rita, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, R"
+    },
+    {
+      "codigo_ibge": 87262,
+      "nome": "NOVO BARREIRO",
+      "uf": "RS",
+      "latitude": -27.9075461,
+      "longitude": -53.1095554,
+      "observacao": "Coordenada obtida: Novo Barreiro, Região Geográfica Imediata de Palmeira das Missões, Região Geográfica Intermediária d"
+    },
+    {
+      "codigo_ibge": 88684,
+      "nome": "NOVO CABRAIS",
+      "uf": "RS",
+      "latitude": -29.7347439,
+      "longitude": -52.9499851,
+      "observacao": "Coordenada obtida: Novo Cabrais, Região Geográfica Imediata de Cachoeira do Sul, Região Geográfica Intermediária de San"
+    },
+    {
+      "codigo_ibge": 87718,
+      "nome": "NOVO HAMBURGO",
+      "uf": "RS",
+      "latitude": -29.6905705,
+      "longitude": -51.1429035,
+      "observacao": "Coordenada obtida: Novo Hamburgo, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de P"
+    },
+    {
+      "codigo_ibge": 87289,
+      "nome": "NOVO MACHADO",
+      "uf": "RS",
+      "latitude": -27.5780463,
+      "longitude": -54.5010396,
+      "observacao": "Coordenada obtida: Novo Machado, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, Rio"
+    },
+    {
+      "codigo_ibge": 87300,
+      "nome": "NOVO TIRADENTES",
+      "uf": "RS",
+      "latitude": -27.5628338,
+      "longitude": -53.1827183,
+      "observacao": "Coordenada obtida: Novo Tiradentes, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária"
+    },
+    {
+      "codigo_ibge": 89320,
+      "nome": "NOVO XINGU",
+      "uf": "RS",
+      "latitude": -27.7482333,
+      "longitude": -53.0629707,
+      "observacao": "Coordenada obtida: Novo Xingu, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 87556,
+      "nome": "NÃO-ME-TOQUE",
+      "uf": "RS",
+      "latitude": -28.4575507,
+      "longitude": -52.8196547,
+      "observacao": "Coordenada obtida: Não-Me-Toque, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fund"
+    },
+    {
+      "codigo_ibge": 87734,
+      "nome": "OSÓRIO",
+      "uf": "RS",
+      "latitude": -29.8890733,
+      "longitude": -50.2740498,
+      "observacao": "Coordenada obtida: Osório, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral Norte, Regiã"
+    },
+    {
+      "codigo_ibge": 87750,
+      "nome": "PAIM FILHO",
+      "uf": "RS",
+      "latitude": -27.7099371,
+      "longitude": -51.7586234,
+      "observacao": "Coordenada obtida: Paim Filho, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Intermediária de P"
+    },
+    {
+      "codigo_ibge": 89672,
+      "nome": "PALMARES DO SUL",
+      "uf": "RS",
+      "latitude": -30.2580247,
+      "longitude": -50.5097954,
+      "observacao": "Coordenada obtida: Palmares do Sul, Região Geográfica Imediata de Porto Alegre, Aglomeração Urbana do Litoral Norte, Re"
+    },
+    {
+      "codigo_ibge": 87777,
+      "nome": "PALMEIRA DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -27.9010519,
+      "longitude": -53.3135927,
+      "observacao": "Coordenada obtida: Palmeira das Missões, Região Geográfica Imediata de Palmeira das Missões, Região Geográfica Intermed"
+    },
+    {
+      "codigo_ibge": 87793,
+      "nome": "PALMITINHO",
+      "uf": "RS",
+      "latitude": -27.3553374,
+      "longitude": -53.5575968,
+      "observacao": "Coordenada obtida: Palmitinho, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária de P"
+    },
+    {
+      "codigo_ibge": 87815,
+      "nome": "PANAMBI",
+      "uf": "RS",
+      "latitude": -28.2898542,
+      "longitude": -53.501822,
+      "observacao": "Coordenada obtida: Panambi, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande do "
+    },
+    {
+      "codigo_ibge": 84980,
+      "nome": "PANTANO GRANDE",
+      "uf": "RS",
+      "latitude": -30.1907942,
+      "longitude": -52.3721771,
+      "observacao": "Coordenada obtida: Pantano Grande, Região Geográfica Intermediária de Santa Cruz do Sul - Lajeado, Rio Grande do Sul, R"
+    },
+    {
+      "codigo_ibge": 87831,
+      "nome": "PARAÍ",
+      "uf": "RS",
+      "latitude": -28.5966772,
+      "longitude": -51.7851426,
+      "observacao": "Coordenada obtida: Paraí, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária de Caxias"
+    },
+    {
+      "codigo_ibge": 85987,
+      "nome": "PARAÍSO DO SUL",
+      "uf": "RS",
+      "latitude": -29.7311548,
+      "longitude": -53.1777338,
+      "observacao": "Coordenada obtida: Paraíso do Sul, Região Geográfica Imediata de Cachoeira do Sul, Região Geográfica Intermediária de S"
+    },
+    {
+      "codigo_ibge": 87327,
+      "nome": "PARECI NOVO",
+      "uf": "RS",
+      "latitude": -29.6386722,
+      "longitude": -51.3961969,
+      "observacao": "Coordenada obtida: Pareci Novo, Região Geográfica Imediata de Montenegro, Região Geográfica Intermediária de Porto Aleg"
+    },
+    {
+      "codigo_ibge": 98256,
+      "nome": "PAROBÉ",
+      "uf": "RS",
+      "latitude": -29.624257,
+      "longitude": -50.83118,
+      "observacao": "Coordenada obtida: Parobé, Região Geográfica Imediata de Taquara - Parobé - Igrejinha, Região Metropolitana de Porto Al"
+    },
+    {
+      "codigo_ibge": 88889,
+      "nome": "PASSA SETE",
+      "uf": "RS",
+      "latitude": -29.4498383,
+      "longitude": -52.9652172,
+      "observacao": "Coordenada obtida: Passa Sete, Região Geográfica Imediata de Sobradinho, Região Geográfica Intermediária de Santa Cruz "
+    },
+    {
+      "codigo_ibge": 87343,
+      "nome": "PASSO DO SOBRADO",
+      "uf": "RS",
+      "latitude": -29.7477243,
+      "longitude": -52.2734293,
+      "observacao": "Coordenada obtida: Passo do Sobrado, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária d"
+    },
+    {
+      "codigo_ibge": 87858,
+      "nome": "PASSO FUNDO",
+      "uf": "RS",
+      "latitude": -28.2550598,
+      "longitude": -52.3966606,
+      "observacao": "Coordenada obtida: Passo Fundo, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fun"
+    },
+    {
+      "codigo_ibge": 89346,
+      "nome": "PAULO BENTO",
+      "uf": "RS",
+      "latitude": -27.7034385,
+      "longitude": -52.4220174,
+      "observacao": "Coordenada obtida: Paulo Bento, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, "
+    },
+    {
+      "codigo_ibge": 85146,
+      "nome": "PAVERAMA",
+      "uf": "RS",
+      "latitude": -29.5521033,
+      "longitude": -51.7343769,
+      "observacao": "Coordenada obtida: Paverama, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do Su"
+    },
+    {
+      "codigo_ibge": 89567,
+      "nome": "PEDRAS ALTAS",
+      "uf": "RS",
+      "latitude": -31.7324042,
+      "longitude": -53.585424,
+      "observacao": "Coordenada obtida: Pedras Altas, Região Geográfica Imediata de Bagé, Região Geográfica Intermediária de Pelotas, Rio Gr"
+    },
+    {
+      "codigo_ibge": 87874,
+      "nome": "PEDRO OSÓRIO",
+      "uf": "RS",
+      "latitude": -31.861921,
+      "longitude": -52.8219388,
+      "observacao": "Coordenada obtida: Pedro Osório, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Rio"
+    },
+    {
+      "codigo_ibge": 87890,
+      "nome": "PEJUÇARA",
+      "uf": "RS",
+      "latitude": -28.4217646,
+      "longitude": -53.6554254,
+      "observacao": "Coordenada obtida: Pejuçara, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande do"
+    },
+    {
+      "codigo_ibge": 87912,
+      "nome": "PELOTAS",
+      "uf": "RS",
+      "latitude": -31.7699736,
+      "longitude": -52.3410161,
+      "observacao": "Coordenada obtida: Pelotas, Região Geográfica Imediata de Pelotas, Aglomeração Urbana do Sul, Região Geográfica Interme"
+    },
+    {
+      "codigo_ibge": 87360,
+      "nome": "PICADA CAFÉ",
+      "uf": "RS",
+      "latitude": -29.446421,
+      "longitude": -51.136725,
+      "observacao": "Coordenada obtida: Picada Café, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias "
+    },
+    {
+      "codigo_ibge": 85340,
+      "nome": "PINHAL",
+      "uf": "RS",
+      "latitude": -27.5114158,
+      "longitude": -53.2163814,
+      "observacao": "Coordenada obtida: Pinhal, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária de Passo"
+    },
+    {
+      "codigo_ibge": 89362,
+      "nome": "PINHAL DA SERRA",
+      "uf": "RS",
+      "latitude": -27.8743529,
+      "longitude": -51.1706149,
+      "observacao": "Coordenada obtida: Pinhal da Serra, Região Geográfica Imediata de Vacaria, Região Geográfica Intermediária de Caxias do"
+    },
+    {
+      "codigo_ibge": 87386,
+      "nome": "PINHAL GRANDE",
+      "uf": "RS",
+      "latitude": -29.3472446,
+      "longitude": -53.3343023,
+      "observacao": "Coordenada obtida: Pinhal Grande, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa M"
+    },
+    {
+      "codigo_ibge": 87408,
+      "nome": "PINHEIRINHO DO VALE",
+      "uf": "RS",
+      "latitude": -27.2111177,
+      "longitude": -53.6144253,
+      "observacao": "Coordenada obtida: Pinheirinho do Vale, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermedi"
+    },
+    {
+      "codigo_ibge": 87939,
+      "nome": "PINHEIRO MACHADO",
+      "uf": "RS",
+      "latitude": -31.5792646,
+      "longitude": -53.3822191,
+      "observacao": "Coordenada obtida: Pinheiro Machado, Região Geográfica Imediata de Bagé, Região Geográfica Intermediária de Pelotas, Ri"
+    },
+    {
+      "codigo_ibge": 89540,
+      "nome": "PINTO BANDEIRA",
+      "uf": "RS",
+      "latitude": -29.0977191,
+      "longitude": -51.4498258,
+      "observacao": "Coordenada obtida: Pinto Bandeira, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de Ca"
+    },
+    {
+      "codigo_ibge": 84778,
+      "nome": "PIRAPÓ",
+      "uf": "RS",
+      "latitude": -28.045428,
+      "longitude": -55.1987198,
+      "observacao": "Coordenada obtida: Pirapó, Região Geográfica Imediata de São Luiz Gonzaga, Região Geográfica Intermediária de Ijui, Rio"
+    },
+    {
+      "codigo_ibge": 87955,
+      "nome": "PIRATINI",
+      "uf": "RS",
+      "latitude": -31.448451,
+      "longitude": -53.1039931,
+      "observacao": "Coordenada obtida: Piratini, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Rio Gra"
+    },
+    {
+      "codigo_ibge": 87971,
+      "nome": "PLANALTO",
+      "uf": "RS",
+      "latitude": -27.3297033,
+      "longitude": -53.0575473,
+      "observacao": "Coordenada obtida: Planalto, Região Geográfica Imediata de Nonoai, Região Geográfica Intermediária de Passo Fundo, Rio "
+    },
+    {
+      "codigo_ibge": 87440,
+      "nome": "PONTE PRETA",
+      "uf": "RS",
+      "latitude": -27.6577598,
+      "longitude": -52.4895431,
+      "observacao": "Coordenada obtida: Ponte Preta, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, "
+    },
+    {
+      "codigo_ibge": 87424,
+      "nome": "PONTÃO",
+      "uf": "RS",
+      "latitude": -28.0599735,
+      "longitude": -52.6779378,
+      "observacao": "Coordenada obtida: Pontão, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fundo, R"
+    },
+    {
+      "codigo_ibge": 88013,
+      "nome": "PORTO ALEGRE",
+      "uf": "RS",
+      "latitude": -30.0324999,
+      "longitude": -51.2303767,
+      "observacao": "Coordenada obtida: Porto Alegre, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Regi"
+    },
+    {
+      "codigo_ibge": 88030,
+      "nome": "PORTO LUCENA",
+      "uf": "RS",
+      "latitude": -27.8532622,
+      "longitude": -55.0198385,
+      "observacao": "Coordenada obtida: Porto Lucena, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, Rio"
+    },
+    {
+      "codigo_ibge": 87467,
+      "nome": "PORTO MAUÁ",
+      "uf": "RS",
+      "latitude": -27.5740153,
+      "longitude": -54.6690808,
+      "observacao": "Coordenada obtida: Porto Mauá, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, Rio G"
+    },
+    {
+      "codigo_ibge": 87483,
+      "nome": "PORTO VERA CRUZ",
+      "uf": "RS",
+      "latitude": -27.7354566,
+      "longitude": -54.9009622,
+      "observacao": "Coordenada obtida: Porto Vera Cruz, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, "
+    },
+    {
+      "codigo_ibge": 88056,
+      "nome": "PORTO XAVIER",
+      "uf": "RS",
+      "latitude": -27.9061459,
+      "longitude": -55.1395757,
+      "observacao": "Coordenada obtida: Porto Xavier, Região Geográfica Imediata de Cerro Largo, Região Geográfica Intermediária de Ijui, Ri"
+    },
+    {
+      "codigo_ibge": 87998,
+      "nome": "PORTÃO",
+      "uf": "RS",
+      "latitude": -29.6932554,
+      "longitude": -51.2331837,
+      "observacao": "Coordenada obtida: Portão, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de Porto Al"
+    },
+    {
+      "codigo_ibge": 85421,
+      "nome": "POUSO NOVO",
+      "uf": "RS",
+      "latitude": -29.1695872,
+      "longitude": -52.2085122,
+      "observacao": "Coordenada obtida: Pouso Novo, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do "
+    },
+    {
+      "codigo_ibge": 86126,
+      "nome": "POÇO DAS ANTAS",
+      "uf": "RS",
+      "latitude": -29.4512516,
+      "longitude": -51.6690936,
+      "observacao": "Coordenada obtida: Poço das Antas, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz"
+    },
+    {
+      "codigo_ibge": 87505,
+      "nome": "PRESIDENTE LUCENA",
+      "uf": "RS",
+      "latitude": -29.517549,
+      "longitude": -51.179798,
+      "observacao": "Coordenada obtida: Presidente Lucena, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica Int"
+    },
+    {
+      "codigo_ibge": 84760,
+      "nome": "PROGRESSO",
+      "uf": "RS",
+      "latitude": -29.2419958,
+      "longitude": -52.3108869,
+      "observacao": "Coordenada obtida: Progresso, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do S"
+    },
+    {
+      "codigo_ibge": 85405,
+      "nome": "PROTÁSIO ALVES",
+      "uf": "RS",
+      "latitude": -28.7586297,
+      "longitude": -51.4741516,
+      "observacao": "Coordenada obtida: Protásio Alves, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária "
+    },
+    {
+      "codigo_ibge": 88072,
+      "nome": "PUTINGA",
+      "uf": "RS",
+      "latitude": -29.0017469,
+      "longitude": -52.1566367,
+      "observacao": "Coordenada obtida: Putinga, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa Cruz do S"
+    },
+    {
+      "codigo_ibge": 88099,
+      "nome": "QUARAÍ",
+      "uf": "RS",
+      "latitude": -30.3818093,
+      "longitude": -56.4526576,
+      "observacao": "Coordenada obtida: Quaraí, Região Geográfica Imediata de Santana do Livramento, Região Geográfica Intermediária de Urug"
+    },
+    {
+      "codigo_ibge": 89389,
+      "nome": "QUATRO IRMÃOS",
+      "uf": "RS",
+      "latitude": -27.8229301,
+      "longitude": -52.4427548,
+      "observacao": "Coordenada obtida: Quatro Irmãos, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo"
+    },
+    {
+      "codigo_ibge": 87521,
+      "nome": "QUEVEDOS",
+      "uf": "RS",
+      "latitude": -29.3529828,
+      "longitude": -54.0687208,
+      "observacao": "Coordenada obtida: Quevedos, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria,"
+    },
+    {
+      "codigo_ibge": 84875,
+      "nome": "QUINZE DE NOVEMBRO",
+      "uf": "RS",
+      "latitude": -28.742279,
+      "longitude": -53.0951692,
+      "observacao": "Coordenada obtida: Quinze de Novembro, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Pass"
+    },
+    {
+      "codigo_ibge": 88110,
+      "nome": "REDENTORA",
+      "uf": "RS",
+      "latitude": -27.6616073,
+      "longitude": -53.6421338,
+      "observacao": "Coordenada obtida: Redentora, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Rio G"
+    },
+    {
+      "codigo_ibge": 85766,
+      "nome": "RELVADO",
+      "uf": "RS",
+      "latitude": -29.1121081,
+      "longitude": -52.0713979,
+      "observacao": "Coordenada obtida: Relvado, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa Cruz do S"
+    },
+    {
+      "codigo_ibge": 88137,
+      "nome": "RESTINGA SÊCA",
+      "uf": "RS",
+      "latitude": -29.8145611,
+      "longitude": -53.3734546,
+      "observacao": "Coordenada obtida: Restinga Sêca, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa M"
+    },
+    {
+      "codigo_ibge": 87548,
+      "nome": "RIO DOS ÍNDIOS",
+      "uf": "RS",
+      "latitude": -27.3010535,
+      "longitude": -52.8406196,
+      "observacao": "Coordenada obtida: Rio dos Índios, Região Geográfica Imediata de Nonoai, Região Geográfica Intermediária de Passo Fundo"
+    },
+    {
+      "codigo_ibge": 88153,
+      "nome": "RIO GRANDE",
+      "uf": "RS",
+      "latitude": -32.0334252,
+      "longitude": -52.0991297,
+      "observacao": "Coordenada obtida: Rio Grande, Região Geográfica Imediata de Pelotas, Aglomeração Urbana do Sul, Região Geográfica Inte"
+    },
+    {
+      "codigo_ibge": 88170,
+      "nome": "RIO PARDO",
+      "uf": "RS",
+      "latitude": -29.9820554,
+      "longitude": -52.3702447,
+      "observacao": "Coordenada obtida: Rio Pardo, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária de Santa"
+    },
+    {
+      "codigo_ibge": 85740,
+      "nome": "RIOZINHO",
+      "uf": "RS",
+      "latitude": -29.6404582,
+      "longitude": -50.4596262,
+      "observacao": "Coordenada obtida: Riozinho, Região Geográfica Imediata de Taquara - Parobé - Igrejinha, Região Geográfica Intermediári"
+    },
+    {
+      "codigo_ibge": 88196,
+      "nome": "ROCA SALES",
+      "uf": "RS",
+      "latitude": -29.2872555,
+      "longitude": -51.8724318,
+      "observacao": "Coordenada obtida: Roca Sales, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa Cruz d"
+    },
+    {
+      "codigo_ibge": 88218,
+      "nome": "RODEIO BONITO",
+      "uf": "RS",
+      "latitude": -27.4725021,
+      "longitude": -53.1705906,
+      "observacao": "Coordenada obtida: Rodeio Bonito, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária d"
+    },
+    {
+      "codigo_ibge": 89400,
+      "nome": "ROLADOR",
+      "uf": "RS",
+      "latitude": -28.2558989,
+      "longitude": -54.8179212,
+      "observacao": "Coordenada obtida: Rolador, Região Geográfica Imediata de São Luiz Gonzaga, Região Geográfica Intermediária de Ijui, Ri"
+    },
+    {
+      "codigo_ibge": 88234,
+      "nome": "ROLANTE",
+      "uf": "RS",
+      "latitude": -29.6527945,
+      "longitude": -50.5769391,
+      "observacao": "Coordenada obtida: Rolante, Região Geográfica Imediata de Taquara - Parobé - Igrejinha, Região Metropolitana de Porto A"
+    },
+    {
+      "codigo_ibge": 88250,
+      "nome": "RONDA ALTA",
+      "uf": "RS",
+      "latitude": -27.782064,
+      "longitude": -52.8078036,
+      "observacao": "Coordenada obtida: Ronda Alta, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fund"
+    },
+    {
+      "codigo_ibge": 88277,
+      "nome": "RONDINHA",
+      "uf": "RS",
+      "latitude": -27.8295534,
+      "longitude": -52.9084074,
+      "observacao": "Coordenada obtida: Rondinha, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fundo, R"
+    },
+    {
+      "codigo_ibge": 88293,
+      "nome": "ROQUE GONZALES",
+      "uf": "RS",
+      "latitude": -28.1324578,
+      "longitude": -55.0263416,
+      "observacao": "Coordenada obtida: Roque Gonzales, Região Geográfica Imediata de Cerro Largo, Região Geográfica Intermediária de Ijui, "
+    },
+    {
+      "codigo_ibge": 88315,
+      "nome": "ROSÁRIO DO SUL",
+      "uf": "RS",
+      "latitude": -30.2527151,
+      "longitude": -54.9179382,
+      "observacao": "Coordenada obtida: Rosário do Sul, Região Geográfica Imediata de Santana do Livramento, Região Geográfica Intermediária"
+    },
+    {
+      "codigo_ibge": 87564,
+      "nome": "SAGRADA FAMÍLIA",
+      "uf": "RS",
+      "latitude": -27.7085454,
+      "longitude": -53.1364113,
+      "observacao": "Coordenada obtida: Sagrada Família, Região Geográfica Imediata de Palmeira das Missões, Região Geográfica Intermediária"
+    },
+    {
+      "codigo_ibge": 85561,
+      "nome": "SALDANHA MARINHO",
+      "uf": "RS",
+      "latitude": -28.3966396,
+      "longitude": -53.0952929,
+      "observacao": "Coordenada obtida: Saldanha Marinho, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo "
+    },
+    {
+      "codigo_ibge": 89753,
+      "nome": "SALTO DO JACUÍ",
+      "uf": "RS",
+      "latitude": -29.0899771,
+      "longitude": -53.2111244,
+      "observacao": "Coordenada obtida: Salto do Jacuí, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Passo Fu"
+    },
+    {
+      "codigo_ibge": 87580,
+      "nome": "SALVADOR DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -28.1232686,
+      "longitude": -54.8354107,
+      "observacao": "Coordenada obtida: Salvador das Missões, Região Geográfica Imediata de Cerro Largo, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 88331,
+      "nome": "SALVADOR DO SUL",
+      "uf": "RS",
+      "latitude": -29.4395698,
+      "longitude": -51.5103295,
+      "observacao": "Coordenada obtida: Salvador do Sul, Região Geográfica Imediata de Montenegro, Região Geográfica Intermediária de Porto "
+    },
+    {
+      "codigo_ibge": 88358,
+      "nome": "SANANDUVA",
+      "uf": "RS",
+      "latitude": -27.9499376,
+      "longitude": -51.8074435,
+      "observacao": "Coordenada obtida: Sananduva, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Intermediária de Pa"
+    },
+    {
+      "codigo_ibge": 88455,
+      "nome": "SANT ANA DO LIVRAMENTO",
+      "uf": "RS",
+      "latitude": -30.8894097,
+      "longitude": -55.5317694,
+      "observacao": "Coordenada obtida: Sant'Ana do Livramento, Região Geográfica Imediata de Santana do Livramento, Região Geográfica Inter"
+    },
+    {
+      "codigo_ibge": 88374,
+      "nome": "SANTA BÁRBARA DO SUL",
+      "uf": "RS",
+      "latitude": -28.3654722,
+      "longitude": -53.2510995,
+      "observacao": "Coordenada obtida: Santa Bárbara do Sul, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Pa"
+    },
+    {
+      "codigo_ibge": 89247,
+      "nome": "SANTA CECÍLIA DO SUL",
+      "uf": "RS",
+      "latitude": -28.1625105,
+      "longitude": -51.9297926,
+      "observacao": "Coordenada obtida: Santa Cecília do Sul, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Intermed"
+    },
+    {
+      "codigo_ibge": 87602,
+      "nome": "SANTA CLARA DO SUL",
+      "uf": "RS",
+      "latitude": -29.4686024,
+      "longitude": -52.0868635,
+      "observacao": "Coordenada obtida: Santa Clara do Sul, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa "
+    },
+    {
+      "codigo_ibge": 88390,
+      "nome": "SANTA CRUZ DO SUL",
+      "uf": "RS",
+      "latitude": -29.714209,
+      "longitude": -52.4285807,
+      "observacao": "Coordenada obtida: Santa Cruz do Sul, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária "
+    },
+    {
+      "codigo_ibge": 89443,
+      "nome": "SANTA MARGARIDA DO SUL",
+      "uf": "RS",
+      "latitude": -30.339117,
+      "longitude": -54.0856735,
+      "observacao": "Coordenada obtida: Santa Margarida do Sul, Região Geográfica Imediata de São Gabriel - Caçapava do Sul, Região Geográfi"
+    },
+    {
+      "codigo_ibge": 88412,
+      "nome": "SANTA MARIA",
+      "uf": "RS",
+      "latitude": -29.6860512,
+      "longitude": -53.8069214,
+      "observacao": "Coordenada obtida: Santa Maria, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Mar"
+    },
+    {
+      "codigo_ibge": 86207,
+      "nome": "SANTA MARIA DO HERVAL",
+      "uf": "RS",
+      "latitude": -29.4977269,
+      "longitude": -50.9919419,
+      "observacao": "Coordenada obtida: Santa Maria do Herval, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica"
+    },
+    {
+      "codigo_ibge": 88471,
+      "nome": "SANTA ROSA",
+      "uf": "RS",
+      "latitude": -27.8643546,
+      "longitude": -54.4779287,
+      "observacao": "Coordenada obtida: Santa Rosa, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, Rio G"
+    },
+    {
+      "codigo_ibge": 87629,
+      "nome": "SANTA TEREZA",
+      "uf": "RS",
+      "latitude": -29.1697808,
+      "longitude": -51.7363155,
+      "observacao": "Coordenada obtida: Santa Tereza, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de Caxi"
+    },
+    {
+      "codigo_ibge": 88498,
+      "nome": "SANTA VITÓRIA DO PALMAR",
+      "uf": "RS",
+      "latitude": -33.5198333,
+      "longitude": -53.3693967,
+      "observacao": "Coordenada obtida: Santa Vitória do Palmar, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de P"
+    },
+    {
+      "codigo_ibge": 88439,
+      "nome": "SANTANA DA BOA VISTA",
+      "uf": "RS",
+      "latitude": -30.8736867,
+      "longitude": -53.1148304,
+      "observacao": "Coordenada obtida: Santana da Boa Vista, Região Geográfica Imediata de São Gabriel - Caçapava do Sul, Região Geográfica"
+    },
+    {
+      "codigo_ibge": 88510,
+      "nome": "SANTIAGO",
+      "uf": "RS",
+      "latitude": -29.189675,
+      "longitude": -54.866624,
+      "observacao": "Coordenada obtida: Santiago, Região Geográfica Imediata de Santiago, Região Geográfica Intermediária de Santa Maria, Ri"
+    },
+    {
+      "codigo_ibge": 88552,
+      "nome": "SANTO ANTÔNIO DA PATRULHA",
+      "uf": "RS",
+      "latitude": -29.826768,
+      "longitude": -50.517489,
+      "observacao": "Coordenada obtida: Santo Antônio da Patrulha, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto"
+    },
+    {
+      "codigo_ibge": 88579,
+      "nome": "SANTO ANTÔNIO DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -28.5117897,
+      "longitude": -55.2290047,
+      "observacao": "Coordenada obtida: Santo Antônio das Missões, Região Geográfica Imediata de São Luiz Gonzaga, Região Geográfica Interme"
+    },
+    {
+      "codigo_ibge": 87645,
+      "nome": "SANTO ANTÔNIO DO PALMA",
+      "uf": "RS",
+      "latitude": -28.4946558,
+      "longitude": -52.0254769,
+      "observacao": "Coordenada obtida: Santo Antônio do Palma, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Pass"
+    },
+    {
+      "codigo_ibge": 87661,
+      "nome": "SANTO ANTÔNIO DO PLANALTO",
+      "uf": "RS",
+      "latitude": -28.3991804,
+      "longitude": -52.6910319,
+      "observacao": "Coordenada obtida: Santo Antônio do Planalto, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária "
+    },
+    {
+      "codigo_ibge": 88595,
+      "nome": "SANTO AUGUSTO",
+      "uf": "RS",
+      "latitude": -27.852577,
+      "longitude": -53.777605,
+      "observacao": "Coordenada obtida: Santo Augusto, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Gran"
+    },
+    {
+      "codigo_ibge": 88617,
+      "nome": "SANTO CRISTO",
+      "uf": "RS",
+      "latitude": -27.826259,
+      "longitude": -54.661963,
+      "observacao": "Coordenada obtida: Santo Cristo, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, Rio"
+    },
+    {
+      "codigo_ibge": 87688,
+      "nome": "SANTO EXPEDITO DO SUL",
+      "uf": "RS",
+      "latitude": -27.9098613,
+      "longitude": -51.6433072,
+      "observacao": "Coordenada obtida: Santo Expedito do Sul, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Interme"
+    },
+    {
+      "codigo_ibge": 88536,
+      "nome": "SANTO ÂNGELO",
+      "uf": "RS",
+      "latitude": -28.3000481,
+      "longitude": -54.2669971,
+      "observacao": "Coordenada obtida: Santo Ângelo, Região Geográfica Imediata de Santo Ângelo, Região Geográfica Intermediária de Ijui, R"
+    },
+    {
+      "codigo_ibge": 88994,
+      "nome": "SAPIRANGA",
+      "uf": "RS",
+      "latitude": -29.6392382,
+      "longitude": -51.0068586,
+      "observacao": "Coordenada obtida: Sapiranga, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de Porto"
+    },
+    {
+      "codigo_ibge": 89010,
+      "nome": "SAPUCAIA DO SUL",
+      "uf": "RS",
+      "latitude": -29.8197019,
+      "longitude": -51.1608722,
+      "observacao": "Coordenada obtida: Sapucaia do Sul, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, R"
+    },
+    {
+      "codigo_ibge": 89036,
+      "nome": "SARANDI",
+      "uf": "RS",
+      "latitude": -27.9310978,
+      "longitude": -52.8630798,
+      "observacao": "Coordenada obtida: Sarandi, Região Geográfica Imediata de Carazinho, Região Geográfica Intermediária de Passo Fundo, Ri"
+    },
+    {
+      "codigo_ibge": 89052,
+      "nome": "SEBERI",
+      "uf": "RS",
+      "latitude": -27.4828134,
+      "longitude": -53.4013251,
+      "observacao": "Coordenada obtida: Seberi, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária de Passo"
+    },
+    {
+      "codigo_ibge": 85707,
+      "nome": "SEDE NOVA",
+      "uf": "RS",
+      "latitude": -27.636739,
+      "longitude": -53.94929,
+      "observacao": "Coordenada obtida: Sede Nova, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Rio G"
+    },
+    {
+      "codigo_ibge": 85529,
+      "nome": "SEGREDO",
+      "uf": "RS",
+      "latitude": -29.3431272,
+      "longitude": -52.9793788,
+      "observacao": "Coordenada obtida: Segredo, Região Geográfica Imediata de Sobradinho, Região Geográfica Intermediária de Santa Cruz do "
+    },
+    {
+      "codigo_ibge": 89079,
+      "nome": "SELBACH",
+      "uf": "RS",
+      "latitude": -28.6299869,
+      "longitude": -52.9530657,
+      "observacao": "Coordenada obtida: Selbach, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Passo Fundo, Ri"
+    },
+    {
+      "codigo_ibge": 88765,
+      "nome": "SENADOR SALGADO FILHO",
+      "uf": "RS",
+      "latitude": -28.0270233,
+      "longitude": -54.5435136,
+      "observacao": "Coordenada obtida: Senador Salgado Filho, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 87882,
+      "nome": "SENTINELA DO SUL",
+      "uf": "RS",
+      "latitude": -30.6118857,
+      "longitude": -51.5817117,
+      "observacao": "Coordenada obtida: Sentinela do Sul, Região Geográfica Imediata de Camaquã, Região Geográfica Intermediária de Porto Al"
+    },
+    {
+      "codigo_ibge": 89095,
+      "nome": "SERAFINA CORRÊA",
+      "uf": "RS",
+      "latitude": -28.7120266,
+      "longitude": -51.9343269,
+      "observacao": "Coordenada obtida: Serafina Corrêa, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária"
+    },
+    {
+      "codigo_ibge": 89117,
+      "nome": "SERTÃO",
+      "uf": "RS",
+      "latitude": -27.9853815,
+      "longitude": -52.257587,
+      "observacao": "Coordenada obtida: Sertão, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fundo, R"
+    },
+    {
+      "codigo_ibge": 87920,
+      "nome": "SERTÃO SANTANA",
+      "uf": "RS",
+      "latitude": -30.4617134,
+      "longitude": -51.6041992,
+      "observacao": "Coordenada obtida: Sertão Santana, Região Geográfica Imediata de Porto Alegre, Região Geográfica Intermediária de Porto"
+    },
+    {
+      "codigo_ibge": 88706,
+      "nome": "SETE DE SETEMBRO",
+      "uf": "RS",
+      "latitude": -28.1297132,
+      "longitude": -54.462746,
+      "observacao": "Coordenada obtida: Sete de Setembro, Região Geográfica Imediata de Santo Ângelo, Região Geográfica Intermediária de Iju"
+    },
+    {
+      "codigo_ibge": 89133,
+      "nome": "SEVERIANO DE ALMEIDA",
+      "uf": "RS",
+      "latitude": -27.4332178,
+      "longitude": -52.1155068,
+      "observacao": "Coordenada obtida: Severiano de Almeida, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Pass"
+    },
+    {
+      "codigo_ibge": 84956,
+      "nome": "SILVEIRA MARTINS",
+      "uf": "RS",
+      "latitude": -29.64318,
+      "longitude": -53.5865469,
+      "observacao": "Coordenada obtida: Silveira Martins, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Sant"
+    },
+    {
+      "codigo_ibge": 87947,
+      "nome": "SINIMBU",
+      "uf": "RS",
+      "latitude": -29.5346879,
+      "longitude": -52.5199906,
+      "observacao": "Coordenada obtida: Sinimbu, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária de Santa C"
+    },
+    {
+      "codigo_ibge": 89176,
+      "nome": "SOBRADINHO",
+      "uf": "RS",
+      "latitude": -29.4131826,
+      "longitude": -53.0256794,
+      "observacao": "Coordenada obtida: Sobradinho, Região Geográfica Imediata de Sobradinho, Região Geográfica Intermediária de Santa Cruz "
+    },
+    {
+      "codigo_ibge": 89192,
+      "nome": "SOLEDADE",
+      "uf": "RS",
+      "latitude": -28.8272467,
+      "longitude": -52.5109157,
+      "observacao": "Coordenada obtida: Soledade, Região Geográfica Imediata de Soledade, Região Geográfica Intermediária de Passo Fundo, Ri"
+    },
+    {
+      "codigo_ibge": 88633,
+      "nome": "SÃO BORJA",
+      "uf": "RS",
+      "latitude": -28.6592237,
+      "longitude": -56.0044295,
+      "observacao": "Coordenada obtida: São Borja, Região Geográfica Imediata de São Borja, Região Geográfica Intermediária de Uruguaiana, R"
+    },
+    {
+      "codigo_ibge": 84832,
+      "nome": "SÃO DOMINGOS DO SUL",
+      "uf": "RS",
+      "latitude": -28.5297239,
+      "longitude": -51.8905306,
+      "observacao": "Coordenada obtida: São Domingos do Sul, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo F"
+    },
+    {
+      "codigo_ibge": 88650,
+      "nome": "SÃO FRANCISCO DE ASSIS",
+      "uf": "RS",
+      "latitude": -29.559214,
+      "longitude": -55.1209843,
+      "observacao": "Coordenada obtida: São Francisco de Assis, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária d"
+    },
+    {
+      "codigo_ibge": 88676,
+      "nome": "SÃO FRANCISCO DE PAULA",
+      "uf": "RS",
+      "latitude": -29.448454,
+      "longitude": -50.5833027,
+      "observacao": "Coordenada obtida: São Francisco de Paula, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária"
+    },
+    {
+      "codigo_ibge": 88692,
+      "nome": "SÃO GABRIEL",
+      "uf": "RS",
+      "latitude": -30.334214,
+      "longitude": -54.3227149,
+      "observacao": "Coordenada obtida: São Gabriel, Região Geográfica Imediata de São Gabriel - Caçapava do Sul, Região Geográfica Intermed"
+    },
+    {
+      "codigo_ibge": 88714,
+      "nome": "SÃO JERÔNIMO",
+      "uf": "RS",
+      "latitude": -29.959642,
+      "longitude": -51.7238192,
+      "observacao": "Coordenada obtida: São Jerônimo, Região Geográfica Imediata de Charqueadas - Triunfo - São Jerônimo, Região Metropolita"
+    },
+    {
+      "codigo_ibge": 84794,
+      "nome": "SÃO JORGE",
+      "uf": "RS",
+      "latitude": -28.5006499,
+      "longitude": -51.7050503,
+      "observacao": "Coordenada obtida: São Jorge, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária de Ca"
+    },
+    {
+      "codigo_ibge": 87769,
+      "nome": "SÃO JOSÉ DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -27.7783652,
+      "longitude": -53.1185847,
+      "observacao": "Coordenada obtida: São José das Missões, Região Geográfica Imediata de Palmeira das Missões, Região Geográfica Intermed"
+    },
+    {
+      "codigo_ibge": 85588,
+      "nome": "SÃO JOSÉ DO HERVAL",
+      "uf": "RS",
+      "latitude": -29.0448214,
+      "longitude": -52.2948783,
+      "observacao": "Coordenada obtida: São José do Herval, Região Geográfica Imediata de Soledade, Região Geográfica Intermediária de Passo"
+    },
+    {
+      "codigo_ibge": 85324,
+      "nome": "SÃO JOSÉ DO HORTÊNCIO",
+      "uf": "RS",
+      "latitude": -29.5305383,
+      "longitude": -51.2503032,
+      "observacao": "Coordenada obtida: São José do Hortêncio, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica"
+    },
+    {
+      "codigo_ibge": 87742,
+      "nome": "SÃO JOSÉ DO INHACORÁ",
+      "uf": "RS",
+      "latitude": -27.725055,
+      "longitude": -54.127462,
+      "observacao": "Coordenada obtida: São José do Inhacorá, Região Geográfica Imediata de Três de Maio, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 88730,
+      "nome": "SÃO JOSÉ DO NORTE",
+      "uf": "RS",
+      "latitude": -32.0145182,
+      "longitude": -52.0406082,
+      "observacao": "Coordenada obtida: São José do Norte, Região Geográfica Imediata de Pelotas, Aglomeração Urbana do Sul, Região Geográfi"
+    },
+    {
+      "codigo_ibge": 88757,
+      "nome": "SÃO JOSÉ DO OURO",
+      "uf": "RS",
+      "latitude": -27.7736185,
+      "longitude": -51.5947672,
+      "observacao": "Coordenada obtida: São José do Ouro, Região Geográfica Imediata de Lagoa Vermelha, Região Geográfica Intermediária de P"
+    },
+    {
+      "codigo_ibge": 89460,
+      "nome": "SÃO JOSÉ DO SUL",
+      "uf": "RS",
+      "latitude": -29.537476,
+      "longitude": -51.4828905,
+      "observacao": "Coordenada obtida: São José do Sul, Região Geográfica Imediata de Montenegro, Região Geográfica Intermediária de Porto "
+    },
+    {
+      "codigo_ibge": 87726,
+      "nome": "SÃO JOSÉ DOS AUSENTES",
+      "uf": "RS",
+      "latitude": -28.747731,
+      "longitude": -50.0645582,
+      "observacao": "Coordenada obtida: São José dos Ausentes, Região Geográfica Imediata de Vacaria, Região Geográfica Intermediária de Cax"
+    },
+    {
+      "codigo_ibge": 84859,
+      "nome": "SÃO JOÃO DA URTIGA",
+      "uf": "RS",
+      "latitude": -27.8162722,
+      "longitude": -51.8297741,
+      "observacao": "Coordenada obtida: São João da Urtiga, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Intermediá"
+    },
+    {
+      "codigo_ibge": 87700,
+      "nome": "SÃO JOÃO DO POLÊSINE",
+      "uf": "RS",
+      "latitude": -29.6156424,
+      "longitude": -53.4455412,
+      "observacao": "Coordenada obtida: São João do Polêsine, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 88773,
+      "nome": "SÃO LEOPOLDO",
+      "uf": "RS",
+      "latitude": -29.7544405,
+      "longitude": -51.1516497,
+      "observacao": "Coordenada obtida: São Leopoldo, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Metropolitana de Po"
+    },
+    {
+      "codigo_ibge": 88790,
+      "nome": "SÃO LOURENÇO DO SUL",
+      "uf": "RS",
+      "latitude": -31.3669286,
+      "longitude": -51.9814839,
+      "observacao": "Coordenada obtida: São Lourenço do Sul, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelot"
+    },
+    {
+      "codigo_ibge": 88811,
+      "nome": "SÃO LUIZ GONZAGA",
+      "uf": "RS",
+      "latitude": -28.4074546,
+      "longitude": -54.9609081,
+      "observacao": "Coordenada obtida: São Luiz Gonzaga, Região Geográfica Imediata de São Luiz Gonzaga, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 88838,
+      "nome": "SÃO MARCOS",
+      "uf": "RS",
+      "latitude": -28.9706799,
+      "longitude": -51.0687665,
+      "observacao": "Coordenada obtida: São Marcos, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias d"
+    },
+    {
+      "codigo_ibge": 88854,
+      "nome": "SÃO MARTINHO",
+      "uf": "RS",
+      "latitude": -27.7079086,
+      "longitude": -53.9623041,
+      "observacao": "Coordenada obtida: São Martinho, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Ri"
+    },
+    {
+      "codigo_ibge": 87785,
+      "nome": "SÃO MARTINHO DA SERRA",
+      "uf": "RS",
+      "latitude": -29.5380766,
+      "longitude": -53.8544925,
+      "observacao": "Coordenada obtida: São Martinho da Serra, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 85480,
+      "nome": "SÃO MIGUEL DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -28.5451471,
+      "longitude": -54.5469209,
+      "observacao": "Coordenada obtida: São Miguel das Missões, Região Geográfica Imediata de Santo Ângelo, Região Geográfica Intermediária "
+    },
+    {
+      "codigo_ibge": 88870,
+      "nome": "SÃO NICOLAU",
+      "uf": "RS",
+      "latitude": -28.1857386,
+      "longitude": -55.2615035,
+      "observacao": "Coordenada obtida: São Nicolau, Região Geográfica Imediata de São Luiz Gonzaga, Região Geográfica Intermediária de Ijui"
+    },
+    {
+      "codigo_ibge": 88897,
+      "nome": "SÃO PAULO DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -28.0225895,
+      "longitude": -54.936466,
+      "observacao": "Coordenada obtida: São Paulo das Missões, Região Geográfica Imediata de Cerro Largo, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 87807,
+      "nome": "SÃO PEDRO DA SERRA",
+      "uf": "RS",
+      "latitude": -29.4195585,
+      "longitude": -51.5142114,
+      "observacao": "Coordenada obtida: São Pedro da Serra, Região Geográfica Imediata de Montenegro, Região Geográfica Intermediária de Por"
+    },
+    {
+      "codigo_ibge": 89486,
+      "nome": "SÃO PEDRO DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -27.7729041,
+      "longitude": -53.2478857,
+      "observacao": "Coordenada obtida: São Pedro das Missões, Região Geográfica Imediata de Palmeira das Missões, Região Geográfica Interme"
+    },
+    {
+      "codigo_ibge": 87823,
+      "nome": "SÃO PEDRO DO BUTIÁ",
+      "uf": "RS",
+      "latitude": -28.1241467,
+      "longitude": -54.8914661,
+      "observacao": "Coordenada obtida: São Pedro do Butiá, Região Geográfica Imediata de Cerro Largo, Região Geográfica Intermediária de Ij"
+    },
+    {
+      "codigo_ibge": 88919,
+      "nome": "SÃO PEDRO DO SUL",
+      "uf": "RS",
+      "latitude": -29.6152729,
+      "longitude": -54.1790311,
+      "observacao": "Coordenada obtida: São Pedro do Sul, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Sant"
+    },
+    {
+      "codigo_ibge": 88935,
+      "nome": "SÃO SEBASTIÃO DO CAÍ",
+      "uf": "RS",
+      "latitude": -29.5911777,
+      "longitude": -51.3778772,
+      "observacao": "Coordenada obtida: São Sebastião do Caí, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica "
+    },
+    {
+      "codigo_ibge": 88951,
+      "nome": "SÃO SEPÉ",
+      "uf": "RS",
+      "latitude": -30.167219,
+      "longitude": -53.5690914,
+      "observacao": "Coordenada obtida: São Sepé, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria,"
+    },
+    {
+      "codigo_ibge": 88978,
+      "nome": "SÃO VALENTIM",
+      "uf": "RS",
+      "latitude": -27.5588628,
+      "longitude": -52.5241756,
+      "observacao": "Coordenada obtida: São Valentim, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 87840,
+      "nome": "SÃO VALENTIM DO SUL",
+      "uf": "RS",
+      "latitude": -29.0503352,
+      "longitude": -51.7675031,
+      "observacao": "Coordenada obtida: São Valentim do Sul, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária "
+    },
+    {
+      "codigo_ibge": 87866,
+      "nome": "SÃO VALÉRIO DO SUL",
+      "uf": "RS",
+      "latitude": -27.7881823,
+      "longitude": -53.9348211,
+      "observacao": "Coordenada obtida: São Valério do Sul, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio"
+    },
+    {
+      "codigo_ibge": 85383,
+      "nome": "SÃO VENDELINO",
+      "uf": "RS",
+      "latitude": -29.3684935,
+      "longitude": -51.3790426,
+      "observacao": "Coordenada obtida: São Vendelino, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica Interme"
+    },
+    {
+      "codigo_ibge": 86754,
+      "nome": "SÃO VICENTE DO SUL",
+      "uf": "RS",
+      "latitude": -29.688161,
+      "longitude": -54.682643,
+      "observacao": "Coordenada obtida: São Vicente do Sul, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Sa"
+    },
+    {
+      "codigo_ibge": 87904,
+      "nome": "SÉRIO",
+      "uf": "RS",
+      "latitude": -29.3844988,
+      "longitude": -52.2685744,
+      "observacao": "Coordenada obtida: Sério, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do Sul -"
+    },
+    {
+      "codigo_ibge": 88722,
+      "nome": "TABAÍ",
+      "uf": "RS",
+      "latitude": -29.6877843,
+      "longitude": -51.7180847,
+      "observacao": "Coordenada obtida: Tabaí, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do Sul -"
+    },
+    {
+      "codigo_ibge": 89214,
+      "nome": "TAPEJARA",
+      "uf": "RS",
+      "latitude": -28.069233,
+      "longitude": -52.0117161,
+      "observacao": "Coordenada obtida: Tapejara, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Intermediária de Pas"
+    },
+    {
+      "codigo_ibge": 89230,
+      "nome": "TAPERA",
+      "uf": "RS",
+      "latitude": -28.6262957,
+      "longitude": -52.8680873,
+      "observacao": "Coordenada obtida: Tapera, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fundo, R"
+    },
+    {
+      "codigo_ibge": 89257,
+      "nome": "TAPES",
+      "uf": "RS",
+      "latitude": -30.6747721,
+      "longitude": -51.3986199,
+      "observacao": "Coordenada obtida: Tapes, Região Geográfica Imediata de Camaquã, Região Geográfica Intermediária de Porto Alegre, Rio G"
+    },
+    {
+      "codigo_ibge": 89273,
+      "nome": "TAQUARA",
+      "uf": "RS",
+      "latitude": -29.6452036,
+      "longitude": -50.7832169,
+      "observacao": "Coordenada obtida: Taquara, Região Geográfica Imediata de Taquara - Parobé - Igrejinha, Região Metropolitana de Porto A"
+    },
+    {
+      "codigo_ibge": 89290,
+      "nome": "TAQUARI",
+      "uf": "RS",
+      "latitude": -29.7942136,
+      "longitude": -51.8647988,
+      "observacao": "Coordenada obtida: Taquari, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do Sul"
+    },
+    {
+      "codigo_ibge": 85669,
+      "nome": "TAQUARUÇU DO SUL",
+      "uf": "RS",
+      "latitude": -27.4003987,
+      "longitude": -53.4684102,
+      "observacao": "Coordenada obtida: Taquaruçu do Sul, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediári"
+    },
+    {
+      "codigo_ibge": 89710,
+      "nome": "TAVARES",
+      "uf": "RS",
+      "latitude": -31.287471,
+      "longitude": -51.0897986,
+      "observacao": "Coordenada obtida: Tavares, Região Geográfica Imediata de Porto Alegre, Região Geográfica Intermediária de Porto Alegre"
+    },
+    {
+      "codigo_ibge": 89311,
+      "nome": "TENENTE PORTELA",
+      "uf": "RS",
+      "latitude": -27.371058,
+      "longitude": -53.758484,
+      "observacao": "Coordenada obtida: Tenente Portela, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui,"
+    },
+    {
+      "codigo_ibge": 85162,
+      "nome": "TERRA DE AREIA",
+      "uf": "RS",
+      "latitude": -29.5789455,
+      "longitude": -50.06336,
+      "observacao": "Coordenada obtida: Terra de Areia, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral Nort"
+    },
+    {
+      "codigo_ibge": 98213,
+      "nome": "TEUTÔNIA",
+      "uf": "RS",
+      "latitude": -29.4816568,
+      "longitude": -51.813752,
+      "observacao": "Coordenada obtida: Teutônia, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do Su"
+    },
+    {
+      "codigo_ibge": 89508,
+      "nome": "TIO HUGO",
+      "uf": "RS",
+      "latitude": -28.5768433,
+      "longitude": -52.5969066,
+      "observacao": "Coordenada obtida: Tio Hugo, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 87963,
+      "nome": "TIRADENTES DO SUL",
+      "uf": "RS",
+      "latitude": -27.3973624,
+      "longitude": -54.0853785,
+      "observacao": "Coordenada obtida: Tiradentes do Sul, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Iju"
+    },
+    {
+      "codigo_ibge": 88900,
+      "nome": "TOROPI",
+      "uf": "RS",
+      "latitude": -29.478246,
+      "longitude": -54.224398,
+      "observacao": "Coordenada obtida: Toropi, Região Geográfica Imediata de Santa Maria, Região Geográfica Intermediária de Santa Maria, R"
+    },
+    {
+      "codigo_ibge": 89338,
+      "nome": "TORRES",
+      "uf": "RS",
+      "latitude": -29.3373663,
+      "longitude": -49.7299648,
+      "observacao": "Coordenada obtida: Torres, Região Geográfica Imediata de Torres, Aglomeração Urbana do Litoral Norte, Região Geográfica"
+    },
+    {
+      "codigo_ibge": 89354,
+      "nome": "TRAMANDAÍ",
+      "uf": "RS",
+      "latitude": -29.9855339,
+      "longitude": -50.1316076,
+      "observacao": "Coordenada obtida: Tramandaí, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral Norte, Re"
+    },
+    {
+      "codigo_ibge": 87980,
+      "nome": "TRAVESSEIRO",
+      "uf": "RS",
+      "latitude": -29.2977561,
+      "longitude": -52.0562096,
+      "observacao": "Coordenada obtida: Travesseiro, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do"
+    },
+    {
+      "codigo_ibge": 85006,
+      "nome": "TRINDADE DO SUL",
+      "uf": "RS",
+      "latitude": -27.5218951,
+      "longitude": -52.8986017,
+      "observacao": "Coordenada obtida: Trindade do Sul, Região Geográfica Imediata de Nonoai, Região Geográfica Intermediária de Passo Fund"
+    },
+    {
+      "codigo_ibge": 89435,
+      "nome": "TRIUNFO",
+      "uf": "RS",
+      "latitude": -29.9407972,
+      "longitude": -51.7191859,
+      "observacao": "Coordenada obtida: Triunfo, Região Geográfica Imediata de Charqueadas - Triunfo - São Jerônimo, Região Metropolitana de"
+    },
+    {
+      "codigo_ibge": 84743,
+      "nome": "TRÊS ARROIOS",
+      "uf": "RS",
+      "latitude": -27.4995057,
+      "longitude": -52.149354,
+      "observacao": "Coordenada obtida: Três Arroios, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo,"
+    },
+    {
+      "codigo_ibge": 85367,
+      "nome": "TRÊS CACHOEIRAS",
+      "uf": "RS",
+      "latitude": -29.4521243,
+      "longitude": -49.9190608,
+      "observacao": "Coordenada obtida: Três Cachoeiras, Região Geográfica Imediata de Torres, Aglomeração Urbana do Litoral Norte, Região G"
+    },
+    {
+      "codigo_ibge": 89370,
+      "nome": "TRÊS COROAS",
+      "uf": "RS",
+      "latitude": -29.5155023,
+      "longitude": -50.7770635,
+      "observacao": "Coordenada obtida: Três Coroas, Região Geográfica Imediata de Taquara - Parobé - Igrejinha, Região Geográfica Intermedi"
+    },
+    {
+      "codigo_ibge": 89397,
+      "nome": "TRÊS DE MAIO",
+      "uf": "RS",
+      "latitude": -27.7799415,
+      "longitude": -54.2356626,
+      "observacao": "Coordenada obtida: Três de Maio, Região Geográfica Imediata de Três de Maio, Região Geográfica Intermediária de Ijui, R"
+    },
+    {
+      "codigo_ibge": 88005,
+      "nome": "TRÊS FORQUILHAS",
+      "uf": "RS",
+      "latitude": -29.5375482,
+      "longitude": -50.0650535,
+      "observacao": "Coordenada obtida: Três Forquilhas, Região Geográfica Imediata de Torres, Aglomeração Urbana do Litoral Norte, Região G"
+    },
+    {
+      "codigo_ibge": 86142,
+      "nome": "TRÊS PALMEIRAS",
+      "uf": "RS",
+      "latitude": -27.6166217,
+      "longitude": -52.8412626,
+      "observacao": "Coordenada obtida: Três Palmeiras, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo "
+    },
+    {
+      "codigo_ibge": 89419,
+      "nome": "TRÊS PASSOS",
+      "uf": "RS",
+      "latitude": -27.4556106,
+      "longitude": -53.9294399,
+      "observacao": "Coordenada obtida: Três Passos, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Rio"
+    },
+    {
+      "codigo_ibge": 89451,
+      "nome": "TUCUNDUVA",
+      "uf": "RS",
+      "latitude": -27.6581837,
+      "longitude": -54.4416605,
+      "observacao": "Coordenada obtida: Tucunduva, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, Rio Gr"
+    },
+    {
+      "codigo_ibge": 84840,
+      "nome": "TUNAS",
+      "uf": "RS",
+      "latitude": -29.1053032,
+      "longitude": -52.9569329,
+      "observacao": "Coordenada obtida: Tunas, Região Geográfica Imediata de Sobradinho, Região Geográfica Intermediária de Santa Cruz do Su"
+    },
+    {
+      "codigo_ibge": 88021,
+      "nome": "TUPANCI DO SUL",
+      "uf": "RS",
+      "latitude": -27.9239665,
+      "longitude": -51.5377991,
+      "observacao": "Coordenada obtida: Tupanci do Sul, Região Geográfica Imediata de Lagoa Vermelha, Região Geográfica Intermediária de Pas"
+    },
+    {
+      "codigo_ibge": 89478,
+      "nome": "TUPANCIRETÃ",
+      "uf": "RS",
+      "latitude": -29.0798756,
+      "longitude": -53.8386668,
+      "observacao": "Coordenada obtida: Tupanciretã, Região Geográfica Imediata de Cruz Alta, Região Geográfica Intermediária de Passo Fundo"
+    },
+    {
+      "codigo_ibge": 85723,
+      "nome": "TUPANDI",
+      "uf": "RS",
+      "latitude": -29.4779269,
+      "longitude": -51.4209232,
+      "observacao": "Coordenada obtida: Tupandi, Região Geográfica Imediata de Novo Hamburgo - São Leopoldo, Região Geográfica Intermediária"
+    },
+    {
+      "codigo_ibge": 89494,
+      "nome": "TUPARENDI",
+      "uf": "RS",
+      "latitude": -27.7622992,
+      "longitude": -54.4829323,
+      "observacao": "Coordenada obtida: Tuparendi, Região Geográfica Imediata de Santa Rosa, Região Geográfica Intermediária de Ijui, Rio Gr"
+    },
+    {
+      "codigo_ibge": 88501,
+      "nome": "TURUÇU",
+      "uf": "RS",
+      "latitude": -31.4191603,
+      "longitude": -52.1765159,
+      "observacao": "Coordenada obtida: Turuçu, Região Geográfica Imediata de Pelotas, Região Geográfica Intermediária de Pelotas, Rio Grand"
+    },
+    {
+      "codigo_ibge": 88609,
+      "nome": "UBIRETAMA",
+      "uf": "RS",
+      "latitude": -28.0455687,
+      "longitude": -54.68158,
+      "observacao": "Coordenada obtida: Ubiretama, Região Geográfica Imediata de Cerro Largo, Região Geográfica Intermediária de Ijui, Rio G"
+    },
+    {
+      "codigo_ibge": 88480,
+      "nome": "UNISTALDA",
+      "uf": "RS",
+      "latitude": -29.0476115,
+      "longitude": -55.1503792,
+      "observacao": "Coordenada obtida: Unistalda, Região Geográfica Imediata de Santiago, Região Geográfica Intermediária de Santa Maria, R"
+    },
+    {
+      "codigo_ibge": 88048,
+      "nome": "UNIÃO DA SERRA",
+      "uf": "RS",
+      "latitude": -28.7531756,
+      "longitude": -52.0152854,
+      "observacao": "Coordenada obtida: União da Serra, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Intermediária "
+    },
+    {
+      "codigo_ibge": 89516,
+      "nome": "URUGUAIANA",
+      "uf": "RS",
+      "latitude": -29.7560726,
+      "longitude": -57.0867546,
+      "observacao": "Coordenada obtida: Uruguaiana, Região Geográfica Imediata de Uruguaiana, Região Geográfica Intermediária de Uruguaiana,"
+    },
+    {
+      "codigo_ibge": 89532,
+      "nome": "VACARIA",
+      "uf": "RS",
+      "latitude": -28.5102901,
+      "longitude": -50.9356044,
+      "observacao": "Coordenada obtida: Vacaria, Região Geográfica Imediata de Vacaria, Região Geográfica Intermediária de Caxias do Sul, Ri"
+    },
+    {
+      "codigo_ibge": 88064,
+      "nome": "VALE DO SOL",
+      "uf": "RS",
+      "latitude": -29.6036459,
+      "longitude": -52.6867334,
+      "observacao": "Coordenada obtida: Vale do Sol, Região Geográfica Intermediária de Santa Cruz do Sul - Lajeado, Rio Grande do Sul, Regi"
+    },
+    {
+      "codigo_ibge": 88080,
+      "nome": "VALE REAL",
+      "uf": "RS",
+      "latitude": -29.391944,
+      "longitude": -51.255859,
+      "observacao": "Coordenada obtida: Vale Real, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias do"
+    },
+    {
+      "codigo_ibge": 88668,
+      "nome": "VALE VERDE",
+      "uf": "RS",
+      "latitude": -29.7830651,
+      "longitude": -52.1843582,
+      "observacao": "Coordenada obtida: Vale Verde, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária de Sant"
+    },
+    {
+      "codigo_ibge": 84913,
+      "nome": "VANINI",
+      "uf": "RS",
+      "latitude": -28.4762692,
+      "longitude": -51.8452978,
+      "observacao": "Coordenada obtida: Vanini, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo, Rio Gra"
+    },
+    {
+      "codigo_ibge": 89559,
+      "nome": "VENÂNCIO AIRES",
+      "uf": "RS",
+      "latitude": -29.614306,
+      "longitude": -52.193159,
+      "observacao": "Coordenada obtida: Venâncio Aires, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 89575,
+      "nome": "VERA CRUZ",
+      "uf": "RS",
+      "latitude": -29.7157235,
+      "longitude": -52.5007403,
+      "observacao": "Coordenada obtida: Vera Cruz, Região Geográfica Intermediária de Santa Cruz do Sul - Lajeado, Rio Grande do Sul, Região"
+    },
+    {
+      "codigo_ibge": 89591,
+      "nome": "VERANÓPOLIS",
+      "uf": "RS",
+      "latitude": -28.9351239,
+      "longitude": -51.5519175,
+      "observacao": "Coordenada obtida: Veranópolis, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de Caxia"
+    },
+    {
+      "codigo_ibge": 88781,
+      "nome": "VESPASIANO CORRÊA",
+      "uf": "RS",
+      "latitude": -29.0689663,
+      "longitude": -51.8597913,
+      "observacao": "Coordenada obtida: Vespasiano Corrêa, Região Geográfica Imediata de Encantado, Região Geográfica Intermediária de Santa"
+    },
+    {
+      "codigo_ibge": 89613,
+      "nome": "VIADUTOS",
+      "uf": "RS",
+      "latitude": -27.5706489,
+      "longitude": -52.0210682,
+      "observacao": "Coordenada obtida: Viadutos, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, Rio"
+    },
+    {
+      "codigo_ibge": 89630,
+      "nome": "VIAMÃO",
+      "uf": "RS",
+      "latitude": -30.0819338,
+      "longitude": -51.0261927,
+      "observacao": "Coordenada obtida: Viamão, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Região Geo"
+    },
+    {
+      "codigo_ibge": 89656,
+      "nome": "VICENTE DUTRA",
+      "uf": "RS",
+      "latitude": -27.1669307,
+      "longitude": -53.4048541,
+      "observacao": "Coordenada obtida: Vicente Dutra, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária d"
+    },
+    {
+      "codigo_ibge": 89699,
+      "nome": "VICTOR GRAEFF",
+      "uf": "RS",
+      "latitude": -28.563163,
+      "longitude": -52.749535,
+      "observacao": "Coordenada obtida: Victor Graeff, Região Geográfica Imediata de Passo Fundo, Região Geográfica Intermediária de Passo F"
+    },
+    {
+      "codigo_ibge": 86061,
+      "nome": "VILA FLORES",
+      "uf": "RS",
+      "latitude": -28.8644244,
+      "longitude": -51.5506499,
+      "observacao": "Coordenada obtida: Vila Flores, Região Geográfica Imediata de Bento Gonçalves, Região Geográfica Intermediária de Caxia"
+    },
+    {
+      "codigo_ibge": 88749,
+      "nome": "VILA LÂNGARO",
+      "uf": "RS",
+      "latitude": -28.1073953,
+      "longitude": -52.1446254,
+      "observacao": "Coordenada obtida: Vila Lângaro, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 85642,
+      "nome": "VILA MARIA",
+      "uf": "RS",
+      "latitude": -28.53429,
+      "longitude": -52.1548439,
+      "observacao": "Coordenada obtida: Vila Maria, Região Geográfica Imediata de Marau, Região Geográfica Intermediária de Passo Fundo, Rio"
+    },
+    {
+      "codigo_ibge": 88102,
+      "nome": "VILA NOVA DO SUL",
+      "uf": "RS",
+      "latitude": -30.343232,
+      "longitude": -53.8833913,
+      "observacao": "Coordenada obtida: Vila Nova do Sul, Região Geográfica Imediata de São Gabriel - Caçapava do Sul, Região Geográfica Int"
+    },
+    {
+      "codigo_ibge": 85600,
+      "nome": "VISTA ALEGRE",
+      "uf": "RS",
+      "latitude": -27.368619,
+      "longitude": -53.491876,
+      "observacao": "Coordenada obtida: Vista Alegre, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária de"
+    },
+    {
+      "codigo_ibge": 85863,
+      "nome": "VISTA ALEGRE DO PRATA",
+      "uf": "RS",
+      "latitude": -28.8080826,
+      "longitude": -51.7868557,
+      "observacao": "Coordenada obtida: Vista Alegre do Prata, Região Geográfica Imediata de Nova Prata - Guaporé, Região Geográfica Interme"
+    },
+    {
+      "codigo_ibge": 85847,
+      "nome": "VISTA GAÚCHA",
+      "uf": "RS",
+      "latitude": -27.2897171,
+      "longitude": -53.7024746,
+      "observacao": "Coordenada obtida: Vista Gaúcha, Região Geográfica Imediata de Três Passos, Região Geográfica Intermediária de Ijui, Ri"
+    },
+    {
+      "codigo_ibge": 88129,
+      "nome": "VITÓRIA DAS MISSÕES",
+      "uf": "RS",
+      "latitude": -28.3525794,
+      "longitude": -54.4995706,
+      "observacao": "Coordenada obtida: Vitória das Missões, Região Geográfica Imediata de Santo Ângelo, Região Geográfica Intermediária de "
+    },
+    {
+      "codigo_ibge": 89524,
+      "nome": "WESTFALIA",
+      "uf": "RS",
+      "latitude": -29.4221238,
+      "longitude": -51.7655231,
+      "observacao": "Coordenada obtida: Westfália, Região Geográfica Imediata de Lajeado, Região Geográfica Intermediária de Santa Cruz do S"
+    },
+    {
+      "codigo_ibge": 88145,
+      "nome": "XANGRI-LÁ",
+      "uf": "RS",
+      "latitude": -29.8039422,
+      "longitude": -50.0413748,
+      "observacao": "Coordenada obtida: Xangri-lá, Região Geográfica Imediata de Tramandaí - Osório, Aglomeração Urbana do Litoral Norte, Re"
+    },
+    {
+      "codigo_ibge": 84948,
+      "nome": "ÁGUA SANTA",
+      "uf": "RS",
+      "latitude": -28.1775297,
+      "longitude": -52.0360304,
+      "observacao": "Coordenada obtida: Água Santa, Região Geográfica Imediata de Tapejara - Sananduva, Região Geográfica Intermediária de P"
+    },
+    {
+      "codigo_ibge": 84735,
+      "nome": "ÁUREA",
+      "uf": "RS",
+      "latitude": -27.6970921,
+      "longitude": -52.0521778,
+      "observacao": "Coordenada obtida: Áurea, Região Geográfica Imediata de Erechim, Região Geográfica Intermediária de Passo Fundo, Rio Gr"
+    }
+  ]
+}

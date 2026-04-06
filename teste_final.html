@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Local</title>
+</head>
+<body>
+    <h1>Verificando o JSON</h1>
+    <div id="resultado"></div>
+    
+    <script>
+        fetch('candidato_13500_locais_coords_v2.json?agora=' + Date.now())
+            .then(r => r.json())
+            .then(dados => {
+                const local = dados.locais_votacao.find(l => l.nome_local === "COMUNIDADE EVANGÉLICA SÃO JOÃO");
+                document.getElementById('resultado').innerHTML = `
+                    <h2>Local encontrado:</h2>
+                    <pre>${JSON.stringify(local, null, 2)}</pre>
+                    <h2>Fonte: ${local?.fonte}</h2>
+                    <p>✅ Se a fonte for "osm", o JSON está correto!</p>
+                `;
+            })
+            .catch(err => {
+                document.getElementById('resultado').innerHTML = `<h2 style="color:red">ERRO: ${err.message}</h2>`;
+            });
+    </script>
+</body>
+</html>

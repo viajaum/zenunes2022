@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>ZÉ NUNES | 2022</title>
+    <link rel="icon" type="image/webp" href="favicon.webp">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { height: 100%; overflow: hidden; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; display: flex; flex-direction: column; height: 100vh; }
+        
+        .container { 
+            display: flex; 
+            flex: 1;
+            min-height: 0;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .map-container { 
+            flex: 1; 
+            position: relative;
+            min-height: 0;
+        }
+        
+        #map { 
+            height: 100%; 
+            width: 100%; 
+        }
+        
+        /* CONTAINER DO TOPO E LISTAS - MESMA LARGURA */
+        .right-panel {
+            position: absolute;
+            right: 10px;
+            top: 0;
+            bottom: 40px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+        }
+        
+        /* TOPO - EFEITO DE BANDEIRA QUE CAI - MESMA TRANSPARÊNCIA DA LISTA */
+        .header {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 12px 15px;
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+            animation: slideDown 0.5s ease-out;
+            flex-shrink: 0;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header-logo {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: visible;
+        }
+        
+        .header-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .header-text h2 {
+            font-size: 14px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 0;
+        }
+        
+        /* LISTAS FLUTUANTES - mesma transparência do topo */
+        .sidebar { 
+            flex: 1;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            margin-top: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .municipios-section { 
+            flex: 4;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            min-height: 0;
+            overflow: hidden;
+        }
+        
+        .locais-section { 
+            flex: 5;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            min-height: 0;
+            overflow: hidden;
+        }
+        
+        .section-title { 
+            font-size: 12px; 
+            font-weight: bold; 
+            color: #1a472a; 
+            border-bottom: 2px solid #1a472a;
+            padding-bottom: 5px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        
+        .search-box { 
+            width: 100%; 
+            padding: 6px 8px; 
+            border: 1px solid rgba(0,0,0,0.15);
+            border-radius: 6px;
+            margin-bottom: 8px;
+            font-size: 11px;
+            background: rgba(255,255,255,0.9);
+            flex-shrink: 0;
+        }
+        
+        .search-box:focus {
+            outline: none;
+            border-color: #1a472a;
+        }
+        
+        .scrollable-list { 
+            flex: 1;
+            overflow-y: auto;
+            min-height: 0;
+        }
+        
+        .municipio-item, .local-item { 
+            padding: 8px 10px;
+            margin-bottom: 2px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: rgba(255,255,255,0.5);
+        }
+        
+        .municipio-item:hover, .local-item:hover { 
+            background: rgba(232, 245, 233, 0.9);
+            transform: translateX(-2px);
+        }
+        
+        .municipio-item.selected { 
+            background: rgba(200, 230, 201, 0.95);
+            border-left: 3px solid #1a472a;
+        }
+        
+        /* ESTILOS DAS FONTES - AJUSTE AQUI OS TAMANHOS */
+        .municipio-nome { 
+            font-weight: bold; 
+            font-size: 13px; 
+            display: flex; 
+            align-items: center; 
+            gap: 8px; 
+        }
+        
+        .municipio-votos { 
+            font-size: 11px; 
+            color: #555; 
+            margin-top: 3px; 
+            margin-left: 18px;
+        }
+        
+        .local-nome { 
+            font-size: 12px; 
+            font-weight: 500; 
+            display: flex; 
+            align-items: center; 
+            gap: 8px; 
+        }
+        
+        .local-votos { 
+            font-size: 11px; 
+            color: #666; 
+            margin-top: 3px; 
+            margin-left: 18px;
+        }
+        
+        .local-endereco { 
+            font-size: 10px; 
+            color: #888; 
+            margin-top: 2px; 
+            margin-left: 18px;
+        }
+        
+        .color-preview { 
+            width: 12px; 
+            height: 12px; 
+            border-radius: 50%; 
+            display: inline-block; 
+            flex-shrink: 0;
+            box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+        }
+        
+        .warning-message { 
+            text-align: center; 
+            padding: 20px; 
+            color: #ff9800; 
+            background: rgba(255, 243, 224, 0.9);
+            border-radius: 8px;
+            font-size: 11px; 
+        }
+        
+        .filter-checkbox { 
+            margin-bottom: 8px; 
+            padding: 6px; 
+            background: rgba(248, 249, 250, 0.9);
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+        
+        .filter-checkbox label { 
+            font-size: 10px; 
+            cursor: pointer; 
+            display: flex; 
+            align-items: center; 
+            gap: 5px; 
+        }
+        
+        .selected-info { 
+            font-size: 10px; 
+            color: #1a472a; 
+            background: rgba(232, 245, 233, 0.95);
+            padding: 6px 8px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .zoom-info { 
+            position: absolute; 
+            bottom: 15px; 
+            left: 15px; 
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(4px);
+            color: white; 
+            padding: 4px 10px; 
+            border-radius: 20px;
+            font-size: 9px; 
+            z-index: 1000;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        
+        .footer { 
+            background: rgba(51, 51, 51, 0.9);
+            backdrop-filter: blur(4px);
+            color: white; 
+            text-align: center; 
+            padding: 5px; 
+            font-size: 8px;
+            flex-shrink: 0;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .scrollable-list::-webkit-scrollbar {
+            width: 4px;
+        }
+        .scrollable-list::-webkit-scrollbar-track {
+            background: rgba(241, 241, 241, 0.5);
+            border-radius: 4px;
+        }
+        .scrollable-list::-webkit-scrollbar-thumb {
+            background: #1a472a;
+            border-radius: 4px;
+        }
+        
+        /* ============================================ */
+        /* RESPONSIVIDADE PARA CELULAR (RETRATO) */
+        /* ============================================ */
+        
+        @media (max-width: 768px) and (orientation: portrait) {
+            .right-panel {
+                right: 5px;
+                left: 5px;
+                width: auto;
+                bottom: 10px;
+                top: auto;
+                height: auto;
+                max-height: 40%;
+            }
+            
+            .header {
+                display: none;
+            }
+            
+            .sidebar {
+                flex-direction: row;
+                margin-top: 0;
+                border-radius: 12px;
+                height: 100%;
+            }
+            
+            .municipios-section {
+                flex: 1;
+                border-bottom: none;
+                border-right: 1px solid rgba(0,0,0,0.1);
+                padding: 6px;
+            }
+            
+            .locais-section {
+                flex: 1;
+                padding: 6px;
+            }
+            
+            .section-title {
+                font-size: 9px;
+                padding-bottom: 3px;
+                margin-bottom: 4px;
+            }
+            
+            .search-box {
+                font-size: 10px;
+                padding: 5px 6px;
+                margin-bottom: 4px;
+            }
+            
+            .municipio-nome { font-size: 10px; }
+            .municipio-votos { font-size: 8px; margin-left: 14px; margin-top: 2px; }
+            .local-nome { font-size: 9px; }
+            .local-votos { font-size: 8px; margin-left: 14px; margin-top: 2px; }
+            .local-endereco { font-size: 7px; margin-left: 14px; }
+            .municipio-item, .local-item { padding: 4px 4px; margin-bottom: 1px; }
+            .filter-checkbox { margin-bottom: 4px; padding: 3px; }
+            .filter-checkbox label { font-size: 8px; }
+            .selected-info { font-size: 8px; padding: 3px 5px; margin-bottom: 4px; }
+            .warning-message { padding: 10px; font-size: 9px; }
+            .zoom-info { font-size: 7px; bottom: 8px; left: 8px; padding: 2px 6px; }
+            .footer { font-size: 6px; padding: 3px; }
+        }
+        
+        /* ============================================ */
+        /* RESPONSIVIDADE PARA CELULAR (PAISAGEM/DEITADO) */
+        /* ============================================ */
+        
+        @media (max-width: 900px) and (orientation: landscape) {
+            .right-panel {
+                right: 5px;
+                left: auto;
+                width: 280px;
+                top: 5px;
+                bottom: 5px;
+                max-height: none;
+            }
+            
+            .header {
+                display: none;
+            }
+            
+            .sidebar {
+                flex-direction: column;
+                margin-top: 0;
+                border-radius: 12px;
+                height: 100%;
+            }
+            
+            .municipios-section {
+                flex: 4;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+                border-right: none;
+                padding: 6px;
+            }
+            
+            .locais-section {
+                flex: 5;
+                padding: 6px;
+            }
+            
+            .section-title {
+                font-size: 10px;
+                padding-bottom: 3px;
+                margin-bottom: 5px;
+            }
+            
+            .search-box {
+                font-size: 10px;
+                padding: 4px 6px;
+                margin-bottom: 5px;
+            }
+            
+            .municipio-nome { font-size: 11px; }
+            .municipio-votos { font-size: 9px; margin-left: 16px; }
+            .local-nome { font-size: 10px; }
+            .local-votos { font-size: 9px; margin-left: 16px; }
+            .local-endereco { font-size: 8px; margin-left: 16px; }
+            .municipio-item, .local-item { padding: 5px 6px; margin-bottom: 2px; }
+            .filter-checkbox { margin-bottom: 5px; padding: 4px; }
+            .filter-checkbox label { font-size: 9px; }
+            .selected-info { font-size: 9px; padding: 4px 6px; margin-bottom: 5px; }
+            .warning-message { padding: 12px; font-size: 10px; }
+            .zoom-info { font-size: 8px; bottom: 10px; left: 10px; padding: 3px 8px; }
+            .footer { font-size: 7px; padding: 4px; }
+        }
+        
+        /* Celular deitado muito pequeno */
+        @media (max-width: 700px) and (orientation: landscape) {
+            .right-panel {
+                width: 250px;
+            }
+            .municipio-nome { font-size: 10px; }
+            .municipio-votos { font-size: 8px; }
+            .local-nome { font-size: 9px; }
+            .local-votos { font-size: 8px; }
+            .local-endereco { font-size: 7px; }
+            .section-title { font-size: 9px; }
+        }
+        
+        @media (max-width: 480px) and (orientation: portrait) {
+            .right-panel {
+                max-height: 42%;
+            }
+            .municipio-nome { font-size: 9px; }
+            .municipio-votos { font-size: 7px; }
+            .local-nome { font-size: 8px; }
+            .local-votos { font-size: 7px; }
+            .local-endereco { font-size: 6px; }
+            .section-title { font-size: 8px; }
+            .municipio-item, .local-item { padding: 3px 3px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="map-container">
+            <div id="map"></div>
+            <div class="zoom-info" id="zoomInfo">Zoom < 11: Municípios | Zoom ≥ 11: Locais</div>
+        </div>
+        
+        <!-- TOPO E LISTAS - MESMA LARGURA -->
+        <div class="right-panel">
+            <div class="header">
+                <div class="header-content">
+                    <div class="header-logo">
+                        <img src="ze.png" alt="Logo" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%231a472a%22/><text x=%2250%22 y=%2265%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2230%22>🗳️</text></svg>'">
+                    </div>
+                    <div class="header-text">
+                        <h2>Eleições 2022</h2>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <div class="municipios-section">
+                    <div class="section-title">
+                        <span>MUNICÍPIOS</span>
+                        <span id="municipiosCount"></span>
+                    </div>
+                    <input type="text" class="search-box" id="searchInput" placeholder="🔍 Buscar..." onkeyup="filterMunicipios()">
+                    <div class="scrollable-list" id="municipiosList">Carregando...</div>
+                </div>
+                
+                <div class="locais-section">
+                    <div class="section-title">
+                        <span>LOCAIS</span>
+                        <span id="locaisCount"></span>
+                    </div>
+                    <div class="filter-checkbox">
+                        <label>
+                            <input type="checkbox" id="showOnlyFallback" onchange="filterLocais()"> 
+                            🔧 Mostrar apenas locais com Fallback
+                        </label>
+                    </div>
+                    <div id="selectedInfo" class="selected-info" style="display: none;"></div>
+                    <div class="scrollable-list" id="locaisList"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Clique nos círculos para ver informações | Zoom < 11 = Municípios | Zoom ≥ 11 = Locais</div>
+
+    <script>
+        let map;
+        let municipiosLayer;
+        let locaisLayer;
+        let municipiosGeo = {};
+        let locaisCoords = {};
+        let votacaoMunicipios = {};
+        let municipiosData = [];
+        let allLocaisData = [];
+        let currentMunicipio = null;
+        let municipioColors = {};
+        let currentPopup = null;
+
+        const colorPalette = [
+            '#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6',
+            '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3',
+            '#808000', '#ffd8b1', '#000075', '#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7',
+            '#dfe6e9', '#ff7675', '#74b9ff', '#a29bfe', '#fd79a8', '#00b894', '#0984e3', '#6c5ce7',
+            '#e17055', '#d63031', '#fdcb6e', '#e84393', '#2d3436', '#636e72', '#55efc4', '#81ecec'
+        ];
+
+        function getMunicipioColor(nome, index) {
+            return colorPalette[index % colorPalette.length];
+        }
+
+        function initMap() {
+            map = L.map('map').setView([-31, -52.5], 7);
+            
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> & CartoDB',
+                maxZoom: 19
+            }).addTo(map);
+            
+            municipiosLayer = L.layerGroup().addTo(map);
+            locaisLayer = L.layerGroup();
+            
+            function updateLayersByZoom() {
+                const zoom = map.getZoom();
+                const zoomInfo = document.getElementById('zoomInfo');
+                
+                if (zoom >= 11) {
+                    map.removeLayer(municipiosLayer);
+                    locaisLayer.addTo(map);
+                    zoomInfo.innerHTML = 'Zoom ≥ 11: TODOS os locais';
+                    zoomInfo.style.background = 'rgba(76, 175, 80, 0.85)';
+                } else {
+                    map.removeLayer(locaisLayer);
+                    municipiosLayer.addTo(map);
+                    zoomInfo.innerHTML = 'Zoom < 11: MUNICÍPIOS | Dê zoom';
+                    zoomInfo.style.background = 'rgba(0,0,0,0.7)';
+                }
+            }
+            
+            map.on('zoomend', updateLayersByZoom);
+            updateLayersByZoom();
+        }
+
+        async function loadData() {
+            try {
+                const timestamp = Date.now();
+                
+                console.log(`🔄 Carregando dados - Timestamp: ${timestamp}`);
+                
+                const votacaoResp = await fetch(`deputado_13500_2022_RS.json?t=${timestamp}`);
+                const votacao = await votacaoResp.json();
+                
+                const candidato = votacao.turnos.turno_1.RS.cargos["DEPUTADO ESTADUAL"].candidatos["JOSÉ SIDNEY NUNES DE ALMEIDA"];
+                votacaoMunicipios = candidato.municipios;
+
+                const municipiosResp = await fetch(`municipios_rs_geocodificados.json?t=${timestamp}`);
+                const municipios = await municipiosResp.json();
+                municipios.municipios.forEach(m => {
+                    municipiosGeo[m.nome] = { lat: m.latitude, lng: m.longitude };
+                });
+
+                const locaisResp = await fetch(`candidato_13500_locais_coords_v2.json?t=${timestamp}&force=${Math.random()}`);
+                const locais = await locaisResp.json();
+                
+                console.log(`📦 JSON carregado: ${locais.locais_votacao.length} locais`);
+                
+                const localCorrigido = locais.locais_votacao.find(l => l.nome_local === "COMUNIDADE EVANGÉLICA SÃO JOÃO");
+                if (localCorrigido) {
+                    console.log(`✅ Local encontrado: ${localCorrigido.nome_local} - Fonte: ${localCorrigido.fonte}`);
+                }
+                
+                locais.locais_votacao.forEach(l => {
+                    const key = `${l.municipio}|${l.nome_local}`;
+                    locaisCoords[key] = {
+                        lat: l.latitude,
+                        lng: l.longitude,
+                        fonte: l.fonte,
+                        endereco: l.endereco
+                    };
+                });
+
+                prepareMunicipiosData();
+                prepareAllLocaisData();
+                renderMunicipiosList();
+                renderMunicipiosMapa();
+                renderAllLocaisMapa();
+                
+                document.getElementById('locaisList').innerHTML = `
+                    <div class="warning-message">
+                        👆 Selecione um município<br>para ver seus locais
+                    </div>
+                `;
+                
+            } catch (error) {
+                console.error('❌ Erro:', error);
+                document.getElementById('municipiosList').innerHTML = `<div class="warning-message">❌ Erro ao carregar dados</div>`;
+            }
+        }
+
+        function prepareMunicipiosData() {
+            const sortedMunicipios = Object.entries(votacaoMunicipios)
+                .sort((a, b) => b[1].total_votos_municipio - a[1].total_votos_municipio);
+            
+            municipiosData = sortedMunicipios
+                .map(([nome, data], idx) => {
+                    const cor = getMunicipioColor(nome, idx);
+                    municipioColors[nome] = cor;
+                    
+                    const locaisDoMunicipio = Object.entries(data.locais_votacao)
+                        .map(([localNome, localData]) => {
+                            const key = `${nome}|${localNome}`;
+                            const coords = locaisCoords[key];
+                            return {
+                                nome: localNome,
+                                votos: localData.votos,
+                                endereco: localData.endereco || '',
+                                lat: coords?.lat,
+                                lng: coords?.lng,
+                                fonte: coords?.fonte || 'unknown',
+                                cor: cor,
+                                municipio: nome
+                            };
+                        })
+                        .filter(l => l.lat && l.lng)
+                        .sort((a, b) => b.votos - a.votos);
+                    
+                    return {
+                        nome: nome,
+                        votos: data.total_votos_municipio,
+                        locais: Object.keys(data.locais_votacao).length,
+                        lat: municipiosGeo[nome]?.lat,
+                        lng: municipiosGeo[nome]?.lng,
+                        cor: cor,
+                        locaisData: locaisDoMunicipio
+                    };
+                })
+                .filter(m => m.lat && m.lng);
+        }
+
+        function prepareAllLocaisData() {
+            allLocaisData = [];
+            for (const m of municipiosData) {
+                allLocaisData.push(...m.locaisData);
+            }
+        }
+
+        function getMunicipioRadius(votos, maxVotos) {
+            const minRadius = 5;
+            const maxRadius = 40;
+            const normalized = Math.pow(votos / maxVotos, 0.5);
+            return minRadius + (normalized * (maxRadius - minRadius));
+        }
+
+        function getLocalRadius(votos, maxVotos) {
+            const minRadius = 6;
+            const maxRadius = 20;
+            const normalized = Math.pow(votos / maxVotos, 0.5);
+            return minRadius + (normalized * (maxRadius - minRadius));
+        }
+
+        function openMunicipioPopup(municipio, latlng) {
+            if (currentPopup) {
+                map.closePopup(currentPopup);
+            }
+            
+            const popupContent = `
+                <div style="min-width: 180px; font-family: Arial, sans-serif;">
+                    <div style="font-weight: bold; font-size: 14px; color: #1a472a; border-bottom: 2px solid #1a472a; padding-bottom: 4px; margin-bottom: 8px;">
+                        ${municipio.nome}
+                    </div>
+                    <div style="font-size: 12px; line-height: 1.5;">
+                        <div><strong>Votos:</strong> ${municipio.votos.toLocaleString()}</div>
+                        <div><strong>Locais:</strong> ${municipio.locais}</div>
+                        <div><strong>Média:</strong> ${Math.round(municipio.votos / municipio.locais)} votos</div>
+                    </div>
+                </div>
+            `;
+            
+            currentPopup = L.popup()
+                .setLatLng(latlng)
+                .setContent(popupContent)
+                .openOn(map);
+        }
+
+        function renderMunicipiosMapa() {
+            municipiosLayer.clearLayers();
+            const maxVotos = Math.max(...municipiosData.map(m => m.votos));
+            
+            municipiosData.forEach(m => {
+                const radius = getMunicipioRadius(m.votos, maxVotos);
+                const latlng = [m.lat, m.lng];
+                
+                const circle = L.circleMarker(latlng, {
+                    radius: radius,
+                    fillColor: m.cor,
+                    color: currentMunicipio === m.nome ? '#000' : '#333',
+                    weight: currentMunicipio === m.nome ? 3 : 1.5,
+                    opacity: 0.8,
+                    fillOpacity: 0.85
+                }).addTo(municipiosLayer);
+                
+                circle.on('click', function(e) {
+                    openMunicipioPopup(m, latlng);
+                    selectMunicipio(m.nome);
+                });
+                
+                circle.on('mouseover', function() {
+                    this.setStyle({ weight: 3, color: '#000', fillOpacity: 0.95 });
+                });
+                circle.on('mouseout', function() {
+                    this.setStyle({ weight: currentMunicipio === m.nome ? 3 : 1.5, 
+                                   color: currentMunicipio === m.nome ? '#000' : '#333',
+                                   fillOpacity: 0.85 });
+                });
+            });
+        }
+
+        function renderAllLocaisMapa() {
+            locaisLayer.clearLayers();
+            const maxVotos = Math.max(...allLocaisData.map(l => l.votos), 1);
+            
+            allLocaisData.forEach(l => {
+                const radius = getLocalRadius(l.votos, maxVotos);
+                // VERIFICAÇÃO CORRETA - aceita "osm" como NÃO fallback
+                const isFallback = l.fonte !== 'osm';
+                
+                const marker = L.circleMarker([l.lat, l.lng], {
+                    radius: radius,
+                    fillColor: l.cor,
+                    color: isFallback ? '#ff5722' : '#333',
+                    weight: isFallback ? 3 : 1.5,
+                    opacity: 0.9,
+                    fillOpacity: 0.8
+                }).addTo(locaisLayer);
+                
+                marker.bindPopup(`
+                    <div style="min-width: 220px; font-family: Arial, sans-serif;">
+                        <div style="font-weight: bold; font-size: 13px; color: #1a472a; border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-bottom: 6px;">
+                            ${l.nome}
+                        </div>
+                        <div style="font-size: 11px; line-height: 1.4;">
+                            <div><strong>Município:</strong> ${l.municipio}</div>
+                            <div><strong>Votos:</strong> ${l.votos}</div>
+                            <div><strong>Endereço:</strong> ${l.endereco || 'Não informado'}</div>
+                            ${isFallback ? '<div style="color:#ff5722; margin-top:6px;"><strong>⚠️ FALLBACK</strong> - Precisa corrigir a coordenada!</div>' : '<div style="color:#4caf50; margin-top:6px;"><strong>✅ Coordenada corrigida!</strong></div>'}
+                        </div>
+                    </div>
+                `);
+                
+                marker.on('click', (e) => {
+                    L.DomEvent.stopPropagation(e);
+                    marker.openPopup();
+                    selectMunicipioSemMover(l.municipio);
+                });
+            });
+        }
+
+        function renderMunicipiosList() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            let filtered = municipiosData;
+            if (searchTerm) filtered = municipiosData.filter(m => m.nome.toLowerCase().includes(searchTerm));
+            
+            const html = filtered.map(m => `
+                <div class="municipio-item ${currentMunicipio === m.nome ? 'selected' : ''}" onclick="selectMunicipio('${m.nome.replace(/'/g, "\\'")}')">
+                    <div class="municipio-nome">
+                        <span class="color-preview" style="background: ${m.cor};"></span>
+                        ${m.nome}
+                    </div>
+                    <div class="municipio-votos">${m.votos.toLocaleString()} votos | ${m.locais} locais</div>
+                </div>
+            `).join('');
+            
+            document.getElementById('municipiosList').innerHTML = html || '<div>Nenhum município encontrado</div>';
+            document.getElementById('municipiosCount').innerHTML = `(${filtered.length}/${municipiosData.length})`;
+        }
+
+        function centerWithPadding(lat, lng, zoomLevel) {
+            const isMobile = window.innerWidth <= 768;
+            const isLandscape = window.innerHeight <= window.innerWidth;
+            
+            if (isMobile) {
+                if (isLandscape) {
+                    const panel = document.querySelector('.right-panel');
+                    const panelWidth = panel?.offsetWidth || 280;
+                    map.setView([lat, lng], zoomLevel, {
+                        paddingTopRight: [panelWidth + 20, 0],
+                        animate: true,
+                        duration: 0.3
+                    });
+                } else {
+                    const panel = document.querySelector('.right-panel');
+                    const panelHeight = panel?.offsetHeight || 150;
+                    const paddingBottom = panelHeight + 80;
+                    map.setView([lat, lng], zoomLevel, {
+                        paddingBottomLeft: [0, paddingBottom],
+                        animate: true,
+                        duration: 0.3
+                    });
+                }
+            } else {
+                map.setView([lat, lng], zoomLevel);
+            }
+        }
+
+        function selectMunicipio(nome) {
+            currentMunicipio = nome;
+            const municipio = municipiosData.find(m => m.nome === nome);
+            
+            const selectedInfo = document.getElementById('selectedInfo');
+            selectedInfo.style.display = 'block';
+            selectedInfo.innerHTML = `${nome} | ${municipio.votos.toLocaleString()} votos | ${municipio.locais} locais`;
+            
+            renderMunicipiosList();
+            renderLocaisList();
+            renderMunicipiosMapa();
+            
+            const zoomLevel = Math.max(map.getZoom(), 10);
+            centerWithPadding(municipio.lat, municipio.lng, zoomLevel);
+        }
+
+        function selectMunicipioSemMover(nome) {
+            currentMunicipio = nome;
+            const municipio = municipiosData.find(m => m.nome === nome);
+            
+            const selectedInfo = document.getElementById('selectedInfo');
+            selectedInfo.style.display = 'block';
+            selectedInfo.innerHTML = `${nome} | ${municipio.votos.toLocaleString()} votos | ${municipio.locais} locais`;
+            
+            renderMunicipiosList();
+            renderLocaisList();
+            renderMunicipiosMapa();
+        }
+
+        function renderLocaisList() {
+            if (!currentMunicipio) {
+                document.getElementById('locaisList').innerHTML = `
+                    <div class="warning-message">👆 Selecione um município<br>para ver seus locais</div>
+                `;
+                document.getElementById('locaisCount').innerHTML = '';
+                return;
+            }
+            
+            const municipio = municipiosData.find(m => m.nome === currentMunicipio);
+            if (!municipio) return;
+            
+            const showOnlyFallback = document.getElementById('showOnlyFallback')?.checked || false;
+            let filtered = municipio.locaisData;
+            if (showOnlyFallback) filtered = municipio.locaisData.filter(l => l.fonte !== 'osm');
+            
+            const fallbackCount = municipio.locaisData.filter(l => l.fonte !== 'osm').length;
+            
+            const html = filtered.map(l => {
+                const isFallback = l.fonte !== 'osm';
+                return `
+                    <div class="local-item" onclick="zoomToLocal(${l.lat}, ${l.lng})">
+                        <div class="local-nome">
+                            <span class="color-preview" style="background: ${l.cor};"></span>
+                            ${l.nome}
+                            ${isFallback ? '⚠️' : '✅'}
+                        </div>
+                        <div class="local-votos">${l.votos} votos</div>
+                        <div class="local-endereco">${l.endereco || 'sem endereço'}</div>
+                    </div>
+                `;
+            }).join('');
+            
+            document.getElementById('locaisList').innerHTML = html || '<div>Nenhum local encontrado</div>';
+            document.getElementById('locaisCount').innerHTML = `(${filtered.length}/${municipio.locaisData.length}) ${fallbackCount > 0 ? `⚠️ ${fallbackCount} fallback` : '✅ todos corrigidos'}`;
+        }
+
+        function filterMunicipios() { renderMunicipiosList(); }
+        function filterLocais() { renderLocaisList(); }
+
+        function zoomToLocal(lat, lng) {
+            if (lat && lng) {
+                centerWithPadding(lat, lng, 18);
+            }
+        }
+
+        initMap();
+        loadData();
+    </script>
+</body>
+</html>
