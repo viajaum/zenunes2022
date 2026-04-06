@@ -456,7 +456,7 @@
     <div class="container">
         <div class="map-container">
             <div id="map"></div>
-            <div class="zoom-info" id="zoomInfo">Zoom < 11: Municípios | Zoom ≥ 11: Locais</div>
+            <div class="zoom-info" id="zoomInfo">Zoom < 9: Municípios | Zoom ≥ 9: Locais</div>
         </div>
         
         <!-- TOPO E LISTAS - MESMA LARGURA -->
@@ -499,7 +499,7 @@
             </div>
         </div>
     </div>
-    <div class="footer">Clique nos círculos para ver informações | Zoom < 11 = Municípios | Zoom ≥ 11 = Locais</div>
+    <div class="footer">Clique nos círculos para ver informações | Zoom < 9 = Municípios | Zoom ≥ 9 = Locais</div>
 
     <script>
         let map;
@@ -541,15 +541,15 @@
                 const zoom = map.getZoom();
                 const zoomInfo = document.getElementById('zoomInfo');
                 
-                if (zoom >= 11) {
+                if (zoom >= 9) {
                     map.removeLayer(municipiosLayer);
                     locaisLayer.addTo(map);
-                    zoomInfo.innerHTML = 'Zoom ≥ 11: TODOS os locais';
+                    zoomInfo.innerHTML = 'Zoom ≥ 9: TODOS os locais';
                     zoomInfo.style.background = 'rgba(76, 175, 80, 0.85)';
                 } else {
                     map.removeLayer(locaisLayer);
                     municipiosLayer.addTo(map);
-                    zoomInfo.innerHTML = 'Zoom < 11: MUNICÍPIOS | Dê zoom';
+                    zoomInfo.innerHTML = 'Zoom < 9: MUNICÍPIOS | Dê zoom';
                     zoomInfo.style.background = 'rgba(0,0,0,0.7)';
                 }
             }
