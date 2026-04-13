@@ -786,9 +786,9 @@
       "codigo_municipio": null,
       "nome_local": "E.M.E.F. PRESIDENTE GETULIO VARGAS",
       "endereco": "AVENIDA GETULIO VARGAS, 135",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.406215545946857, 
+      "longitude": -52.670344501222935,
+      "fonte": "osm"
     },
     {
       "municipio": "PEDRO OSÓRIO",
@@ -3846,9 +3846,9 @@
       "codigo_municipio": null,
       "nome_local": "COMERCIAL FLORIDENSE",
       "endereco": "CERRO DOS LEMES",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.173411483669923, 
+      "longitude": -52.65973852490478,
+      "fonte": "osm"
     },
     {
       "municipio": "RIO PARDO",
@@ -4233,9 +4233,9 @@
       "codigo_municipio": null,
       "nome_local": "ASSOCIAÇÃO DESENVOLVIMENTO COMUNITÁRIO COXILHA DO LAGEADO E ARREDORES",
       "endereco": "COXILHA DO LAGEADO",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.005767846901342, 
+      "longitude": -52.8824141936193,
+      "fonte": "osm"
     },
     {
       "municipio": "CANOAS",
@@ -4881,9 +4881,9 @@
       "codigo_municipio": null,
       "nome_local": "E.M.E.F. RIO BRANCO",
       "endereco": "TRÊS PORTEIRAS",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -30.994279785180563,
+      "longitude": -52.40310216695222,
+      "fonte": "osm"
     },
     {
       "municipio": "PASSO FUNDO",
@@ -6141,9 +6141,9 @@
       "codigo_municipio": null,
       "nome_local": "E.E.E.F. BARÃO DE SANTA TECLA",
       "endereco": "VISTA ALEGRE",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.319474622669393, 
+      "longitude": -52.778431634887376,
+      "fonte": "osm"
     },
     {
       "municipio": "BAGÉ",
@@ -7032,9 +7032,9 @@
       "codigo_municipio": null,
       "nome_local": "ESPORTE CLUBE CANGUÇUENSE",
       "endereco": "RUA CONRADO ERNANI BENTO",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.38215430283405, 
+      "longitude": -52.68010856070747,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -7923,9 +7923,9 @@
       "codigo_municipio": null,
       "nome_local": "E.E.E.M. JOÃO DE DEUS NUNES",
       "endereco": "RUA FERMINA MOREIRA, 7",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.39494790140655, 
+      "longitude": -52.672920263892756,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -8121,9 +8121,9 @@
       "codigo_municipio": null,
       "nome_local": "ESPORTE CLUBE CRUZEIRO",
       "endereco": "RUA TEOFILO DE MATOS S/N",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.389525319103814, 
+      "longitude": -52.674585857000956,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -9192,9 +9192,9 @@
       "codigo_municipio": null,
       "nome_local": "GINÁSIO MUNICIPAL DE ESPORTES",
       "endereco": "RUA TEOFILO DE SOUZA MATOS S/N",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.391085263187943, 
+      "longitude": -52.66927746848003,
+      "fonte": "osm"
     },
     {
       "municipio": "CARAZINHO",
@@ -10056,9 +10056,9 @@
       "codigo_municipio": null,
       "nome_local": "E.M.E.F.  CRISTO REI",
       "endereco": "CERRO DOS CUNHAS",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.40327787272118, 
+      "longitude": -52.808833147641884,
+      "fonte": "osm"
     },
     {
       "municipio": "ESMERALDA",
@@ -10614,9 +10614,9 @@
       "codigo_municipio": null,
       "nome_local": "COMUNIDADE IGREJA BATISTA",
       "endereco": "FAZENDA SANTA RITA",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.12592233602996,
+      "longitude": -52.69994502749817,
+      "fonte": "osm"
     },
     {
       "municipio": "FAXINALZINHO",
@@ -12054,9 +12054,9 @@
       "codigo_municipio": null,
       "nome_local": "E.E.E.F. PROFESSORA MARIA MORAES MEDEIROS",
       "endereco": "COXILHA DOS CAMPOS",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.46651141206032, 
+      "longitude": -52.67754772289396,
+      "fonte": "osm"
     },
     {
       "municipio": "CANGUÇU",
@@ -12892,7 +12892,7 @@
       "nome_local": "E.M.E.F. CARLOS MOREIRA",
       "endereco": "CANGUÇU VELHO",
       "latitude": -31.3694424,
-      "longitude": -52.6330671,
+      "longitude": -52.6630671,
       "fonte": "osm"
     },
     {
@@ -15915,9 +15915,9 @@
       "codigo_municipio": null,
       "nome_local": "E.M.E.F. MONTEIRO LOBATO",
       "endereco": "PASSO DO MARIA ANTONIA (DESATIVADA)",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.50861126774046, 
+      "longitude": -52.92976221384329,
+      "fonte": "osm"
     },
     {
       "municipio": "ITATIBA DO SUL",
@@ -17337,9 +17337,9 @@
       "codigo_municipio": null,
       "nome_local": "E.E.E.F. OZIEL ALVES PEREIRA",
       "endereco": "ASSENTAMENTO RENASCER - PANTANOSO",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -30.989226020565848, 
+      "longitude": -52.620439032411795,
+      "fonte": "osm"
     },
     {
       "municipio": "RIO PARDO",
@@ -17571,9 +17571,9 @@
       "codigo_municipio": null,
       "nome_local": "SALÃO DA COMUNIDADE SÃO VICENTE",
       "endereco": "PASSO DAS OLIVEIRAS",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.456097034773528, 
+      "longitude": -52.78931140578284,
+      "fonte": "osm"
     },
     {
       "municipio": "SINIMBU",
@@ -17877,9 +17877,9 @@
       "codigo_municipio": null,
       "nome_local": "SALÃO DA COMUNIDADE SÃO JOSÉ",
       "endereco": "CAPELA SÃO JOSÉ",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.479567428258576, 
+      "longitude": -52.64769572022774,
+      "fonte": "osm"
     },
     {
       "municipio": "ITAQUI",
@@ -17967,9 +17967,9 @@
       "codigo_municipio": null,
       "nome_local": "ASSOCIAÇÃO COXILHA DOS PEREIRA",
       "endereco": "COXILHA DOS PEREIRA",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.079699009930753, 
+      "longitude": -52.703021728180886,
+      "fonte": "osm"
     },
     {
       "municipio": "RIO PARDO",
@@ -19056,9 +19056,9 @@
       "codigo_municipio": null,
       "nome_local": "E.M.E.F. SÃO TIAGO",
       "endereco": "CHÁCARA DO PARAISO",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.409703734019605, 
+      "longitude": -52.61119063046637,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -20334,9 +20334,9 @@
       "codigo_municipio": null,
       "nome_local": "E.M.E.F. BAZILIO DUARTE (DESATIVADA)",
       "endereco": "CORREDOR DO SALSO",
-      "latitude": -31.398276,
-      "longitude": -52.6773522,
-      "fonte": "municipio_fallback"
+      "latitude": -31.40097690378831, 
+      "longitude": -52.836897016637764,
+      "fonte": "osm"
     },
     {
       "municipio": "MOSTARDAS",
