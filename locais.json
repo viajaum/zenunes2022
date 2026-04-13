@@ -534,9 +534,9 @@
       "codigo_municipio": null,
       "nome_local": "E. E. DE ENS. MEDIO MEM DE SA",
       "endereco": "RUA DR. HENRIQUE VILA NOVA, 30",
-      "latitude": -30.5962963,
-      "longitude": -51.7517196,
-      "fonte": "municipio_fallback"
+      "latitude": -30.59455311666673, 
+      "longitude": -51.74977384352892,
+      "fonte": "osm"
     },
     {
       "municipio": "TRAMANDAÍ",
@@ -750,9 +750,9 @@
       "codigo_municipio": null,
       "nome_local": "SANTOS DUMONT - ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL",
       "endereco": "RUA ARTHUR BERNARDES 654",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.96140546905425, 
+      "longitude": -51.1686689110148,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -1236,9 +1236,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL SANTO INACIO",
       "endereco": "AV. PADRE URBANO THIESSEN, 303",
-      "latitude": -29.8511627,
-      "longitude": -51.1778852,
-      "fonte": "municipio_fallback"
+      "latitude": -29.854295229540796, 
+      "longitude": -51.13897794171145,
+      "fonte": "osm"
     },
     {
       "municipio": "CACHOEIRA DO SUL",
@@ -1587,9 +1587,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUN. DE ENS. FUND. GENERAL OSÓRIO",
       "endereco": "RUA NELSON PAIM TERRA, 925",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.956668529037334, 
+      "longitude": -51.18595611742198,
+      "fonte": "osm"
     },
     {
       "municipio": "CACHOEIRA DO SUL",
@@ -2262,9 +2262,9 @@
       "codigo_municipio": null,
       "nome_local": "COMUNIDADE EVANGÉLICA SÃO JOÃO DE TURUÇU",
       "endereco": "COLÔNIA SÃO JOÃO",
-      "latitude": -31.4191603,
-      "longitude": -52.1765159,
-      "fonte": "municipio_fallback"
+      "latitude": -31.416479266429114, 
+      "longitude": -52.28156196625162,
+      "fonte": "osm"
     },
     {
       "municipio": "DOM FELICIANO",
@@ -3153,9 +3153,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA ESTADUAL DE ENSINO MÉDIO GUILHERME DE ALMEIDA",
       "endereco": "RUA CLOVIS BEVILAQUA, 963",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.912858879101254,
+      "longitude": -51.20836424727329,
+      "fonte": "osm"
     },
     {
       "municipio": "TERRA DE AREIA",
@@ -3720,9 +3720,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL DE ENS. FUND. SANTA INES",
       "endereco": "ESTRADA CAMPO DOS TEIXEIRAS",
-      "latitude": -30.5962963,
-      "longitude": -51.7517196,
-      "fonte": "municipio_fallback"
+      "latitude": -30.581345172788904, 
+      "longitude": -51.84643876444,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -3810,9 +3810,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA ESTADUAL DE E. MEDIO BAIRRO DO PARQUE",
       "endereco": "RUA CLARISSE LINSPECTOR, 163",
-      "latitude": -29.8511627,
-      "longitude": -51.1778852,
-      "fonte": "municipio_fallback"
+      "latitude": -29.8478356128262, 
+      "longitude": -51.186655274257994,
+      "fonte": "osm"
     },
     {
       "municipio": "ARATIBA",
@@ -4917,9 +4917,9 @@
       "codigo_municipio": null,
       "nome_local": "JOSE GOMES DE VASCONCELOS JARDIM - ESCOLA ESTADUAL DE ENS. MEDIO",
       "endereco": "RUA SANTOS FERREIRA 2985",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.928531214465362, 
+      "longitude": -51.15186896346032,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -5844,9 +5844,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA LA SALLE",
       "endereco": "RUA PADRE CLARET,1690",
-      "latitude": -29.8511627,
-      "longitude": -51.1778852,
-      "fonte": "municipio_fallback"
+      "latitude": -29.84861077460617, 
+      "longitude": -51.15696929331341,
+      "fonte": "osm"
     },
     {
       "municipio": "CANOAS",
@@ -6798,9 +6798,9 @@
       "codigo_municipio": null,
       "nome_local": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO RS - IFRS",
       "endereco": "RUA DRA. MARIA ZÉLIA CARNEIRO DE FIGUEIREDO, 870",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.89969176114495, 
+      "longitude": -51.14960063799945,
+      "fonte": "osm"
     },
     {
       "municipio": "PELOTAS",
@@ -8148,9 +8148,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL ALBERTO PASQUALINE",
       "endereco": "RUA ARTUR DA COSTA E SILVA, 55",
-      "latitude": -29.8511627,
-      "longitude": -51.1778852,
-      "fonte": "municipio_fallback"
+      "latitude": -29.91249278145556, 
+      "longitude": -51.04779111894313,
+      "fonte": "osm"
     },
     {
       "municipio": "PELOTAS",
@@ -8283,9 +8283,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUN. DE ENS. FUND. ASSIS BRASIL",
       "endereco": "ROBERTO FRANCISCO BEHERENS, 520",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.929490738006027, 
+      "longitude": -51.193565528692304,
+      "fonte": "osm"
     },
     {
       "municipio": "RIO GRANDE",
@@ -9939,9 +9939,9 @@
       "codigo_municipio": null,
       "nome_local": "ERNA WÜRTH - E. M.E.F.",
       "endereco": "AV. 17 DE ABRIL, S/N",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.901428566486388,
+      "longitude": -51.13927520680169,
+      "fonte": "osm"
     },
     {
       "municipio": "IGREJINHA",
@@ -10038,9 +10038,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUN. DE ENS. FUND. RIO GRANDE DO SUL",
       "endereco": "WENCESLAU BRAS, 35",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.927694970759717, 
+      "longitude": -51.15010120756662,
+      "fonte": "osm"
     },
     {
       "municipio": "TUNAS",
@@ -10326,9 +10326,9 @@
       "codigo_municipio": null,
       "nome_local": "CÔNEGO JOSÉ LEÃO HARTMANN -E.E. ENS. MED.",
       "endereco": "AV. 17 DE ABRIL, S/N - SETOR 4",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.895903141271127, 
+      "longitude": -51.1345753914562,
+      "fonte": "osm"
     },
     {
       "municipio": "PORTO ALEGRE",
@@ -10515,9 +10515,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. MUN. DE ENS. FUND. CORONEL FRANCISCO PINTO BANDEIRA",
       "endereco": "RUA NELSON PAIM TERRA, 1435",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.957892653551905, 
+      "longitude": -51.190095177962434,
+      "fonte": "osm"
     },
     {
       "municipio": "VIAMÃO",
@@ -10677,9 +10677,9 @@
       "codigo_municipio": null,
       "nome_local": "NANCY FERREIRA PANSERA - E. M. E. F. PROF.",
       "endereco": "SETOR 6, AREA VERDE 13, S/N",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.888143561719453, 
+      "longitude": -51.13368563749353,
+      "fonte": "osm"
     },
     {
       "municipio": "PELOTAS",
@@ -13845,9 +13845,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL DE ENS. FUND. JOSE DE ALENCAR",
       "endereco": "ESTRADA CINCO ESTUFAS",
-      "latitude": -30.5962963,
-      "longitude": -51.7517196,
-      "fonte": "municipio_fallback"
+      "latitude": -30.531194272500027, 
+      "longitude": -51.80603032818637,
+      "fonte": "osm"
     },
     {
       "municipio": "SÃO LEOPOLDO",
@@ -14169,9 +14169,9 @@
       "codigo_municipio": null,
       "nome_local": "ESC. MUN.  DE EDUCAÇÃO INFANTIL PROFESSORA MARILENE DA SILVA MACHADO",
       "endereco": "RUA KANSAS, NÚMERO 400, LOTEAMENTO CENTRAL PARK",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.92295499533221, 
+      "longitude": -51.195235672399406,
+      "fonte": "osm"
     },
     {
       "municipio": "GUAPORÉ",
@@ -15240,9 +15240,9 @@
       "codigo_municipio": null,
       "nome_local": "E. E. DE ENS. FUND. MANOELA ALVES PACHECO",
       "endereco": "ESTRADA PESSEGUEIROS",
-      "latitude": -30.5962963,
-      "longitude": -51.7517196,
-      "fonte": "municipio_fallback"
+      "latitude": -30.60953620081394, 
+      "longitude": -51.845309261584774,
+      "fonte": "osm"
     },
     {
       "municipio": "TRÊS COROAS",
@@ -15564,9 +15564,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL DE ENS. FUND. ANTONIO JOSE PEREIRA",
       "endereco": "ESTRADA DATA DOS TAVARES",
-      "latitude": -30.5962963,
-      "longitude": -51.7517196,
-      "fonte": "municipio_fallback"
+      "latitude": -30.50668783289589, 
+      "longitude": -51.76400879833847,
+      "fonte": "osm"
     },
     {
       "municipio": "CANELA",
@@ -15789,9 +15789,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL JOAO XXIII",
       "endereco": "RUA FREDERICO DAHNE, 33",
-      "latitude": -29.8511627,
-      "longitude": -51.1778852,
-      "fonte": "municipio_fallback"
+      "latitude": -29.832504149726727, 
+      "longitude": -51.16487913332046,
+      "fonte": "osm"
     },
     {
       "municipio": "CARAÁ",
@@ -16176,9 +16176,9 @@
       "codigo_municipio": null,
       "nome_local": "ESCOLA MUNICIPAL DE ENS. FUND. PADRE REUS",
       "endereco": "ESTRADA PICADA DA CRUZ",
-      "latitude": -30.5962963,
-      "longitude": -51.7517196,
-      "fonte": "municipio_fallback"
+      "latitude": -30.566984362153047, 
+      "longitude": -51.67156435333403,
+      "fonte": "osm"
     },
     {
       "municipio": "CANDELÁRIA",
@@ -16554,9 +16554,9 @@
       "codigo_municipio": null,
       "nome_local": "CARLOS DRUMMOND DE ANDRADE - E.M. E.F.",
       "endereco": "RUA 6, 400 - SETOR 5",
-      "latitude": -29.9216045,
-      "longitude": -51.1799525,
-      "fonte": "municipio_fallback"
+      "latitude": -29.891448351224366, 
+      "longitude": -51.13833509600851,
+      "fonte": "osm"
     },
     {
       "municipio": "CANGUÇU",
@@ -17301,9 +17301,9 @@
       "codigo_municipio": null,
       "nome_local": "SALÃO PAROQUIAL IGREJA SANTA BÁRBARA",
       "endereco": "ESTRADA CACHOEIRA DO IPE",
-      "latitude": -30.5962963,
-      "longitude": -51.7517196,
-      "fonte": "municipio_fallback"
+      "latitude": -30.52758984146642, 
+      "longitude": -51.672664130041404,
+      "fonte": "osm"
     },
     {
       "municipio": "SERTÃO SANTANA",
@@ -19920,9 +19920,9 @@
       "codigo_municipio": null,
       "nome_local": "VAREJÃO COLONIAL",
       "endereco": "COLÔNIA CORRIENTES S/N",
-      "latitude": -31.4191603,
-      "longitude": -52.1765159,
-      "fonte": "municipio_fallback"
+      "latitude": -31.437904957964903, 
+      "longitude": -52.192280774176325,
+      "fonte": "osm"
     },
     {
       "municipio": "SÃO JOSÉ DO NORTE",

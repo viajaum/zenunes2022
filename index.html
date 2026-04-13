@@ -620,19 +620,19 @@
                 
                 console.log(`🔄 Carregando dados - Timestamp: ${timestamp}`);
                 
-                const votacaoResp = await fetch(`deputado_13500_2022_RS.json?t=${timestamp}`);
+                const votacaoResp = await fetch(`votos.json?t=${timestamp}`);
                 const votacao = await votacaoResp.json();
                 
                 const candidato = votacao.turnos.turno_1.RS.cargos["DEPUTADO ESTADUAL"].candidatos["JOSÉ SIDNEY NUNES DE ALMEIDA"];
                 votacaoMunicipios = candidato.municipios;
 
-                const municipiosResp = await fetch(`municipios_rs_geocodificados.json?t=${timestamp}`);
+                const municipiosResp = await fetch(`municipios.json?t=${timestamp}`);
                 const municipios = await municipiosResp.json();
                 municipios.municipios.forEach(m => {
                     municipiosGeo[m.nome] = { lat: m.latitude, lng: m.longitude };
                 });
 
-                const locaisResp = await fetch(`candidato_13500_locais_coords_v2.json?t=${timestamp}&force=${Math.random()}`);
+                const locaisResp = await fetch(`locais.json?t=${timestamp}&force=${Math.random()}`);
                 const locais = await locaisResp.json();
                 
                 console.log(`📦 JSON carregado: ${locais.locais_votacao.length} locais`);
