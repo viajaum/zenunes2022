@@ -558,6 +558,62 @@
             updateLayersByZoom();
         }
 
+        // Função para separar pontos sobrepostos (apenas desloca, sem indicadores visuais)
+        function separateOverlappingPoints(locais) {
+            const SEPARATION_DISTANCE = 0.0005; // ~50 metros
+            const processed = [];
+            
+            // Agrupar por coordenadas exatas
+            const groups = {};
+            locais.forEach(local => {
+                const key = `${local.lat.toFixed(6)},${local.lng.toFixed(6)}`;
+                if (!groups[key]) {
+                    groups[key] = [];
+                }
+                groups[key].push(local);
+            });
+            
+            // Para cada grupo com mais de 1 ponto, aplicar deslocamento em espiral
+            Object.values(groups).forEach(group => {
+                if (group.length === 1) {
+                    // Ponto único - não precisa deslocar
+                    processed.push({
+                        ...group[0],
+                        originalLat: group[0].lat,
+                        originalLng: group[0].lng
+                    });
+                } else {
+                    // Múltiplos pontos na mesma coordenada - deslocar em espiral
+                    group.forEach((local, index) => {
+                        if (index === 0) {
+                            // Primeiro ponto fica na posição original
+                            processed.push({
+                                ...local,
+                                originalLat: local.lat,
+                                originalLng: local.lng
+                            });
+                        } else {
+                            // Deslocar em espiral usando ângulo áureo
+                            const angle = (index * 137.5) * (Math.PI / 180);
+                            const distance = SEPARATION_DISTANCE * Math.sqrt(index);
+                            const offsetLat = distance * Math.cos(angle);
+                            const offsetLng = distance * Math.sin(angle);
+                            
+                            processed.push({
+                                ...local,
+                                lat: local.lat + offsetLat,
+                                lng: local.lng + offsetLng,
+                                originalLat: local.lat,
+                                originalLng: local.lng
+                            });
+                        }
+                    });
+                }
+            });
+            
+            return processed;
+        }
+
         async function loadData() {
             try {
                 const timestamp = Date.now();
@@ -580,11 +636,6 @@
                 const locais = await locaisResp.json();
                 
                 console.log(`📦 JSON carregado: ${locais.locais_votacao.length} locais`);
-                
-                const localCorrigido = locais.locais_votacao.find(l => l.nome_local === "COMUNIDADE EVANGÉLICA SÃO JOÃO");
-                if (localCorrigido) {
-                    console.log(`✅ Local encontrado: ${localCorrigido.nome_local} - Fonte: ${localCorrigido.fonte}`);
-                }
                 
                 locais.locais_votacao.forEach(l => {
                     const key = `${l.municipio}|${l.nome_local}`;
@@ -716,9 +767,10 @@
                     fillOpacity: 0.85
                 }).addTo(municipiosLayer);
                 
+                // MODIFICADO: Apenas abre o popup e seleciona, sem alterar zoom/centralização
                 circle.on('click', function(e) {
                     openMunicipioPopup(m, latlng);
-                    selectMunicipio(m.nome);
+                    selectMunicipioSemMover(m.nome);
                 });
                 
                 circle.on('mouseover', function() {
@@ -734,11 +786,13 @@
 
         function renderAllLocaisMapa() {
             locaisLayer.clearLayers();
-            const maxVotos = Math.max(...allLocaisData.map(l => l.votos), 1);
             
-            allLocaisData.forEach(l => {
+            // Aplicar separação de pontos sobrepostos
+            const separatedLocais = separateOverlappingPoints(allLocaisData);
+            const maxVotos = Math.max(...separatedLocais.map(l => l.votos), 1);
+            
+            separatedLocais.forEach(l => {
                 const radius = getLocalRadius(l.votos, maxVotos);
-                // VERIFICAÇÃO CORRETA - aceita "osm" como NÃO fallback
                 const isFallback = l.fonte !== 'osm';
                 
                 const marker = L.circleMarker([l.lat, l.lng], {
@@ -819,6 +873,7 @@
             }
         }
 
+        // MODIFICADO: Esta função agora altera o zoom (usada pelo clique na lista)
         function selectMunicipio(nome) {
             currentMunicipio = nome;
             const municipio = municipiosData.find(m => m.nome === nome);
@@ -835,6 +890,7 @@
             centerWithPadding(municipio.lat, municipio.lng, zoomLevel);
         }
 
+        // NOVA FUNÇÃO: Seleciona sem alterar zoom/centralização (usada pelo clique no mapa)
         function selectMunicipioSemMover(nome) {
             currentMunicipio = nome;
             const municipio = municipiosData.find(m => m.nome === nome);
@@ -846,6 +902,7 @@
             renderMunicipiosList();
             renderLocaisList();
             renderMunicipiosMapa();
+            // Não altera o zoom nem centraliza
         }
 
         function renderLocaisList() {
